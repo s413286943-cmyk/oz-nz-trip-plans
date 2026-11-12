@@ -226,7 +226,8 @@ function StageRetro({ retro }) {
 
 function DayCard({ day, retro, compact = false }) {
   if (!day) return null;
-  const keyStops = day.blocks.filter((block) => block.period !== "饮食").slice(0, 4);
+  const stops = day.blocks.filter((block) => block.period !== "饮食");
+  const keyStops = stops.slice(0, 4);
   const foodBlock = day.blocks.find((block) => block.period === "饮食");
   const resourcesCount = day.blocks.reduce((total, block) => total + (block.resources?.length || 0), 0);
   const timeline = buildDayTimeline(day);
@@ -259,7 +260,7 @@ function DayCard({ day, retro, compact = false }) {
           </div>
           <article className="day-brief-card">
             <span>这天去哪</span>
-            <strong>{keyStops.length ? `${keyStops.length} 个地方` : "自由安排"}</strong>
+            <strong>{stops.length ? `${stops.length} 站` : "自由安排"}</strong>
             <small>{resourcesCount ? `${resourcesCount} 个地图和官网链接` : "没有链接"}</small>
           </article>
         </div>
