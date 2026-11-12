@@ -1,6 +1,6 @@
 # oz-nz-trip-plans（澳新两次旅行 · 公开分享版）
 
-公开仓库 `s413286943-cmyk/oz-nz-trip-plans`，部署在 Coze。自用版（带记账、访问码）是私有仓库 `s413286943-cmyk/Aussie-Split`，本地 `/Users/SeanSun/Documents/Aussie/aussie-split-bill`。
+公开仓库 `s413286943-cmyk/oz-nz-trip-plans`，部署在 Coze：项目 `7706904922159333402`（https://code.coze.cn/p/7706904922159333402），正式地址 **https://oznz-trips.coze.site**（平台默认域名 `h326jpn2nc.coze.site` 也能打开）。2026-11-12 首次部署 GitHub `556c4ae`，部署后从正式域名跑 `E2E_BASE_URL=https://oznz-trips.coze.site npm run test:e2e` 全部通过。自用版（带记账、访问码）是私有仓库 `s413286943-cmyk/Aussie-Split`，本地 `/Users/SeanSun/Documents/Aussie/aussie-split-bill`。
 
 ## 不可破坏的约束
 
@@ -17,4 +17,10 @@
 
 ## 更新流程
 
-自用版行程上线后：在自用仓库跑 `share:export` → 这里跑检查 → 提交推送 → Coze 重新部署 → 从正式域名打开几页确认。
+自用版行程上线后：
+1. 在自用仓库跑 `share:export`，这里跑检查，提交推送到 GitHub；
+2. Coze 项目是 GitHub 导入的，工作区的 `origin` 就是这个仓库：在 Coze 终端 `GIT_TERMINAL_PROMPT=0 git pull --ff-only origin main`，`git status` 干净、`git log -1` 等于 GitHub 的提交；
+3. 点「部署」，部署版本选这个提交，「开始部署」，等到「部署成功」；
+4. `E2E_BASE_URL=https://oznz-trips.coze.site npm run test:e2e` 复查。
+
+Coze 自己加的 `.coze`、`AGENTS.md`、`.codegraph/.gitignore` 已经同步进 GitHub；Coze 助手若再改文件，先在 Coze 终端 `git push origin main`（无需输入凭据）或把改动带回本地，保持两边同一个提交。
