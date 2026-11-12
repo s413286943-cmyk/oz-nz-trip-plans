@@ -10,7 +10,7 @@ export default function Au2026DaysPage() {
       <TripPlan
         tripId="au2026"
         original={au2026}
-        intro="出发前排的每日路书。点“开始改”改成你自己的，“行程+总结”页也会跟着显示你的版本。"
+        intro="这 16 天每天去哪、怎么走。点“开始改”改成你自己的，“行程”页也会显示你改过的样子。"
       />
     </TripFrame>
   );

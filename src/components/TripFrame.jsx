@@ -8,8 +8,8 @@ export const TRIP_TABS = {
     { id: "costs", href: "/nz2027/costs", label: "花销" },
   ],
   au2026: [
-    { id: "atlas", href: "/au2026", label: "行程+总结" },
-    { id: "guide", href: "/au2026/guide", label: "攻略全文" },
+    { id: "atlas", href: "/au2026", label: "行程" },
+    { id: "guide", href: "/au2026/guide", label: "攻略" },
     { id: "schedule", href: "/au2026/days", label: "改成你的" },
   ],
 };

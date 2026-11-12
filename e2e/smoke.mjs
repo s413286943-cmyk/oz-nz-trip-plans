@@ -44,11 +44,13 @@ try {
 
   await page.goto(`${base}/au2026`);
   check(await page.locator(".route-day-card").count() === 17, "2026 atlas shows all 17 days");
-  check(await page.locator(".share-retro-stats article").count() === 4, "2026 atlas opens with the post-trip summary");
-  check(await page.locator(".share-stage-retro").count() === 3, "every 2026 stage has its looking-back notes");
+  check(await page.locator(".share-retro-stats article").count() === 4, "2026 page opens with the trip summary");
+  check(await page.locator(".share-stage-retro").count() === 3, "every 2026 stage has its notes");
   check(await page.locator("#d9 .share-day-retro").innerText().then((text) => text.includes("挡风玻璃")), "D9 carries the windscreen story");
-  await page.locator("#d9 .share-day-retro summary").click();
-  check(await page.locator("#d9 .share-day-retro table tbody tr").count() >= 8, "D9 opens its timetable from the guide");
+  check(await page.locator("#d14 h3").innerText().then((text) => text.includes("南海岸")), "8/11 is the south coast drive");
+  check(await page.locator("#d13 h3").innerText().then((text) => text.includes("Taronga")), "8/10 is Taronga, shopping and Porteño");
+  check(await page.locator("#d3 .share-retro-nav").count() === 1, "driving days link their Google Maps route");
+  check(!/实际|原计划|走完回来|路书|Route atlas/.test(await page.locator("body").innerText()), "2026 page reads as shared, not as notes against a plan");
 
   await page.goto(`${base}/au2026/guide`);
   check(await page.locator(".share-toc a").count() >= 5, "guide has a contents list");
@@ -73,7 +75,7 @@ try {
   const [markdown] = await Promise.all([page.waitForEvent("download"), page.getByRole("button", { name: "导出文字版" }).click()]);
   const markdownText = readFileSync(await markdown.path(), "utf8");
   check(markdownText.includes("我自己的第一天") && markdownText.includes("多加的一站"), "text export has the edits");
-  const [file] = await Promise.all([page.waitForEvent("download"), page.getByRole("button", { name: "导出文件" }).click()]);
+  const [file] = await Promise.all([page.waitForEvent("download"), page.getByRole("button", { name: "存成文件" }).click()]);
   const exportedPath = await file.path();
 
   page.once("dialog", (dialog) => dialog.accept());

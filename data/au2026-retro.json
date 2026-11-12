@@ -1,8 +1,8 @@
 {
   "headline": {
-    "kicker": "走完回来",
+    "kicker": "这一趟",
     "title": "16 天、6 天自己开车、4 次租车",
-    "text": "下面是出发前排的每日路书，每一天和每一段都补上了走完回来的总结：哪些照着走了、哪些改了、哪里踩了坑、实际花了多少。这是 4 个人、澳洲冬天（7 月底到 8 月中）的安排，人数或月份不同，车型、住宿、日落时间和出海条件都要自己调整。"
+    "text": "我们两对夫妻 2026 年 7 月 28 日到 8 月 13 日在澳洲，正赶上当地冬天。墨尔本进、悉尼出，城市之间坐飞机，大洋路、凯恩斯的高原和 Palm Cove、悉尼南海岸自己开车。每一天、每一段都写了我们的经验和花销。人数或月份不同，车型、住宿、日落时间和出海条件要自己调整。"
   },
   "stats": [
     {
@@ -29,7 +29,7 @@
   "lessons": [
     {
       "title": "一定买全险",
-      "text": "8/6 在阿瑟顿高原，对向车卷起一颗小石子，挡风玻璃当场碎了。买了全险现场没花钱；没有全险要赔 A$1,000，约 ¥4,800，是那天租车费的四倍多。能买租车公司直营的全险就买直营，不是直营的通常要先垫付、回国再理赔。"
+      "text": "8/6 在阿瑟顿高原，对向车卷起一颗小石子，挡风玻璃当场碎了。买了全险，现场没花钱；没有全险要赔 A$1,000，约 ¥4,800，是那天租车费的四倍多。能买租车公司直营的全险就买直营，不是直营的通常要先垫付、回国再理赔。"
     },
     {
       "title": "驾照翻译件贴好照片",
@@ -41,7 +41,7 @@
     },
     {
       "title": "用好 24 小时计费",
-      "text": "租车按 24 小时算，只开半天也收一天。凯恩斯第二次 8/7 取车逛 Rusty's Market 和 Palm Cove，第二天开去机场还车、直接飞悉尼，去机场这一程就包在同一天的租金里。"
+      "text": "租车按 24 小时算，只开半天也收一天。凯恩斯那次 8/7 取车逛 Rusty's Market 和 Palm Cove，第二天开去机场还车、直接飞悉尼，去机场这一程就包在同一份租金里。"
     },
     {
       "title": "导航设“避开收费路”",
@@ -49,7 +49,7 @@
     },
     {
       "title": "机场取车，天黑前到住处",
-      "text": "右舵的第一天从机场出来直接上高速最简单，4 次里 3 次在机场取车。冬天天黑早，弯道和动物活跃的时段不赶夜路。大洋路、雨林常常没信号，出发前下载离线地图。"
+      "text": "右舵的第一天从机场出来直接上高速最简单，4 次里 3 次在机场取车。冬天天黑早，弯道和动物多的时段不赶夜路。大洋路、雨林常常没信号，出发前下载离线地图。"
     }
   ],
   "timeline": [
@@ -134,7 +134,7 @@
       ]
     },
     "cairns": {
-      "title": "凯恩斯：外礁、雨林、高原连跑三天，第四天故意放慢",
+      "title": "凯恩斯：外礁、雨林、高原连着三天，第四天放慢",
       "facts": [
         [
           "住",
@@ -145,7 +145,7 @@
           "East Coast Car Rentals（租租车订）· 凯恩斯机场取还 · 紧凑型 SUV · ¥1,059 含全险；还车前加油 A$64.10"
         ],
         [
-          "市郊租车",
+          "Palm Cove 租车",
           "Sixt · 凯恩斯机场取还 · Toyota Corolla Ascend · A$258.95；还车前加油约 A$30"
         ]
       ],
@@ -159,11 +159,11 @@
       "facts": [
         [
           "住",
-          "Oaks Goldsbrough Suites，能洗衣做饭"
+          "Oaks Sydney Goldsbrough Suites，能洗衣做饭"
         ],
         [
           "南海岸租车",
-          "Sixt · Sydney City 取还 · 订小车，柜台免费升级成 Toyota Prado GXL 7 座 · A$232.88；油费 A$90.25"
+          "Sixt · Sydney City 取还 · 订的小车，柜台免费升级成 Toyota Prado GXL 7 座 · A$232.88；油费 A$90.25"
         ]
       ],
       "notes": [
@@ -176,7 +176,7 @@
   "days": {
     "d1": {
       "notes": [
-        "QVM 冬季夜市是冬季限定，周三晚上开，我们 7/29（周三）落地当晚就去了。"
+        "QVM 冬季夜市是冬季限定，周三晚上开，我们落地这天正好是周三。"
       ]
     },
     "d2": {
@@ -186,163 +186,24 @@
     },
     "d3": {
       "notes": [
-        "海岸这天是一层层加码的开头：08:40 左右在机场寄存大箱、取车，17:00 左右到 Apollo Bay，住处 BBQ。",
+        "来不及先删纪念拱门和 Cape Patton，保留 Lorne 和 Teddy's Lookout。",
         "当天约 212 公里、开 3 小时 20 分。"
       ],
-      "actual": {
-        "title": "走完整理的时间表 · 7/31",
-        "rows": [
-          [
-            "08:40 左右",
-            "墨尔本机场",
-            "寄存四个大箱，只带两晚的小箱；取车、拍车、设导航"
-          ],
-          [
-            "10:45",
-            "Coles Torquay",
-            "一次买齐 BBQ 食材、水和早餐"
-          ],
-          [
-            "11:20",
-            "Bells Beach",
-            "看冲浪海岸，20–30 分钟"
-          ],
-          [
-            "12:00",
-            "Split Point 灯塔",
-            "灯塔和 Eagle Rock Lookout"
-          ],
-          [
-            "12:40",
-            "大洋路纪念拱门",
-            "停车合影，10 分钟左右"
-          ],
-          [
-            "13:00 左右",
-            "Lorne",
-            "海边散步、喝咖啡、歇一下"
-          ],
-          [
-            "14:15",
-            "Teddy's Lookout",
-            "看 S 形海岸线"
-          ],
-          [
-            "15:30",
-            "Kennett River",
-            "Grey River Road 抬头找野生考拉，保持距离，不喂"
-          ],
-          [
-            "16:15",
-            "Cape Patton",
-            "高处看海岸，天色晚就跳过"
-          ],
-          [
-            "17:00 左右",
-            "Apollo Bay",
-            "入住，住处 BBQ"
-          ]
-        ],
-        "cut": "来不及先删：纪念拱门、Cape Patton；保留 Lorne 和 Teddy's Lookout。",
-        "nav": "https://www.google.com/maps/dir/?api=1&origin=Melbourne+Airport+VIC&destination=Apollo+Bay+VIC&travelmode=driving&waypoints=Coles+Torquay%7CBells+Beach+VIC%7CSplit+Point+Lighthouse%7CGreat+Ocean+Road+Memorial+Arch%7CLorne+VIC%7CTeddy%27s+Lookout%7CKennett+River+VIC%7CCape+Patton+Lookout"
-      }
+      "nav": "https://www.google.com/maps/dir/?api=1&origin=Melbourne+Airport+VIC&destination=Apollo+Bay+VIC&travelmode=driving&waypoints=Coles+Torquay%7CBells+Beach+VIC%7CSplit+Point+Lighthouse%7CGreat+Ocean+Road+Memorial+Arch%7CLorne+VIC%7CTeddy%27s+Lookout%7CKennett+River+VIC%7CCape+Patton+Lookout"
     },
     "d4": {
       "notes": [
-        "先进内陆的雨林和红杉林，再回海岸看十二门徒，傍晚再回来看日落。十二门徒至少留 45 分钟。",
-        "Timboon 的 Berry Good Thai 吃了较晚的午饭 A$145.54，Timboon Fine Ice Cream A$28。",
+        "Berry Good Thai 午饭四人 A$145.54，Timboon Fine Ice Cream A$28。",
         "当天约 213 公里、开 3 小时 20 分。"
       ],
-      "actual": {
-        "title": "走完整理的时间表 · 8/1",
-        "rows": [
-          [
-            "08:30 左右",
-            "Apollo Bay",
-            "退房出发"
-          ],
-          [
-            "上午",
-            "Maits Rest 雨林步道",
-            "环线 30–45 分钟"
-          ],
-          [
-            "上午",
-            "The Redwoods 红杉林",
-            "林道会增加车程"
-          ],
-          [
-            "中午前后",
-            "Castle Cove",
-            "5–10 分钟短停"
-          ],
-          [
-            "下午",
-            "Gibson Steps → 十二门徒 → Loch Ard Gorge → Razorback",
-            "十二门徒至少留 45 分钟"
-          ],
-          [
-            "下午较晚",
-            "Timboon",
-            "Berry Good Thai 较晚的午饭，Timboon Fine Ice Cream"
-          ],
-          [
-            "傍晚",
-            "十二门徒",
-            "看日落"
-          ],
-          [
-            "晚上",
-            "Port Campbell",
-            "入住，自己做饭"
-          ]
-        ],
-        "cut": "来不及先删：The Redwoods。",
-        "nav": "https://www.google.com/maps/dir/?api=1&origin=Apollo+Bay+VIC&destination=Port+Campbell+VIC&travelmode=driving&waypoints=Maits+Rest+Rainforest+Walk%7CThe+Redwoods+Otways%7CCastle+Cove+Lookout%7CGibson+Steps%7CTwelve+Apostles%7CLoch+Ard+Gorge%7CThe+Razorback+Lookout%7CTimboon+VIC%7CTimboon+Fine+Ice+Cream"
-      }
+      "nav": "https://www.google.com/maps/dir/?api=1&origin=Apollo+Bay+VIC&destination=Port+Campbell+VIC&travelmode=driving&waypoints=Maits+Rest+Rainforest+Walk%7CThe+Redwoods+Otways%7CCastle+Cove+Lookout%7CGibson+Steps%7CTwelve+Apostles%7CLoch+Ard+Gorge%7CThe+Razorback+Lookout%7CTimboon+VIC%7CTimboon+Fine+Ice+Cream"
     },
     "d5": {
       "notes": [
-        "清晨再去十二门徒看日出，和前一天下午的光完全不同。",
-        "回墨尔本走内陆经 Colac，不沿海原路折返；当天约 306 公里、开 3 小时 55 分，晚上住机场酒店，第二天早班机。"
+        "来不及先删 Bay of Islands 这类远端的点。",
+        "当天约 306 公里、开 3 小时 55 分。"
       ],
-      "actual": {
-        "title": "走完整理的时间表 · 8/2",
-        "rows": [
-          [
-            "清晨",
-            "十二门徒",
-            "看日出"
-          ],
-          [
-            "上午",
-            "Loch Ard Gorge → London Arch → The Grotto",
-            "The Grotto 台阶雨后湿滑，20–30 分钟"
-          ],
-          [
-            "中午",
-            "Port Campbell",
-            "12 Rocks 午饭"
-          ],
-          [
-            "下午",
-            "Great Ocean Road Wildlife Park",
-            "喂袋鼠，留 1–1.5 小时"
-          ],
-          [
-            "下午后段",
-            "Colac",
-            "加油、休息，走内陆回墨尔本"
-          ],
-          [
-            "傍晚",
-            "墨尔本机场",
-            "取回大箱、还车，住机场酒店"
-          ]
-        ],
-        "cut": "来不及先删：Bay of Islands 等远端加点。",
-        "nav": "https://www.google.com/maps/dir/?api=1&origin=Port+Campbell+VIC&destination=Melbourne+Airport+VIC&travelmode=driving&waypoints=Twelve+Apostles+Visitor+Facility%7CGibson+Steps%7CLoch+Ard+Gorge%7CLondon+Bridge+Great+Ocean+Road%7CThe+Grotto+Peterborough+VIC%7CGreat+Ocean+Road+Wildlife+Park%7CColac+VIC"
-      }
+      "nav": "https://www.google.com/maps/dir/?api=1&origin=Port+Campbell+VIC&destination=Melbourne+Airport+VIC&travelmode=driving&waypoints=Twelve+Apostles+Visitor+Facility%7CGibson+Steps%7CLoch+Ard+Gorge%7CLondon+Bridge+Great+Ocean+Road%7CThe+Grotto+Peterborough+VIC%7CGreat+Ocean+Road+Wildlife+Park%7CColac+VIC"
     },
     "d7": {
       "notes": [
@@ -358,148 +219,45 @@
     "d9": {
       "notes": [
         "挡风玻璃就是这天碎的：对向车卷起的小石子弹在玻璃上，当场就碎了。乡间公路车速快，开得再小心也躲不开。全险是在租租车上买的，现场没花钱。",
-        "盯住三个时间：08:00 出发、11:30 离开 Skybury、15:35 开始返程。当天约 289 公里、开 4 小时 40 分。",
-        "Skybury Cafe & Roastery 的本地咖啡和 brunch A$121。"
+        "盯住三个时间：08:00 出发、11:30 离开 Skybury、15:35 开始返程。",
+        "Skybury 的咖啡和 brunch 四人 A$121；当天约 289 公里、开 4 小时 40 分。"
       ],
-      "actual": {
-        "title": "走完整理的时间表 · 8/6",
-        "rows": [
-          [
-            "08:00",
-            "凯恩斯机场",
-            "取车，上 Kuranda 山路"
-          ],
-          [
-            "08:40",
-            "Kuranda",
-            "小镇主街短走"
-          ],
-          [
-            "09:45",
-            "Mareeba",
-            "短暂休息"
-          ],
-          [
-            "10:20–11:30",
-            "Skybury Cafe & Roastery",
-            "本地咖啡和 brunch"
-          ],
-          [
-            "12:20",
-            "Lake Eacham",
-            "火山湖，湖边短停"
-          ],
-          [
-            "13:10",
-            "Yungaburra",
-            "高原老街"
-          ],
-          [
-            "13:40",
-            "窗帘无花果树",
-            "短木栈道"
-          ],
-          [
-            "14:50",
-            "Millaa Millaa 瀑布",
-            "当天的主瀑布"
-          ],
-          [
-            "15:35 以后",
-            "下山",
-            "走铺装主路回凯恩斯，加油还车"
-          ]
-        ],
-        "nav": "https://www.google.com/maps/dir/?api=1&origin=Cairns+Airport+QLD&destination=Cairns+Airport+QLD&travelmode=driving&waypoints=Kuranda+Village%7CMareeba+QLD%7CSkybury+Cafe+%26+Roastery%7CLake+Eacham+Day+Use+Area%7CYungaburra+QLD%7CCurtain+Fig+Tree%7CMillaa+Millaa+Falls"
-      }
+      "nav": "https://www.google.com/maps/dir/?api=1&origin=Cairns+Airport+QLD&destination=Cairns+Airport+QLD&travelmode=driving&waypoints=Kuranda+Village%7CMareeba+QLD%7CSkybury+Cafe+%26+Roastery%7CLake+Eacham+Day+Use+Area%7CYungaburra+QLD%7CCurtain+Fig+Tree%7CMillaa+Millaa+Falls"
     },
     "d10": {
       "notes": [
-        "原计划的休息日，实际租了车：上午逛 Rusty's Market，热带水果和咖啡当早饭；下午开去 Palm Cove，沿 Williams Esplanade、海滩和 Jetty 散步到傍晚。Garage Palm Cove 午饭 A$170.96。",
-        "连跑外礁、雨林、高原三天后，这一天故意放慢。机场 → Rusty's Market → Palm Cove → 市区约 59 公里。"
+        "租车按 24 小时算：这天取的车第二天早上开去机场还，去机场就不用另外打车。",
+        "Garage Palm Cove 午饭四人 A$170.96；机场 → Rusty's Market → Palm Cove → 市区约 59 公里。"
       ],
-      "links": [
-        [
-          "导航 · 机场 → Rusty's Market → Palm Cove → 市区",
-          "https://www.google.com/maps/dir/?api=1&origin=Cairns+Airport+QLD&destination=Cairns+City+QLD&travelmode=driving&waypoints=Rusty%27s+Markets+Cairns%7CPalm+Cove+Jetty"
-        ]
-      ]
+      "nav": "https://www.google.com/maps/dir/?api=1&origin=Cairns+Airport+QLD&destination=Cairns+City+QLD&travelmode=driving&waypoints=Rusty%27s+Markets+Cairns%7CPalm+Cove+Jetty"
     },
     "d11": {
       "notes": [
-        "早上开前一天的租车去机场还车，直接飞悉尼：租车按 24 小时算，这一程不用另外打车。",
         "境内航班随身行李也会称重：同样的行李，墨尔本飞凯恩斯没事，凯恩斯飞悉尼被补了钱。每段按航司限额准备。"
       ]
     },
     "d12": {
       "notes": [
-        "早上 8 点去 Mrs Macquarie's Chair，再赶 9:30 的歌剧院中文导览（四人 A$215）。",
-        "傍晚 5 点前到 Circular Quay，看日落一直到蓝调。"
+        "歌剧院中文内部导览四人 A$215，要提前订。"
       ]
     },
     "d13": {
       "notes": [
-        "南海岸自驾实际挪到了 8/11（D14）那天，详细时间表写在 D14。"
+        "去 Taronga 坐渡轮，上层甲板看悉尼港。",
+        "Porteño 这顿四人约 A$526，是当体验吃的；想省钱可以先砍这类大餐。"
       ]
     },
     "d14": {
       "notes": [
-        "实际这天开车去了南海岸：Sixt 订的小车，柜台免费升级成 7 座的 Toyota Prado。约 340 公里、开 5 小时 15 分，导航设了避开收费路。",
+        "Sixt 订的小车，柜台免费升级成 7 座的 Toyota Prado。约 340 公里、开 5 小时 15 分。",
         "驾照翻译件被要求贴照片，就是这次在悉尼取车时。",
         "还车时间是硬边界：午饭后落后，就砍掉 Kangaroo Valley，走高速回城。山谷路段要集中注意力，天色晚就别去。",
-        "还车后去了 Aberdeen Dining：整趟最推荐的一家，澳龙好吃又划算，四人 A$560.12。"
+        "Aberdeen Dining 是整趟最推荐的一家，澳龙好吃又划算，四人 A$560.12。"
       ],
-      "actual": {
-        "title": "走完整理的时间表 · 8/11 · 南海岸",
-        "rows": [
-          [
-            "08:15 左右",
-            "Sydney City",
-            "取车、检查、设导航"
-          ],
-          [
-            "09:50",
-            "Bald Hill 观景台",
-            "俯瞰海岸和 Sea Cliff Bridge"
-          ],
-          [
-            "10:30",
-            "Rube Hargrave Park",
-            "合法停车，步行走到桥中段"
-          ],
-          [
-            "11:40 以后",
-            "Wollongong 港湾",
-            "午饭和休息，留 1 小时以上"
-          ],
-          [
-            "13:55",
-            "Kiama 喷水洞和灯塔",
-            "那天阳光好，浪里带着彩虹"
-          ],
-          [
-            "14:55",
-            "Gerringong 观景台",
-            "海边草坡"
-          ],
-          [
-            "16:10",
-            "Hampden Bridge",
-            "进入 Kangaroo Valley"
-          ],
-          [
-            "16:30",
-            "Kangaroo Valley",
-            "主街短走"
-          ],
-          [
-            "17:00 以后",
-            "回城",
-            "经 Moss Vale 和 Hume Motorway 回悉尼还车"
-          ]
-        ],
-        "nav": "https://www.google.com/maps/dir/?api=1&origin=Sydney+NSW&destination=Sydney+NSW&travelmode=driving&waypoints=Bald+Hill+Headland+Reserve+Stanwell+Tops+NSW%7CRube+Hargrave+Park+Clifton+NSW%7CWollongong+Harbour%7CKiama+Blowhole%7CGerringong+Whale+Watching+Platform%7CHampden+Bridge+Kangaroo+Valley"
-      }
+      "nav": "https://www.google.com/maps/dir/?api=1&origin=Sydney+NSW&destination=Sydney+NSW&travelmode=driving&waypoints=Bald+Hill+Headland+Reserve+Stanwell+Tops+NSW%7CRube+Hargrave+Park+Clifton+NSW%7CWollongong+Harbour%7CKiama+Blowhole%7CGerringong+Whale+Watching+Platform%7CHampden+Bridge+Kangaroo+Valley"
+    },
+    "d15": {
+      "notes": []
     }
   }
 }

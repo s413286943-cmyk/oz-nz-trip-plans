@@ -88,7 +88,7 @@ describe("editing a trip copy", () => {
     assert.equal(loaded.baseVersion, nz2027.version);
     assert.equal(dayOf(loaded.data, "d1").title, "存一下");
     assert.equal(dayOf(parseImport(exportFile(edited, "nz2027")), "d1").title, "存一下");
-    assert.throws(() => parseImport("not json"), /不是导出的行程文件/);
+    assert.throws(() => parseImport("not json"), /不是在这里存的行程/);
     assert.throws(() => parseImport("{\"days\": []}"), /没有找到每天的行程/);
     storage.setItem("trip-share:nz2027:v1", "{broken");
     assert.equal(loadCopy(storage, "nz2027"), null);

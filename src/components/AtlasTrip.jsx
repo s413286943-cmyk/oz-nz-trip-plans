@@ -1,7 +1,6 @@
 "use client";
 
-// The 2026 trip in the same "route atlas" layout as our own site, with the post-trip notes
-// from the finished guide added at three levels: the whole trip, each stage and each day.
+// The 2026 trip in the same layout as our own site, with what we learned added for the whole trip, each stage and each day.
 import Image from "next/image";
 import Link from "next/link";
 
@@ -45,13 +44,13 @@ export default function AtlasTrip({ original, retro }) {
       </section>
       <section className="share-atlas-cta" aria-label="改成你的行程">
         <div>
-          <span className="section-kicker">想照着去</span>
-          <h2>把这份路书改成你的</h2>
-          <p>在“改成你的”里可以改每一天的标题和每一步、加一步、删一步，导出文字版带走。改动只存在你的浏览器里，这一页也会跟着显示你的版本。</p>
+          <span className="section-kicker">想照着走</span>
+          <h2>改成你自己的行程</h2>
+          <p>在“改成你的”里可以改每一天的标题和每一步、加一步、删一步，也能导出文字版带走。改动只存在你的手机或电脑上，这一页也会显示你改过的样子。</p>
         </div>
         <div className="share-atlas-cta-links">
           <Link href="/au2026/days" className="post-trip-primary">改成你的</Link>
-          <Link href="/au2026/guide">看攻略全文</Link>
+          <Link href="/au2026/guide">看攻略</Link>
         </div>
       </section>
     </div>
@@ -89,12 +88,12 @@ function Hero({ trip, stages, retro }) {
 
 function RetroSummary({ retro, mine }) {
   return (
-    <section className="share-retro" aria-label="走完回来的总结">
+    <section className="share-retro" aria-label="这一趟的总结">
       <div className="share-retro-head">
-        <span className="section-kicker">{retro.headline.kicker} · 总结</span>
+        <span className="section-kicker">{retro.headline.kicker}</span>
         <h2>{retro.headline.title}</h2>
         <p>{retro.headline.text}</p>
-        {mine && <p className="share-retro-mine">下面的每日路书显示的是你改过的版本；总结和“走完回来”的备注是我们的原话。</p>}
+        {mine && <p className="share-retro-mine">下面每天的安排是你改过的样子，经验部分还是我们写的。</p>}
       </div>
 
       <div className="share-retro-stats">
@@ -107,7 +106,7 @@ function RetroSummary({ retro, mine }) {
         ))}
       </div>
 
-      <h3 className="share-retro-sub">踩过的坑，和下次还会这么做的</h3>
+      <h3 className="share-retro-sub">我们的经验</h3>
       <div className="share-retro-lessons">
         {retro.lessons.map((lesson) => (
           <article key={lesson.title}>
@@ -138,7 +137,7 @@ function RetroSummary({ retro, mine }) {
       </div>
 
       <p className="share-retro-more">
-        更细的：<Link href="/au2026/guide#s-出发前">出发前</Link> · <Link href="/au2026/guide#s-取车和上路">取车和上路</Link> · <Link href="/au2026/guide#s-花销">花销明细和要提前订的</Link> · <Link href="/au2026/guide#s-清单">出发前清单</Link>
+        攻略里有更细的：<Link href="/au2026/guide#s-出发前">出发前</Link> · <Link href="/au2026/guide#s-取车和上路">取车和上路</Link> · <Link href="/au2026/guide#s-花销">花销和要提前订的</Link> · <Link href="/au2026/guide#s-清单">出发前清单</Link>
       </p>
     </section>
   );
@@ -149,9 +148,9 @@ function RouteManifest({ days, stages }) {
   return (
     <section className="route-manifest" aria-label="路线总览">
       <div className="manifest-lead">
-        <span>Route atlas</span>
-        <h2>D0-D16 每日路书</h2>
-        <p>出发前排的路书，每一天都补了走完回来的备注。</p>
+        <span>16 天路线</span>
+        <h2>每天怎么走</h2>
+        <p>按阶段看每天去哪、住哪、吃什么，每天都附了我们的经验。</p>
       </div>
       <div className="manifest-stages">
         <article className="manifest-stage manifest-bookends">
@@ -212,8 +211,8 @@ function StageSection({ stage, stageRetro, days, dayRetro, eagerImage }) {
 
 function StageRetro({ retro }) {
   return (
-    <section className="share-stage-retro" aria-label={`走完回来 · ${retro.title}`}>
-      <span className="section-kicker">这一段，走完回来看</span>
+    <section className="share-stage-retro" aria-label={`这一段的经验 · ${retro.title}`}>
+      <span className="section-kicker">这一段的经验</span>
       <h3>{retro.title}</h3>
       {retro.facts?.length > 0 && (
         <dl>
@@ -259,9 +258,9 @@ function DayCard({ day, retro, compact = false }) {
             <small>季节穿衣参考 · {day.clothingNote}</small>
           </div>
           <article className="day-brief-card">
-            <span>路书重点</span>
-            <strong>{keyStops.length ? `${keyStops.length} 个主要停靠` : "机动安排"}</strong>
-            <small>{resourcesCount ? `${resourcesCount} 个快捷链接` : "无外部链接"}</small>
+            <span>这天去哪</span>
+            <strong>{keyStops.length ? `${keyStops.length} 个地方` : "自由安排"}</strong>
+            <small>{resourcesCount ? `${resourcesCount} 个地图和官网链接` : "没有链接"}</small>
           </article>
         </div>
         <div className="route-stop-list" aria-label={`${day.label} 主要停靠`}>
@@ -274,14 +273,14 @@ function DayCard({ day, retro, compact = false }) {
             {foodBlock.tip && <small>{foodBlock.tip}</small>}
           </div>
         )}
-        {retro && <DayRetro retro={retro} />}
+        {retro && (retro.notes?.length > 0 || retro.nav) && <DayRetro retro={retro} />}
         <LazyDayDetails>
           <div className="day-operational-details">
             <DayExecutionGrid timeline={timeline} />
             <DayDocket day={day} />
             <section className="day-map-actions" aria-label="每日地图快捷入口">
               <div>
-                <span>地图快捷</span>
+                <span>地图</span>
                 <strong>{meals.dinner}</strong>
               </div>
               {mapActions.map((action) => <a key={action.id} href={action.url} target="_blank" rel="noreferrer">{action.label}</a>)}
@@ -309,23 +308,10 @@ function DayCard({ day, retro, compact = false }) {
 
 function DayRetro({ retro }) {
   return (
-    <section className="share-day-retro" aria-label="走完回来">
-      <span>走完回来</span>
-      <ul>{retro.notes.map((note) => <li key={note}>{note}</li>)}</ul>
-      {retro.actual && (
-        <details>
-          <summary>{retro.actual.title}</summary>
-          <div className="share-table-wrap"><table className="share-retro-table">
-            <thead><tr><th scope="col">时间</th><th scope="col">地点</th><th scope="col">做什么 / 停多久</th></tr></thead>
-            <tbody>
-              {retro.actual.rows.map(([time, place, what], index) => <tr key={index}><td>{time}</td><th scope="row">{place}</th><td>{what}</td></tr>)}
-            </tbody>
-          </table></div>
-          {retro.actual.cut && <p className="share-retro-tip">{retro.actual.cut}</p>}
-          {retro.actual.nav && <a className="share-retro-nav" href={retro.actual.nav} target="_blank" rel="noreferrer">在 Google 地图里打开这一天的路线</a>}
-        </details>
-      )}
-      {retro.links?.map(([label, url]) => <a key={url} className="share-retro-nav" href={url} target="_blank" rel="noreferrer">{label}</a>)}
+    <section className="share-day-retro" aria-label="我们的经验">
+      <span>我们的经验</span>
+      {retro.notes?.length > 0 && <ul>{retro.notes.map((note) => <li key={note}>{note}</li>)}</ul>}
+      {retro.nav && <a className="share-retro-nav" href={retro.nav} target="_blank" rel="noreferrer">在 Google 地图里打开这天的路线</a>}
     </section>
   );
 }
@@ -348,15 +334,15 @@ function DayExecutionGrid({ timeline }) {
   );
 }
 
-// Lodging, transport and tickets for the day, without our own payment status.
+// Where we slept, how we got around and what needed a ticket that day.
 function DayDocket({ day }) {
   const items = [
-    { id: "lodging", label: "住宿", title: day.lodging && day.lodging !== "-" ? day.lodging : "无住宿", detail: day.lodging && day.lodging !== "-" ? "点开看位置" : "当天返程", href: day.lodgingResource?.url || "" },
-    { id: "transport", label: "交通", title: day.transport || "", detail: day.leaveBy || "", href: day.primaryResource?.url || "" },
-    { id: "ticket", label: "门票 / Tour", title: day.ticketResource?.title || "当天无固定票券", detail: day.ticketResource && day.ticketResource.type !== "note" ? "要提前订" : "机动", href: day.ticketResource?.type !== "note" ? day.ticketResource?.url || "" : "" },
+    { id: "lodging", label: "住哪", title: day.lodging && day.lodging !== "-" ? day.lodging : "飞机上", detail: day.lodging && day.lodging !== "-" ? "点开看地图" : "这天回程", href: day.lodgingResource?.url || "" },
+    { id: "transport", label: "怎么走", title: day.transport || "", detail: day.leaveBy || "", href: day.primaryResource?.url || "" },
+    { id: "ticket", label: "门票和团", title: day.ticketResource && day.ticketResource.type !== "note" ? day.ticketResource.title : "这天不用买票", detail: day.ticketResource && day.ticketResource.type !== "note" ? "要提前订" : "到了再说", href: day.ticketResource?.type !== "note" ? day.ticketResource?.url || "" : "" },
   ];
   return (
-    <section className="day-docket" aria-label="住宿交通门票">
+    <section className="day-docket" aria-label="住哪、怎么走、门票">
       {items.map((item) => (
         <a className={[`docket-${item.id}`, !item.href ? "is-disabled" : ""].filter(Boolean).join(" ")} key={item.id} href={item.href || undefined} target={item.href ? "_blank" : undefined} rel={item.href ? "noreferrer" : undefined}>
           <span>{item.label}</span>

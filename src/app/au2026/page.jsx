@@ -3,7 +3,7 @@ import TripFrame from "@/components/TripFrame";
 import retro from "@data/au2026-retro.json";
 import au2026 from "@data/au2026.json";
 
-export const metadata = { title: "澳洲 2026 · 行程和走完回来的总结" };
+export const metadata = { title: "澳洲 2026 行程" };
 
 export default function Au2026Page() {
   return (

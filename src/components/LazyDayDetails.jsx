@@ -16,7 +16,7 @@ export default function LazyDayDetails({ defaultOpen = false, onOpen, children }
 
   return (
     <details open={open} onToggle={handleToggle}>
-      <summary>{defaultOpen ? "当天完整安排" : "查看当天安排"}</summary>
+      <summary>展开这一天</summary>
       {mounted ? children : null}
     </details>
   );

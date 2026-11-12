@@ -112,7 +112,7 @@ function Tools({ tripId, copy, editing, setEditing }) {
     if (!file) return;
     try {
       copy.replace(parseImport(await file.text()));
-      setMessage("已经换成你导入的行程。");
+      setMessage("已经打开你存的行程。");
     } catch (error) {
       setMessage(error.message);
     }
@@ -128,25 +128,25 @@ function Tools({ tripId, copy, editing, setEditing }) {
   const status = editing
     ? "正在改：点开哪一天，就能改那一天的标题、每一步和提醒。改完点“改好了”。"
     : !copy.mine
-    ? "这是我们的真实行程，可以直接改成你的：点“开始改”，改动只存在你这台设备的浏览器里，别人看不到。"
+    ? "这是我们的行程，可以直接改成你的：点“开始改”，改动只存在你这台手机或电脑上，别人看不到。"
     : copy.stale
-      ? "你看到的是你改过的版本。原版后来更新过，想看新原版就先导出你的版本，再恢复原版。"
-      : "你看到的是你改过的版本，存在这个浏览器里。换设备前先导出文件，到那边再导入。";
+      ? "你看到的是你改过的版本。我们后来更新过原版，想看新的原版，先把你的版本存成文件，再点“恢复原版”。"
+      : "你看到的是你改过的版本，只存在这台手机或电脑上。换设备前先“存成文件”，到那边用“打开存的文件”接着改。";
 
   return (
     <section className={`share-tools${copy.stale ? " is-stale" : ""}`} aria-label="改成你的行程">
       <p role="status">{status}</p>
-      {!copy.storageOk && <p className="share-warn" role="alert">这个浏览器不能保存修改（可能开了无痕模式），刷新后改动会丢。</p>}
+      {!copy.storageOk && <p className="share-warn" role="alert">这里存不了修改（可能开了无痕模式），刷新后改动会丢。</p>}
       <div className="share-tool-buttons">
         <button type="button" className="is-primary" aria-pressed={editing} onClick={() => setEditing(!editing)}>
           {editing ? "改好了" : "开始改"}
         </button>
         <button type="button" onClick={() => download(`${copy.data.trip.title}-行程-${stamp}.md`, tripToMarkdown(copy.data), "text/markdown;charset=utf-8")}>导出文字版</button>
-        <button type="button" onClick={() => download(`${tripId}-我的行程-${stamp}.json`, exportFile(copy.data, tripId), "application/json")}>导出文件</button>
-        <button type="button" onClick={() => fileInput.current?.click()}>导入文件</button>
+        <button type="button" onClick={() => download(`${tripId}-我的行程-${stamp}.json`, exportFile(copy.data, tripId), "application/json")}>存成文件</button>
+        <button type="button" onClick={() => fileInput.current?.click()}>打开存的文件</button>
         <button type="button" onClick={() => window.print()}>打印</button>
         {copy.mine && <button type="button" className="is-danger" onClick={reset}>恢复原版</button>}
-        <input ref={fileInput} type="file" accept="application/json,.json" hidden onChange={importFile} aria-label="选择导出的行程文件" />
+        <input ref={fileInput} type="file" accept="application/json,.json" hidden onChange={importFile} aria-label="选择存过的行程文件" />
       </div>
       {message && <p className="share-message" role="status">{message}</p>}
     </section>

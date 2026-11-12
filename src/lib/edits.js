@@ -42,7 +42,7 @@ export function parseImport(text) {
   try {
     parsed = JSON.parse(text);
   } catch {
-    throw new Error("这个文件不是导出的行程文件。");
+    throw new Error("这个文件不是在这里存的行程。");
   }
   const data = parsed?.data && validTrip(parsed.data) ? parsed.data : parsed;
   if (!validTrip(data)) throw new Error("文件里没有找到每天的行程。");
