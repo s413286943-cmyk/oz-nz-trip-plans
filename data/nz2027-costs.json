@@ -1,0 +1,40 @@
+{
+  "trip": "nz2027",
+  "note": "两人，出发前已经付和还没付的合计，按原币种分开；旅途中的吃喝和门票回来后再补。",
+  "categories": [
+    {
+      "category": "flight",
+      "label": "机票",
+      "amounts": {
+        "CNY": 20120
+      }
+    },
+    {
+      "category": "lodging",
+      "label": "住宿",
+      "amounts": {
+        "CNY": 3763.62,
+        "NZD": 2163.18
+      }
+    },
+    {
+      "category": "car",
+      "label": "租车",
+      "amounts": {
+        "CNY": 3382
+      }
+    },
+    {
+      "category": "activity",
+      "label": "门票和活动",
+      "amounts": {
+        "CNY": 3782,
+        "NZD": 578
+      }
+    }
+  ],
+  "totals": {
+    "CNY": 31047.62,
+    "NZD": 2741.18
+  }
+}

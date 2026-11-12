@@ -1,0 +1,558 @@
+/* Share site: base reset, the edit tools, home page, the 2026 guide and costs.
+   Colours come from the .nz tokens in nz2027.css. */
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  max-width: 100vw;
+  overflow-x: hidden;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background: #0d1719;
+  -webkit-font-smoothing: antialiased;
+}
+
+button,
+input,
+select,
+textarea {
+  font: inherit;
+  color: inherit;
+}
+
+img {
+  max-width: 100%;
+}
+
+.share-top {
+  flex-wrap: wrap;
+}
+
+.share-top b {
+  color: var(--nz-text);
+  font-weight: 600;
+}
+
+.nz-page-head {
+  padding: 12px 0 8px;
+}
+
+.nz-page-head h1 {
+  font-size: 26px;
+  margin-bottom: 8px;
+}
+
+.nz-page-head p {
+  color: var(--nz-soft);
+}
+
+.nz-page-head a {
+  color: var(--nz-mint);
+}
+
+.nz-view-guide .nz-main,
+.nz-view-costs .nz-main,
+.nz-view-prep .nz-main {
+  padding: 8px 16px 120px;
+}
+
+.share-lede {
+  margin: 4px 0 10px;
+  color: var(--nz-soft);
+  font-size: 14px;
+}
+
+/* Edit tools under the hero */
+.share-tools {
+  margin: 16px;
+  padding: 14px 16px;
+  border: 1px solid var(--nz-line);
+  border-radius: var(--nz-radius);
+  background: var(--nz-surface);
+}
+
+.share-tools.is-stale {
+  border-color: var(--nz-amber);
+}
+
+.share-tools > p {
+  color: var(--nz-soft);
+  font-size: 13px;
+}
+
+.share-tool-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 12px;
+}
+
+.share-tool-buttons button,
+.share-edit-actions button,
+.share-add,
+.share-edit-notes button {
+  min-height: 36px;
+  padding: 6px 14px;
+  border: 1px solid var(--nz-line);
+  border-radius: 999px;
+  background: var(--nz-surface-2);
+  color: var(--nz-text);
+  font-size: 13px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.share-tool-buttons button.is-primary {
+  border-color: transparent;
+  background: var(--nz-mint);
+  color: var(--nz-bg);
+}
+
+.share-tool-buttons button.is-primary[aria-pressed="true"] {
+  background: var(--nz-amber);
+}
+
+.share-tool-buttons .is-danger,
+.share-edit-actions .is-danger,
+.share-edit-notes .is-danger {
+  color: var(--nz-red);
+}
+
+.share-tool-buttons button:disabled,
+.share-edit-actions button:disabled {
+  opacity: 0.4;
+  cursor: default;
+}
+
+.share-warn {
+  margin-top: 8px;
+  color: var(--nz-amber) !important;
+}
+
+.share-message {
+  margin-top: 10px;
+  color: var(--nz-mint) !important;
+}
+
+/* Editing a day */
+.nz-day.is-editing {
+  outline: 1px dashed var(--nz-amber);
+  outline-offset: -1px;
+}
+
+.share-edit-day,
+.share-edit-block,
+.share-edit-field {
+  display: grid;
+  gap: 8px;
+}
+
+.share-edit-day {
+  margin-bottom: 14px;
+}
+
+.share-edit-day label,
+.share-edit-block label,
+.share-edit-field {
+  display: grid;
+  gap: 4px;
+  color: var(--nz-soft);
+  font-size: 12px;
+}
+
+.share-edit-day input,
+.share-edit-day textarea,
+.share-edit-block input,
+.share-edit-block textarea,
+.share-edit-field textarea,
+.share-edit-notes input,
+.share-edit-notes textarea {
+  width: 100%;
+  padding: 8px 10px;
+  border: 1px solid var(--nz-line);
+  border-radius: 10px;
+  background: var(--nz-bg);
+  color: var(--nz-text);
+  font-size: 14px;
+  line-height: 1.5;
+  resize: vertical;
+}
+
+.nz-timeline li.share-edit-block {
+  padding: 12px;
+  border: 1px solid var(--nz-line);
+  border-radius: 12px;
+  background: var(--nz-surface-2);
+  margin-bottom: 10px;
+}
+
+.share-edit-row {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 2fr);
+  gap: 8px;
+}
+
+.share-edit-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+
+.share-add {
+  margin: 4px 0 8px;
+  border-style: dashed;
+}
+
+.share-edit-notes {
+  display: grid;
+  gap: 10px;
+  list-style: none;
+}
+
+.share-edit-notes li {
+  display: grid;
+  gap: 6px;
+}
+
+.share-edit-notes li button {
+  justify-self: start;
+}
+
+/* Home */
+.share-home .nz-main {
+  padding: 32px 16px 64px;
+}
+
+.share-home-head h1 {
+  margin: 6px 0 10px;
+  font-size: 32px;
+}
+
+.share-home-head p:last-child {
+  color: var(--nz-soft);
+}
+
+.share-trip-cards {
+  display: grid;
+  gap: 18px;
+  margin-top: 24px;
+  list-style: none;
+}
+
+.share-trip-card {
+  display: block;
+  overflow: hidden;
+  border-radius: 20px;
+  background: var(--nz-surface);
+  text-decoration: none;
+}
+
+.share-trip-photo {
+  position: relative;
+  display: block;
+  aspect-ratio: 16 / 9;
+}
+
+.share-trip-photo img {
+  object-fit: cover;
+}
+
+.share-trip-copy {
+  display: grid;
+  gap: 6px;
+  padding: 16px 18px 18px;
+}
+
+.share-trip-copy small {
+  color: var(--nz-amber);
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.share-trip-copy strong {
+  font-size: 19px;
+  line-height: 1.3;
+}
+
+.share-trip-copy span {
+  color: var(--nz-soft);
+  font-size: 14px;
+}
+
+.share-trip-copy em {
+  color: var(--nz-mint);
+  font-size: 13px;
+  font-style: normal;
+}
+
+.share-trip-copy i {
+  color: var(--nz-faint);
+  font-size: 12px;
+  font-style: normal;
+}
+
+.share-footer {
+  margin-top: 32px;
+  color: var(--nz-faint);
+  font-size: 12px;
+}
+
+.share-footer p + p {
+  margin-top: 6px;
+}
+
+.share-footer a {
+  color: var(--nz-soft);
+  text-decoration: underline;
+}
+
+/* 2026 guide */
+.share-toc {
+  margin: 12px 0 20px;
+  padding: 12px 16px;
+  border-radius: var(--nz-radius);
+  background: var(--nz-surface);
+}
+
+.share-toc ol {
+  display: grid;
+  gap: 4px;
+  padding-left: 20px;
+  color: var(--nz-soft);
+  font-size: 14px;
+}
+
+.share-toc a {
+  color: var(--nz-text);
+}
+
+.share-prose {
+  color: var(--nz-text);
+  font-size: 15px;
+  line-height: 1.75;
+}
+
+.share-prose h2 {
+  margin: 36px 0 12px;
+  padding-top: 16px;
+  border-top: 1px solid var(--nz-line);
+  font-size: 22px;
+  scroll-margin-top: 16px;
+}
+
+.share-prose h3 {
+  margin: 24px 0 8px;
+  color: var(--nz-mint);
+  font-size: 17px;
+  scroll-margin-top: 16px;
+}
+
+.share-prose p,
+.share-prose ul,
+.share-prose ol {
+  margin: 0 0 12px;
+}
+
+.share-prose ul,
+.share-prose ol {
+  padding-left: 22px;
+}
+
+.share-prose li + li {
+  margin-top: 4px;
+}
+
+.share-prose strong {
+  color: var(--nz-text);
+}
+
+.share-prose a {
+  color: var(--nz-mint);
+  word-break: break-all;
+}
+
+.share-prose hr {
+  margin: 28px 0;
+  border: 0;
+  border-top: 1px solid var(--nz-line);
+}
+
+.share-prose blockquote {
+  margin: 0 0 12px;
+  padding: 8px 14px;
+  border-left: 3px solid var(--nz-amber);
+  color: var(--nz-soft);
+}
+
+.share-prose code {
+  padding: 1px 5px;
+  border-radius: 6px;
+  background: var(--nz-surface-2);
+  font-size: 0.92em;
+}
+
+.share-prose figure {
+  margin: 14px 0;
+}
+
+.share-prose figure img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 12px;
+}
+
+.share-prose figcaption {
+  margin-top: 4px;
+  color: var(--nz-faint);
+  font-size: 12px;
+}
+
+.share-photos {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 8px;
+  margin: 14px 0;
+}
+
+.share-photos figure {
+  margin: 0;
+}
+
+.share-photos figure img {
+  aspect-ratio: 3 / 4;
+  object-fit: cover;
+}
+
+@media (max-width: 480px) {
+  .share-photos {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  .share-photos figure img {
+    aspect-ratio: 4 / 3;
+  }
+}
+
+/* Tables (guide and costs) */
+.share-table-wrap {
+  max-width: 100%;
+  margin: 0 0 14px;
+  overflow-x: auto;
+}
+
+.share-prose table,
+.share-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 13px;
+}
+
+.share-prose th,
+.share-prose td,
+.share-table th,
+.share-table td {
+  padding: 7px 8px;
+  border-bottom: 1px solid var(--nz-line);
+  text-align: left;
+  vertical-align: top;
+}
+
+.share-prose :is(th, td):first-child {
+  min-width: 4.5em;
+  white-space: nowrap;
+}
+
+.share-prose hr + h2 {
+  padding-top: 0;
+  border-top: 0;
+}
+
+.share-prose th,
+.share-table thead th {
+  color: var(--nz-soft);
+  font-weight: 600;
+}
+
+.share-table caption {
+  padding-bottom: 6px;
+  color: var(--nz-soft);
+  font-size: 13px;
+  text-align: left;
+}
+
+.share-table td {
+  font-variant-numeric: tabular-nums;
+}
+
+/* Costs */
+.share-cost-totals {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+  gap: 10px;
+  margin: 12px 0 20px;
+}
+
+.share-cost-totals div {
+  padding: 14px;
+  border-radius: var(--nz-radius);
+  background: var(--nz-surface);
+}
+
+.share-cost-totals small {
+  display: block;
+  color: var(--nz-soft);
+  font-size: 12px;
+}
+
+.share-cost-totals strong {
+  font-size: 22px;
+}
+
+.share-fine {
+  color: var(--nz-faint);
+  font-size: 12px;
+}
+
+.share-h2 {
+  margin: 28px 0 10px;
+  font-size: 20px;
+}
+
+/* Print: the itinerary only, light paper */
+@media print {
+  .nz-tabs,
+  .share-tools,
+  .nz-cities,
+  .share-top,
+  .share-edit-actions,
+  .share-add {
+    display: none !important;
+  }
+
+  body,
+  .nz {
+    background: #fff !important;
+    color: #111 !important;
+  }
+
+  .nz {
+    --nz-text: #111;
+    --nz-soft: #444;
+    --nz-faint: #666;
+    --nz-surface: #fff;
+    --nz-surface-2: #fff;
+    --nz-line: #ccc;
+  }
+}

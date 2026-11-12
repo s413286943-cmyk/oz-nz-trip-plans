@@ -1,0 +1,27 @@
+{
+  "name": "oz-nz-trip-plans",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "两次澳新旅行的真实行程和自驾攻略，打开就能在浏览器里改成自己的。",
+  "engines": {
+    "node": ">=20.9"
+  },
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "test": "node --test tests/*.test.mjs",
+    "test:e2e": "node e2e/smoke.mjs",
+    "check:privacy": "node scripts/check-privacy.mjs"
+  },
+  "dependencies": {
+    "marked": "18.1.1",
+    "next": "16.2.10",
+    "react": "19.2.7",
+    "react-dom": "19.2.7"
+  },
+  "devDependencies": {
+    "playwright": "1.61.1"
+  }
+}
