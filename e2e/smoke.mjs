@@ -30,7 +30,7 @@ try {
   page.on("pageerror", (error) => errors.push(error.message));
   page.on("console", (message) => message.type() === "error" && errors.push(message.text()));
 
-  for (const route of ["/", "/nz2027", "/nz2027/dining", "/nz2027/prep", "/nz2027/costs", "/au2026", "/au2026/days"]) {
+  for (const route of ["/", "/nz2027", "/nz2027/dining", "/nz2027/prep", "/nz2027/costs", "/au2026", "/au2026/guide", "/au2026/days"]) {
     const response = await page.goto(`${base}${route}`);
     const text = await page.locator("body").innerText();
     const wide = await page.evaluate(() => document.documentElement.scrollWidth > window.innerWidth);
@@ -43,6 +43,14 @@ try {
   check(await page.locator(".share-trip-card").count() === 2, "home lists both trips");
 
   await page.goto(`${base}/au2026`);
+  check(await page.locator(".route-day-card").count() === 17, "2026 atlas shows all 17 days");
+  check(await page.locator(".share-retro-stats article").count() === 4, "2026 atlas opens with the post-trip summary");
+  check(await page.locator(".share-stage-retro").count() === 3, "every 2026 stage has its looking-back notes");
+  check(await page.locator("#d9 .share-day-retro").innerText().then((text) => text.includes("挡风玻璃")), "D9 carries the windscreen story");
+  await page.locator("#d9 .share-day-retro summary").click();
+  check(await page.locator("#d9 .share-day-retro table tbody tr").count() >= 8, "D9 opens its timetable from the guide");
+
+  await page.goto(`${base}/au2026/guide`);
   check(await page.locator(".share-toc a").count() >= 5, "guide has a contents list");
   check(await page.locator(".share-prose h2[id]").count() >= 5, "guide headings have anchors");
   await page.goto(`${base}/au2026/days`);
@@ -75,6 +83,15 @@ try {
   await page.locator('input[type="file"]').setInputFiles(exportedPath);
   await page.waitForTimeout(300);
   check(await page.locator("#day-d1 .nz-day-cover strong").innerText() === "我自己的第一天", "importing the file brings the edits back");
+
+  // An edit on the 2026 edit page shows on the 2026 atlas page.
+  await page.goto(`${base}/au2026/days`);
+  await page.getByRole("button", { name: "开始改" }).click();
+  await page.locator("#day-d3 .nz-day-head").click();
+  await page.getByLabel("这天的标题").first().fill("我的大洋路第一天");
+  await page.getByRole("button", { name: "改好了" }).click();
+  await page.goto(`${base}/au2026`);
+  check(await page.locator("#d3 h3").innerText() === "我的大洋路第一天", "2026 atlas shows the visitor's own edits");
 
   await page.goto(`${base}/nz2027/dining`);
   check(await page.locator("#dining-d1").innerText().then((text) => text.length > 0), "dining page follows the edited copy");

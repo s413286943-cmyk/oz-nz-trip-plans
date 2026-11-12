@@ -1,0 +1,33 @@
+/* Copied from Aussie-Split src/styles/tokens.css; global element rules removed so the 2027 pages keep their own base styles. */
+:root {
+  --background: #eef3ee;
+  --foreground: #132522;
+  --muted: #5d6d68;
+  --line: #cbd5cd;
+  --panel: #f8faf5;
+  --panel-strong: #fcfbf5;
+  --mist: #dfe9e2;
+  --accent: #08766f;
+  --accent-strong: #055951;
+  --ocean: #1b6075;
+  --sun: #dda13a;
+  --danger: #a54b3b;
+  --teal: #2c8590;
+  --shadow: 0 16px 42px rgba(31, 48, 42, 0.1);
+  --receipt-shadow: 0 6px 18px rgba(31, 48, 42, 0.07);
+  --radius: 8px;
+  --font-display: "Avenir Next Condensed", "DIN Condensed", "PingFang SC", "Noto Sans CJK SC", sans-serif;
+  --font-body: "Avenir Next", "PingFang SC", "Noto Sans CJK SC", "Microsoft YaHei", sans-serif;
+  --font-utility: SFMono-Regular, "SF Mono", "Roboto Mono", ui-monospace, monospace;
+}
+
+
+
+
+
+
+
+
+[data-food-block="true"] {
+  border-radius: 12px;
+}

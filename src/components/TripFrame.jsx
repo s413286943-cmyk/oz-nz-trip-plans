@@ -8,8 +8,9 @@ export const TRIP_TABS = {
     { id: "costs", href: "/nz2027/costs", label: "花销" },
   ],
   au2026: [
-    { id: "guide", href: "/au2026", label: "自驾攻略" },
-    { id: "schedule", href: "/au2026/days", label: "每日行程" },
+    { id: "atlas", href: "/au2026", label: "行程+总结" },
+    { id: "guide", href: "/au2026/guide", label: "攻略全文" },
+    { id: "schedule", href: "/au2026/days", label: "改成你的" },
   ],
 };
 
@@ -18,10 +19,10 @@ const TRIP_LABELS = {
   au2026: ["澳洲 2026", "2026年7月28日 – 8月13日 · 墨尔本、凯恩斯、悉尼"],
 };
 
-export default function TripFrame({ trip, view, children }) {
+export default function TripFrame({ trip, view, wide = false, children }) {
   const [name, dates] = TRIP_LABELS[trip];
   return (
-    <div className={`nz nz-view-${view} share-trip-${trip}`}>
+    <div className={`nz nz-view-${view} share-trip-${trip}${trip === "au2026" ? " share-light" : ""}`}>
       <header className="nz-top share-top">
         <Link href="/" className="nz-mark">← 两次旅行</Link>
         <span><b>{name}</b> · {dates}</span>
@@ -33,7 +34,7 @@ export default function TripFrame({ trip, view, children }) {
           </Link>
         ))}
       </nav>
-      <main className="nz-main">{children}</main>
+      {wide ? <main className="share-wide">{children}</main> : <main className="nz-main">{children}</main>}
     </div>
   );
 }
