@@ -6,3 +6,4 @@ out/
 .env*
 e2e/artifacts/
 *.zip
+.preview
