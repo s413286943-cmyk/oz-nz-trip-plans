@@ -32,7 +32,7 @@
   - `data/`、`content/au2026-guide.md`、`public/nz2027/`、`public/au2026/` 数据只能由自用仓库导出生成，不在此手改
   - 不放私人信息（订单号、订位号、确认号、姓名扣卡说明、私人邮箱）；`npm run check:privacy` 是第二道检查
   - 仓库公开；提交作者用 GitHub noreply 邮箱，不用私人邮箱
-- 包管理器：当前为 npm（`package-lock.json` 存在）。工程规范要求 Node 项目改用 pnpm，**迁移尚未执行，待用户确认**——不擅自删除 lock 或重写脚本
+- 包管理器：**保持 npm**（`package-lock.json`、`.cozeproj/scripts/*` 和 CLAUDE.md 都按 npm 写，部署脚本已验证），不迁移 pnpm，不删除 lock、不重写脚本
 
 ## 常见问题和预防
 - 端口：预览固定 5000（`.preview`），部署也 5000；不碰 9000。前端无 API，相对路径即可，无域名硬编码
