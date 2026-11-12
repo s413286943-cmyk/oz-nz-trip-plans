@@ -58,6 +58,9 @@ try {
   await page.goto(`${base}/au2026/days`);
   check(await page.locator(".nz-day").count() === 17, "2026 day-by-day lists 17 days");
 
+  await page.goto(`${base}/nz2027`);
+  check(await page.locator(".nz-cities img").first().getAttribute("src").then((src) => /city-sydney/.test(src || "")), "where-we-stay cards use the city pictures");
+
   // Edit, reload, export, reset, import.
   await page.goto(`${base}/nz2027`);
   await page.getByRole("button", { name: "开始改" }).click();

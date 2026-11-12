@@ -161,7 +161,7 @@ function CityStrip({ days }) {
     if (last && last.base === day.base) {
       last.nights += 1;
     } else {
-      stops.push({ base: day.base, nights: 1, id: day.id, start: day.date, image: day.coverImageUrl });
+      stops.push({ base: day.base, nights: 1, id: day.id, start: day.date, image: day.cityImageUrl || day.coverImageUrl });
     }
   }
   return (
