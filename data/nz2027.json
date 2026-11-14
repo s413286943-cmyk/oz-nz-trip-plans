@@ -1,5 +1,5 @@
 {
-  "version": "f76809ac91f2",
+  "version": "0d04f64e2496",
   "trip": {
     "title": "澳新 2027",
     "subtitle": "悉尼 + 新西兰南北岛十七日",
@@ -550,14 +550,14 @@
       "base": "Sydney",
       "lat": -33.8862,
       "lon": 151.199,
-      "title": "当代艺术、Newtown，晚上 Margaret",
-      "focus": "White Rabbit 和 Newtown 走走，悉尼最后一晚去 Double Bay 好好吃一顿。",
+      "title": "当代艺术、Newtown，晚上 The Gidley",
+      "focus": "White Rabbit 和 Newtown 走走，悉尼最后一晚去 The Gidley 吃牛排。",
       "lodging": "Great Southern Hotel Sydney",
       "lodgingStatus": "",
       "climateNote": "2月悉尼盛夏，约20–27°C，湿热，午后可能有雷阵雨。",
       "clothingNote": "夏装＋美术馆空调用薄外套；晚饭换一身整洁的衣服。",
       "coverImageUrl": "/nz2027/d03.jpg",
-      "coverImageAlt": "D03 当代艺术、Newtown，晚上 Margaret",
+      "coverImageAlt": "D03 当代艺术、Newtown，晚上 The Gidley",
       "cityImageUrl": "/nz2027/city-sydney.jpg",
       "transport": "步行＋公共交通",
       "leaveBy": "美术馆10:00开门",
@@ -576,7 +576,7 @@
         },
         {
           "label": "晚餐",
-          "text": "Margaret 已订 18:00–20:00，两人，主餐厅室内。30–36 Bay Street, Double Bay，电话 +61 2 9068 8888。晚到超过 15 分钟要先打电话，不然桌子可能给别人；到点可能请你离席，晚到也不顺延。24 小时内取消或不去，每人扣 A$50。"
+          "text": "The Gidley，地下室牛排馆，Basement 161 King Street（King 和 Elizabeth 街口，从街边楼梯下去），电话 (02) 9169 6898。还没订：提前 30 天开放订位，2/3 这天 1/4 早上 7:00（悉尼时间，北京时间 04:00）开放，在 SevenRooms 订两人 18:00。只接待 18 岁以上；进餐厅前手机放进收纳袋，餐厅里不能拍照。Margaret 的订位先留着，订到 The Gidley 再取消。"
         }
       ],
       "lodgingResource": {
@@ -721,19 +721,19 @@
         {
           "dayId": "d3",
           "sortOrder": 50,
-          "period": "17:15–18:00",
-          "place": "Haymarket → Double Bay",
-          "activity": "17:15 先看 Uber 的等车时间和价格：不堵就 17:30 打车，约 20 分钟到 Double Bay。晚高峰堵的话走 5 分钟到 Central 站，坐 T4 到 Edgecliff（约 10 分钟），出站下坡走 8–10 分钟到餐厅。晚到超过 15 分钟先打电话 +61 2 9068 8888。",
+          "period": "17:40–18:00",
+          "place": "Haymarket → The Gidley",
+          "activity": "沿 George Street 往北走约 20 分钟到 King Street，或打车约 10 分钟。到了从 161 King Street 街边的楼梯下到地下室。",
           "highlight": "",
-          "tip": "",
+          "tip": "门口不太显眼，在 King 和 Elizabeth 街口附近找楼梯。",
           "choice": "",
           "miss": "",
           "resources": [
             {
-              "id": "margaret-map",
-              "title": "Margaret, 30–36 Bay Street, Double Bay",
+              "id": "gidley-map",
+              "title": "The Gidley, Basement 161 King Street",
               "type": "map",
-              "url": "https://www.google.com/maps/search/?api=1&query=Margaret%2C+30+Bay+Street%2C+Double+Bay+NSW+2028%2C+Australia",
+              "url": "https://www.google.com/maps/search/?api=1&query=The+Gidley%2C+161+King+Street%2C+Sydney+NSW+2000%2C+Australia",
               "imageUrl": "",
               "imageAlt": "",
               "sourceNote": "Google Maps"
@@ -745,27 +745,27 @@
           "dayId": "d3",
           "sortOrder": 60,
           "period": "18:00–20:00",
-          "place": "Margaret",
-          "activity": "悉尼最后一晚，在 Margaret 好好吃一顿。已订 18:00–20:00 主餐厅室内。",
+          "place": "The Gidley",
+          "activity": "悉尼最后一晚，在 The Gidley 吃牛排。还没订：1/4 早上 7:00（悉尼时间）开放 2/3 的订位，订两人 18:00。",
           "highlight": "最后一晚的大餐",
-          "tip": "用餐两小时，到点可能要让位；24 小时内取消或不去每人扣 A$50。",
+          "tip": "只接待 18 岁以上；手机进门放进收纳袋，餐厅里不能拍照。早到可以先在 Lounge 坐一会儿（不用订）。",
           "choice": "",
           "miss": "",
           "resources": [
             {
-              "id": "margaret-official",
-              "title": "Margaret（Neil Perry）",
+              "id": "gidley-official",
+              "title": "The Gidley",
               "type": "restaurant",
-              "url": "https://themargaretfamily.com/venue/margaret/",
+              "url": "https://www.liquidandlarder.com.au/the-gidley",
               "imageUrl": "",
               "imageAlt": "",
-              "sourceNote": "已订"
+              "sourceNote": "待订"
             },
             {
-              "id": "margaret-map",
-              "title": "Margaret, 30–36 Bay Street, Double Bay",
+              "id": "gidley-map",
+              "title": "The Gidley, Basement 161 King Street",
               "type": "map",
-              "url": "https://www.google.com/maps/search/?api=1&query=Margaret%2C+30+Bay+Street%2C+Double+Bay+NSW+2028%2C+Australia",
+              "url": "https://www.google.com/maps/search/?api=1&query=The+Gidley%2C+161+King+Street%2C+Sydney+NSW+2000%2C+Australia",
               "imageUrl": "",
               "imageAlt": "",
               "sourceNote": "Google Maps"
@@ -776,32 +776,22 @@
         {
           "dayId": "d3",
           "sortOrder": 70,
-          "period": "20:00–20:20",
-          "place": "Double Bay 海边",
-          "activity": "饭后走几分钟到 Steyne Park 海边，日落在 20:00 左右，赶上晚霞。",
-          "highlight": "海边日落",
+          "period": "20:00–20:40",
+          "place": "Circular Quay",
+          "activity": "饭后往北走约 15 分钟到 Circular Quay，日落在 20:00 左右，看歌剧院和海港大桥的晚霞和蓝调。",
+          "highlight": "海港蓝调",
           "tip": "",
-          "choice": "",
-          "miss": "",
-          "resources": [
-            {
-              "id": "margaret-map",
-              "title": "Margaret, 30–36 Bay Street, Double Bay",
-              "type": "map",
-              "url": "https://www.google.com/maps/search/?api=1&query=Margaret%2C+30+Bay+Street%2C+Double+Bay+NSW+2028%2C+Australia",
-              "imageUrl": "",
-              "imageAlt": "",
-              "sourceNote": "Google Maps"
-            }
-          ],
+          "choice": "可加 · Circular Quay 夜景",
+          "miss": "早点回酒店睡；明早 06:00 就要出发去机场。",
+          "resources": [],
           "id": "d3-70"
         },
         {
           "dayId": "d3",
           "sortOrder": 80,
-          "period": "20:20–21:00",
-          "place": "Double Bay → Haymarket",
-          "activity": "打车回酒店，早点睡；明早 06:00 打车去机场。",
+          "period": "20:40–21:10",
+          "place": "→ Haymarket",
+          "activity": "回酒店：从 Circular Quay 坐 L2 / L3 轻轨到 Chinatown 或 Haymarket，或打车约 10 分钟；没去 Circular Quay 就从 King Street 直接打车回去。早点睡，明早 06:00 打车去机场。",
           "highlight": "早点睡",
           "tip": "",
           "choice": "",
@@ -823,8 +813,8 @@
           "dayId": "d3",
           "sortOrder": 90,
           "period": "饮食",
-          "place": "Spice Alley / Margaret",
-          "activity": "早餐：咖啡＋简单早餐；午餐：Spice Alley；晚餐：Margaret（Double Bay，已订 18:00）",
+          "place": "Spice Alley / The Gidley",
+          "activity": "早餐：咖啡＋简单早餐；午餐：Spice Alley；晚餐：The Gidley 牛排（要订，18:00）",
           "highlight": "",
           "tip": "",
           "choice": "",
@@ -5507,13 +5497,13 @@
       "detail": "2/6 前后是新月，星空最好；23:00左右才完全天黑，订22:30以后的场次。长周末场次紧，确认集合点、语言和天气改期规则。"
     },
     {
-      "id": "dinner-margaret",
+      "id": "dinner-gidley",
       "sortOrder": 104,
       "kind": "book",
       "dueDate": "",
-      "dueLabel": "11 月中旬",
-      "title": "订 Margaret（2/3 悉尼最后一晚，Double Bay）",
-      "detail": "已订 18:00–20:00，两人，主餐厅室内，24 小时内取消或不去每人扣 A$50。"
+      "dueLabel": "1/4 早上 7:00",
+      "title": "订 The Gidley（2/3 悉尼最后一晚）",
+      "detail": "提前 30 天开放订位：1/4 早上 7:00（悉尼时间，北京时间 04:00）开放 2/3，在 SevenRooms 订两人 18:00。好时段放出来很快就满。"
     },
     {
       "id": "dinner-valentine",
@@ -5677,26 +5667,26 @@
     {
       "dayId": "d3",
       "meal": "dinner",
-      "place": "Margaret（Double Bay）",
-      "time": "18:00–20:00",
+      "place": "The Gidley（CBD 地下室牛排馆）",
+      "time": "18:00",
       "status": "要提前订",
       "bookingRef": "",
-      "note": "主餐厅室内；晚到超过 15 分钟先打电话 +61 2 9068 8888，桌子可能给别人；24 小时内取消或不去每人扣 A$50。",
+      "note": "1/4 早上 7:00（悉尼时间，北京时间 04:00）开放订位，在 SevenRooms 订；只接待 18 岁以上，餐厅里不能拍照。",
       "resources": [
         {
-          "id": "margaret-official",
-          "title": "Margaret（Neil Perry）",
+          "id": "gidley-official",
+          "title": "The Gidley",
           "type": "restaurant",
-          "url": "https://themargaretfamily.com/venue/margaret/",
+          "url": "https://www.liquidandlarder.com.au/the-gidley",
           "imageUrl": "",
           "imageAlt": "",
-          "sourceNote": "已订"
+          "sourceNote": "待订"
         },
         {
-          "id": "margaret-map",
-          "title": "Margaret, 30–36 Bay Street, Double Bay",
+          "id": "gidley-map",
+          "title": "The Gidley, Basement 161 King Street",
           "type": "map",
-          "url": "https://www.google.com/maps/search/?api=1&query=Margaret%2C+30+Bay+Street%2C+Double+Bay+NSW+2028%2C+Australia",
+          "url": "https://www.google.com/maps/search/?api=1&query=The+Gidley%2C+161+King+Street%2C+Sydney+NSW+2000%2C+Australia",
           "imageUrl": "",
           "imageAlt": "",
           "sourceNote": "Google Maps"
