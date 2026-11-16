@@ -1,0 +1,29 @@
+# oz-nz-trip-plans（澳新两次旅行 · 公开分享版）
+
+公开仓库 `s413286943-cmyk/oz-nz-trip-plans`，部署在 Coze：项目 `7706904922159333402`（https://code.coze.cn/p/7706904922159333402），正式地址 **https://oznz-trips.coze.site**（平台默认域名 `h326jpn2nc.coze.site` 也能打开）。2026-11-16 起仓库重新建立（只含不暴露行踪的版本，旧历史已删除）。自用版（带记账、访问码）是私有仓库 `s413286943-cmyk/Aussie-Split`，本地 `/Users/SeanSun/Documents/Aussie/aussie-split-bill`。
+
+## 不可破坏的约束
+
+- **页面文字**：读者视角，“我们”分享给“你”；不写开发口吻（数据、浏览器存储、源码、Route atlas 之类），也不写“实际 / 原计划 / 走完回来”。叫法统一：行程、攻略、改成你的、存成文件、打开存的文件。
+- **2026 页面结构**：`/au2026`（行程）用自用版 2026 行程页的样式（`src/components/AtlasTrip.jsx`，样式在 `src/styles/atlas/`，从自用仓库复制、去掉了全局元素规则），每天的内容在攻略和出发前的计划不一致时按攻略（在自用仓库 `content/share/au2026-retro.json` 的 `plan` 里改写），并附整趟、每一段、每一天的经验（`data/au2026-retro.json`）；`/au2026/guide` 是攻略；`/au2026/days` 是可编辑版本，访客的修改也会显示在 `/au2026`。
+- **数据只从自用版导出**：`data/`（含 `au2026-retro.json`，源文件是自用仓库 `content/share/au2026-retro.json`）、`content/au2026-guide.md`、`public/nz/`、`public/au2026/` 都由自用仓库的 `npm run share:export -- ../trip-share --costs <账本汇总 JSON>` 生成（步骤见自用仓库 CLAUDE.md“分享版”）。不要在这里手改这些文件，否则下次导出会被覆盖。
+- **还没出发的旅行（`/nz`）不暴露行踪**：只写“第 N 天”，不写年份、日期、星期、航班号，住处只写到区域（不写名字和门牌），不写家在哪个城市。由自用仓库导出时改写并严格自检，这里的 `check:privacy` 和 e2e 再查一遍日期。回来以后再像 2026 一样按实际分享。
+- **不放私人信息**：订单号、订位号、确认号、姓名、扣卡说明、私人邮箱都不能出现。名字、地址、价格可以。导出时自用仓库有完整禁用词表；这里的 `npm run check:privacy` 是第二道检查。
+- **仓库是公开的**：提交作者用 GitHub noreply 邮箱（本仓库 `.git/config` 已设），不要用私人邮箱提交。
+- 没有数据库、登录和后端接口；访客的修改只存在其浏览器 localStorage（键 `trip-share:<trip>:v1`，清单勾选 `trip-share:<trip>:checks`）。
+
+## 运行与检查
+
+- Node 24 开发（`.nvmrc`），`engines` 允许 >=20.9。本机先 `export PATH="/opt/homebrew/opt/node@24/bin:$PATH"`。
+- `npm ci` → `npm test` → `npm run check:privacy` → `npm run build` → `npm run test:e2e`（本机 Chrome；本机有代理时去掉 `HTTP(S)_PROXY` 等变量再跑）。
+- 构建 `next build`，运行 `next start`（读 `PORT`）。
+
+## 更新流程
+
+自用版行程上线后：
+1. 在自用仓库跑 `share:export`，这里跑检查，提交推送到 GitHub；
+2. Coze 项目是 GitHub 导入的，工作区的 `origin` 就是这个仓库：在 Coze 终端 `GIT_TERMINAL_PROMPT=0 git pull --ff-only origin main`，`git status` 干净、`git log -1` 等于 GitHub 的提交；
+3. 点「部署」，部署版本选这个提交，「开始部署」，等到「部署成功」；
+4. `E2E_BASE_URL=https://oznz-trips.coze.site npm run test:e2e` 复查。
+
+Coze 自己加的 `.coze`、`AGENTS.md`、`.codegraph/.gitignore` 已经同步进 GitHub；Coze 助手若再改文件，先在 Coze 终端 `git push origin main`（无需输入凭据）或把改动带回本地，保持两边同一个提交。
