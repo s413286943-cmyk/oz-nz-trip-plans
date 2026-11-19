@@ -1,5 +1,5 @@
 {
-  "version": "760fa693016d",
+  "version": "e9d1332d0c60",
   "trip": {
     "title": "澳新 17 天",
     "subtitle": "悉尼 + 新西兰南北岛十七日",
@@ -3619,11 +3619,11 @@
       "notes": [
         {
           "label": "住宿",
-          "text": "皇后镇 Frankton 一带的公寓，Frankton 半山（Frankton 半山，Queenstown Hill 朝 Frankton 一侧）。订单是 第 11–14 天，同行朋友订的，我们住 第 12 天、第 13 天 两晚；15:00 后入住，到达时间和朋友约好。入住、停车和门锁看房东发的 Duve 入住指南。"
+          "text": "皇后镇 Frankton 一带的公寓（Frankton 半山），离市中心约 15 分钟车程，离机场和还车门店约 10 分钟。和朋友合住，15:00 后入住，到达时间和朋友约好；入住、停车和门锁看房东发的 Duve 入住指南。"
         },
         {
-          "label": "位置影响",
-          "text": "住处离市中心约 10 分钟车程，离机场和 ACE 门店近。进城吃饭、坐缆车都把车留在住处，打车或坐 Orbus 公交；市中心停车难找又贵。"
+          "label": "进城",
+          "text": "坐缆车、吃晚饭都开车往返，停 Boundary Street 停车场（按小时收费），走到缆车站和餐厅都在 10 分钟内。周五傍晚车位紧，提前出门；满了就找附近有收费标识的车位，不停路边禁停区。开车的人不喝酒。"
         }
       ],
       "lodgingResource": {
@@ -3657,9 +3657,9 @@
         "id": "nav08",
         "dayId": "d12",
         "title": "导航08 · Te Anau → 皇后镇公寓",
-        "duration": "09:30左右出发、10:00前退房；纯驾驶约2–2.5小时，12:00–13:00到Frankton；Kelvin半岛步道后15:00入住，打车进城坐16:30的缆车。",
+        "duration": "09:30左右出发、10:00前退房；纯驾驶约2–2.5小时，12:00–13:00到Frankton；Kelvin半岛步道后15:00入住，开车进城坐16:30的缆车。",
         "sequence": "Te Anau 镇上 → SH94 / Mossburn → SH97 / Five Rivers → SH6 / Kingston → Frankton → Kelvin Heights → SH6A Frankton Road → Frankton 半山",
-        "notes": "住处在 Frankton 一侧的山坡上，按 Duve 入住指南停车。进城坐缆车、吃晚饭都打车往返，车留在住处。",
+        "notes": "住处在 Frankton 一侧的山坡上，按 Duve 入住指南停车。进城坐缆车、吃晚饭开车，停 Boundary Street 停车场。",
         "legs": [
           {
             "sortOrder": 10,
@@ -3689,7 +3689,7 @@
             "sortOrder": 50,
             "segment": "Kelvin Heights → Frankton 半山",
             "driveTime": "约10–15分钟",
-            "stopNote": "回到 Frankton，沿 Frankton Road 往市区方向，拐上山坡到住处；按 Duve 入住指南停车。缆车站在市中心 Brecon Street，打车约 10–15 分钟。"
+            "stopNote": "回到 Frankton，沿 Frankton Road 往市区方向，拐上山坡到住处；按 Duve 入住指南停车。缆车站在市中心 Brecon Street，开车约 15 分钟，停 Boundary Street 停车场。"
           }
         ],
         "resources": [
@@ -3815,7 +3815,7 @@
           "sortOrder": 35,
           "period": "15:00–15:45",
           "place": "Frankton 半山",
-          "activity": "从 Kelvin Heights 开约 10–15 分钟到住处，15:00 入住、放下行李；车留在住处，15:45 打车去缆车站（约 10–15 分钟）。",
+          "activity": "从 Kelvin Heights 开约 10–15 分钟到住处，15:00 入住、放下行李；15:40 开车进城，停 Boundary Street 停车场。",
           "highlight": "入住皇后镇公寓",
           "tip": "",
           "choice": "",
@@ -3838,7 +3838,7 @@
           "sortOrder": 40,
           "period": "16:30–18:30",
           "place": "Skyline Gondola + Luge · Bob’s Peak",
-          "activity": "已订：Skyline缆车＋Luge滑道3圈，两人。坐缆车上Bob’s Peak看湖和Remarkables山脉，再滑3圈Luge。16:15前到Brecon Street缆车站：从住处打车约 10–15 分钟。",
+          "activity": "已订：Skyline缆车＋Luge滑道3圈，两人。坐缆车上Bob’s Peak看湖和Remarkables山脉，再滑3圈Luge。16:15前到Brecon Street缆车站：从 Boundary Street 停车场走约 8 分钟。",
           "highlight": "缆车＋Luge",
           "tip": "大风时可能停运，按Skyline通知改期；下山后走约10分钟到Blue Kanu。",
           "choice": "",
@@ -3902,7 +3902,7 @@
           "sortOrder": 60,
           "period": "20:45–21:10",
           "place": "Earnslaw Park / 湖边",
-          "activity": "饭后走几分钟到Earnslaw Park一带湖边，赶 21:01 左右的日落尾巴；之后打车回住处，约 10–15 分钟。",
+          "activity": "饭后走几分钟到Earnslaw Park一带湖边，赶 21:01 左右的日落尾巴；之后走回 Boundary Street 停车场，开车回住处约 15 分钟。",
           "highlight": "湖边日落",
           "tip": "",
           "choice": "",
@@ -3971,7 +3971,7 @@
         },
         {
           "label": "停车",
-          "text": "不去 Moke Lake：车停在住处，16:15 打车进城约 10–15 分钟到码头。要去 Moke Lake：16:05 从住处开车进城，停 Boundary Street 停车场（按小时收费，周末傍晚可能满），走约 10 分钟到码头；下船拿了汉堡走回车上直接开去湖边，看完开回住处约 40 分钟。停车场满了就开回住处，按不去的方案打车。"
+          "text": "16:05 从住处开车进城，停 Boundary Street 停车场（按小时收费，周六傍晚车位紧，满了就找附近有收费标识的车位），走约 10 分钟到码头。吃完 Fergburger 走回车上：去 Moke Lake 就直接开去湖边，看完开回住处约 40 分钟；不去就在湖边看完日落，开回住处约 15 分钟。"
         },
         {
           "label": "碎石路",
@@ -4009,7 +4009,7 @@
         "id": "nav09",
         "dayId": "d13",
         "title": "导航09 · 住处 ↔ Glenorchy",
-        "duration": "08:30左右出发；单程约60–75分钟，往返按约2.5小时；14:00 左右离开 Glenorchy，回住处歇一会儿；不去 Moke Lake 就把车停在住处、打车去码头，要去就 16:05 开车进城停 Boundary Street 停车场。饭后可加 Moke Lake（ACE 已书面确认可以开），单程约30分钟。",
+        "duration": "08:30左右出发；单程约60–75分钟，往返按约2.5小时；14:00 左右离开 Glenorchy，回住处歇一会儿；16:05 开车进城停 Boundary Street 停车场去码头。饭后可加 Moke Lake（ACE 已书面确认可以开），单程约30分钟。",
         "sequence": "Frankton 半山 → Frankton Road / 市区 → Queenstown–Glenorchy Road → Bennetts Bluff Viewpoint → Glenorchy Waterfront / Wharf → Lagoon步道 → 原路回住处（可停 Bob's Cove）→ 傍晚 Moke Lake Road → Moke Lake → 住处",
         "notes": "Bennetts Bluff是途中观景站；Glenorchy Waterfront/Wharf是小镇主停车区域。不往Paradise方向开（租车合同禁止）。Moke Lake Road后段是碎石路，ACE 已书面确认可以开，慢开。",
         "legs": [
@@ -4035,7 +4035,7 @@
             "sortOrder": 40,
             "segment": "Glenorchy → 住处",
             "driveTime": "约60–75分钟",
-            "stopNote": "午饭后 14:00 左右原路返回；停 Bob's Cove 就留 45–50 分钟，15:45 前回到住处，16:15 打车去码头。"
+            "stopNote": "午饭后 14:00 左右原路返回；停 Bob's Cove 就留 45–50 分钟，15:45 前回到住处，16:05 开车进城。"
           },
           {
             "sortOrder": 50,
@@ -4240,7 +4240,7 @@
           "sortOrder": 45,
           "period": "16:05–16:45",
           "place": "住处 → Steamer Wharf",
-          "activity": "不去 Moke Lake：车停在住处，16:15 打车，约 10–15 分钟。要去 Moke Lake：16:05 开车进城停 Boundary Street 停车场，走约 10 分钟。16:45 前到 Steamer Wharf（88 Beach Street）。",
+          "activity": "16:05 从住处开车进城，停 Boundary Street 停车场，走约 10 分钟。16:45 前到 Steamer Wharf（88 Beach Street）。",
           "highlight": "",
           "tip": "",
           "choice": "",
@@ -4304,7 +4304,7 @@
           "sortOrder": 60,
           "period": "18:45–19:30",
           "place": "Fergburger",
-          "activity": "下船走 3 分钟到 Fergburger。可以先打电话点单，到店付款取餐，不用排外面的长队；隔壁Fergbaker的派也可以带一个。要去 Moke Lake 就打包，走回 Boundary Street 停车场直接开去湖边；不去的话饭后在湖边看 21:00 左右的日落，再打车回住处，整理行李，准备次日加油还车。",
+          "activity": "下船走 3 分钟到 Fergburger。可以先打电话点单，到店付款取餐，不用排外面的长队；隔壁Fergbaker的派也可以带一个。要去 Moke Lake 就打包，走回 Boundary Street 停车场直接开去湖边；不去的话饭后在湖边看 21:00 左右的日落，再走回 Boundary Street 停车场开车回住处，整理行李，准备次日加油还车。",
           "highlight": "皇后镇招牌汉堡",
           "tip": "",
           "choice": "",
@@ -4345,7 +4345,7 @@
           "sortOrder": 65,
           "period": "19:30–21:00",
           "place": "Moke Lake",
-          "activity": "有精神就去（ACE 书面确认 Moke Lake Road 可以开）：从 Boundary Street 停车场开约 30 分钟到 Moke Lake（车停在住处的话先打车回去取车），在营地一侧湖边停 30 分钟左右，吃汉堡、看傍晚倒影，无风时最好。20:40 前离开湖边，21:00 日落前回到铺装路。今天不绕湖一圈。",
+          "activity": "有精神就去（ACE 书面确认 Moke Lake Road 可以开）：从 Boundary Street 停车场开约 30 分钟到 Moke Lake，在营地一侧湖边停 30 分钟左右，吃汉堡、看傍晚倒影，无风时最好。20:40 前离开湖边，21:00 日落前回到铺装路。今天不绕湖一圈。",
           "highlight": "傍晚湖面倒影",
           "tip": "累了、下雨或风大就不去；碎石路慢开，避开坑洼和大石头。",
           "choice": "可加 · Moke Lake",
