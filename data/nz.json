@@ -1,5 +1,5 @@
 {
-  "version": "7eb597416e87",
+  "version": "760fa693016d",
   "trip": {
     "title": "澳新 17 天",
     "subtitle": "悉尼 + 新西兰南北岛十七日",
@@ -827,7 +827,7 @@
       "notes": [
         {
           "label": "住宿",
-          "text": "基督城市中心的酒店，植物园附近，就在植物园旁边。15:00 后入住、第 5 天 10:00 前退房，前台 24 小时。到店付全款 ¥510.06；入住日前一天之前可免费取消或改订。"
+          "text": "基督城市中心的酒店，植物园附近，就在植物园旁边。15:00 后入住、第 5 天 10:00 前退房，前台 24 小时。到店付全款 ¥510.06；第 3 天 23:59（基督城时间）前可免费取消或改订，之后不可取消。"
         },
         {
           "label": "交通",
@@ -1192,7 +1192,7 @@
         },
         {
           "label": "保险",
-          "text": "订单里是基本险：碰撞起赔额 NZ$5,900，不含玻璃、轮胎、底盘，也不含道路救援。取车时在门店升级成 Ace PLUS：起赔额降到 0，含玻璃、轮胎和道路救援，价格以门店为准，费用刷卡另付，回来补进账本。注意租车条款：在碎石路上开（施工路段和通往营地、住宿的路除外）、或开车弄坏底盘，都算禁止用途，买了 PLUS 也不赔，最高要赔整车。只开 ACE 书面确认过的碎石路（Henburn Road 已确认），确认邮件存在手机里随身带。"
+          "text": "订单里是基本险：碰撞起赔额 NZ$5,900，不含玻璃、轮胎、底盘，也不含道路救援。取车时在门店加买 MDW（Maximum Damage Waiver）：每天 NZ$48 另加手续费，9 天约 NZ$432，起赔额降到 0。另一档 LDW 每天 NZ$37，起赔额 NZ$1,500，只便宜约 NZ$99，所以选 MDW。MDW 含不含玻璃、轮胎和道路救援，ACE 邮件里没写，取车时请店员写进合同。费用刷卡另付，回来补进账本。注意租车条款：在碎石路上开（施工路段和通往营地、住宿的路除外）、或开车弄坏底盘，都算禁止用途，买了 MDW 也不赔，最高要赔整车。ACE 已书面确认 Henburn Road、Clay Cliffs 大门后的农场私路、Moke Lake Road 和 Deer Park Heights 都可以开（邮件），但出了损坏仍按合同条款算，底盘撞坏照样不赔。其他碎石路照旧不开，确认邮件存在手机里随身带。"
         },
         {
           "label": "住宿",
@@ -1232,7 +1232,7 @@
         "url": "https://www.google.com/maps/search/?api=1&query=ACE+Rental+Cars%2C+166+Orchard+Road%2C+Harewood%2C+Christchurch%2C+New+Zealand",
         "imageUrl": "",
         "imageAlt": "",
-        "sourceNote": "¥3,382 已付；第 5 天 10:00 基督城店（166 Orchard Road）取，第 14 天 10:00 皇后镇店（50 Grant Road）还；取车时升级 Ace PLUS"
+        "sourceNote": "¥3,382 已付；第 5 天 10:00 基督城店（166 Orchard Road）取，第 14 天 10:00 皇后镇店（50 Grant Road）还；取车时加买 MDW（每天 NZ$48，起赔额 0）"
       },
       "drive": {
         "id": "nav02",
@@ -1315,7 +1315,7 @@
           "sortOrder": 10,
           "period": "08:30–10:00",
           "place": "基督城市中心的酒店 → ACE 基督城门店",
-          "activity": "酒店附近吃早餐、退房，09:20 打车直接去 ACE 门店（166 Orchard Road, Harewood，约 20–25 分钟），10:00 取车，在门店升级成 Ace PLUS，绕车检查一圈、拍照留底；开出 60 分钟内发现的划痕或玻璃小坑也拍照留证。",
+          "activity": "酒店附近吃早餐、退房，09:20 打车直接去 ACE 门店（166 Orchard Road, Harewood，约 20–25 分钟），10:00 取车，在门店加买 MDW（起赔额降到 0），绕车检查一圈、拍照留底；开出 60 分钟内发现的划痕或玻璃小坑也拍照留证。",
           "highlight": "取车",
           "tip": "ACE 在机场外，不要打车去航站楼。",
           "choice": "",
@@ -1337,7 +1337,7 @@
               "url": "https://www.google.com/maps/search/?api=1&query=ACE+Rental+Cars%2C+166+Orchard+Road%2C+Harewood%2C+Christchurch%2C+New+Zealand",
               "imageUrl": "",
               "imageAlt": "",
-              "sourceNote": "¥3,382 已付；第 5 天 10:00 基督城店（166 Orchard Road）取，第 14 天 10:00 皇后镇店（50 Grant Road）还；取车时升级 Ace PLUS"
+              "sourceNote": "¥3,382 已付；第 5 天 10:00 基督城店（166 Orchard Road）取，第 14 天 10:00 皇后镇店（50 Grant Road）还；取车时加买 MDW（每天 NZ$48，起赔额 0）"
             }
           ],
           "id": "d5-10"
@@ -2326,7 +2326,7 @@
           "sortOrder": 15,
           "period": "上午 · 约 1–2 小时",
           "place": "Omarama Clay Cliffs",
-          "activity": "Omarama 镇外看风蚀黏土尖塔：Quailburn Road 转 Henburn Road，约 3km 碎石路到私人农场大门，门口投币箱交进场费。ACE 已书面确认 Henburn Road 可以开；大门后是农场私路，ACE 回复能开就开到停车场，没确认就把车停在大门外走进去。到停车场后走 10–15 分钟到峡谷口，进去转转留 1 小时。",
+          "activity": "Omarama 镇外看风蚀黏土尖塔：Quailburn Road 转 Henburn Road，约 3km 碎石路到私人农场大门，门口投币箱交进场费。ACE 已书面确认 Henburn Road 和大门后的农场私路都可以开，直接开到停车场。到停车场后走 10–15 分钟到峡谷口，进去转转留 1 小时。",
           "highlight": "黏土尖塔",
           "tip": "带现金；碎石路慢开；下雨会烂泥，路况不好就停在大门外走进去。手机信号弱。",
           "choice": "绕路 B · Clay Cliffs",
@@ -3607,10 +3607,10 @@
       "base": "Queenstown",
       "title": "Kelvin半岛湖边步道，傍晚坐缆车",
       "focus": "下午在Kelvin半岛沿湖走一圈，傍晚坐缆车看皇后镇。",
-      "lodging": "皇后镇 Fernhill 的民宿",
+      "lodging": "皇后镇 Frankton 一带的公寓",
       "lodgingStatus": "",
       "climateNote": "Queenstown约10–24°C，晴天干燥、紫外线强，傍晚转凉。",
-      "clothingNote": "夏装＋晚间外套；Fernhill上坡穿好走的鞋；湖边带驱蚊液。",
+      "clothingNote": "夏装＋晚间外套；湖边带驱蚊液。",
       "coverImageUrl": "/nz/d12.jpg",
       "coverImageAlt": "D12 Kelvin半岛湖边步道，傍晚坐缆车",
       "cityImageUrl": "/nz/city-queenstown.jpg",
@@ -3619,27 +3619,27 @@
       "notes": [
         {
           "label": "住宿",
-          "text": "皇后镇 Fernhill 的民宿，Fernhill 半山，15:00后入住。"
+          "text": "皇后镇 Frankton 一带的公寓，Frankton 半山（Frankton 半山，Queenstown Hill 朝 Frankton 一侧）。订单是 第 11–14 天，同行朋友订的，我们住 第 12 天、第 13 天 两晚；15:00 后入住，到达时间和朋友约好。入住、停车和门锁看房东发的 Duve 入住指南。"
         },
         {
           "label": "位置影响",
-          "text": "Fernhill有上坡，晚餐往返安排车或打车；若两人都喝酒，往返均打车。房源停车按房东入住指引。"
+          "text": "住处离市中心约 10 分钟车程，离机场和 ACE 门店近。进城吃饭、坐缆车都把车留在住处，打车或坐 Orbus 公交；市中心停车难找又贵。"
         }
       ],
       "lodgingResource": {
-        "id": "fernhill-map",
-        "title": "皇后镇 Fernhill 的民宿",
+        "id": "qt-apartment-map",
+        "title": "皇后镇 Frankton 一带的公寓",
         "type": "map",
-        "url": "https://www.google.com/maps/search/?api=1&query=Fernhill%2C+Queenstown%2C+New+Zealand",
+        "url": "https://www.google.com/maps/search/?api=1&query=Frankton%2C+Queenstown%2C+New+Zealand",
         "imageUrl": "",
         "imageAlt": "",
-        "sourceNote": "确认邮件地址"
+        "sourceNote": "订单地址"
       },
       "primaryResource": {
         "id": "nav08-route",
-        "title": "完整路线到Fernhill",
+        "title": "完整路线到皇后镇公寓",
         "type": "map",
-        "url": "https://www.google.com/maps/dir/?api=1&origin=Te+Anau%2C+New+Zealand&destination=Fernhill%2C+Queenstown%2C+New+Zealand&travelmode=driving&waypoints=Mossburn%2C+New+Zealand%7CFive+Rivers%2C+Southland%2C+New+Zealand%7CKingston%2C+Otago%2C+New+Zealand",
+        "url": "https://www.google.com/maps/dir/?api=1&origin=Te+Anau%2C+New+Zealand&destination=Frankton%2C+Queenstown%2C+New+Zealand&travelmode=driving&waypoints=Mossburn%2C+New+Zealand%7CFive+Rivers%2C+Southland%2C+New+Zealand%7CKingston%2C+Otago%2C+New+Zealand",
         "imageUrl": "",
         "imageAlt": "",
         "sourceNote": "导航08"
@@ -3656,10 +3656,10 @@
       "drive": {
         "id": "nav08",
         "dayId": "d12",
-        "title": "导航08 · Te Anau → Queenstown Fernhill",
-        "duration": "09:30左右出发、10:00前退房；纯驾驶约2–2.5小时，12:00–13:00到Frankton；Kelvin半岛步道后15:00入住，16:30坐缆车。",
-        "sequence": "Te Anau 镇上 → SH94 / Mossburn → SH97 / Five Rivers → SH6 / Kingston → Frankton → Kelvin Heights → SH6A / Queenstown → Fernhill → Fernhill 半山",
-        "notes": "住处在山坡，回房要考虑上坡和天气。晚餐若打车，按往返安排；若开车，使用有明确收费/限时标识的市区车位。",
+        "title": "导航08 · Te Anau → 皇后镇公寓",
+        "duration": "09:30左右出发、10:00前退房；纯驾驶约2–2.5小时，12:00–13:00到Frankton；Kelvin半岛步道后15:00入住，打车进城坐16:30的缆车。",
+        "sequence": "Te Anau 镇上 → SH94 / Mossburn → SH97 / Five Rivers → SH6 / Kingston → Frankton → Kelvin Heights → SH6A Frankton Road → Frankton 半山",
+        "notes": "住处在 Frankton 一侧的山坡上，按 Duve 入住指南停车。进城坐缆车、吃晚饭都打车往返，车留在住处。",
         "legs": [
           {
             "sortOrder": 10,
@@ -3687,17 +3687,17 @@
           },
           {
             "sortOrder": 50,
-            "segment": "Kelvin Heights → Fernhill 半山",
-            "driveTime": "约20–25分钟",
-            "stopNote": "穿过市区上Fernhill，按房东说明停车；缆车站在Brecon Street，离住处很近。"
+            "segment": "Kelvin Heights → Frankton 半山",
+            "driveTime": "约10–15分钟",
+            "stopNote": "回到 Frankton，沿 Frankton Road 往市区方向，拐上山坡到住处；按 Duve 入住指南停车。缆车站在市中心 Brecon Street，打车约 10–15 分钟。"
           }
         ],
         "resources": [
           {
             "id": "nav08-route",
-            "title": "完整路线到Fernhill",
+            "title": "完整路线到皇后镇公寓",
             "type": "map",
-            "url": "https://www.google.com/maps/dir/?api=1&origin=Te+Anau%2C+New+Zealand&destination=Fernhill%2C+Queenstown%2C+New+Zealand&travelmode=driving&waypoints=Mossburn%2C+New+Zealand%7CFive+Rivers%2C+Southland%2C+New+Zealand%7CKingston%2C+Otago%2C+New+Zealand",
+            "url": "https://www.google.com/maps/dir/?api=1&origin=Te+Anau%2C+New+Zealand&destination=Frankton%2C+Queenstown%2C+New+Zealand&travelmode=driving&waypoints=Mossburn%2C+New+Zealand%7CFive+Rivers%2C+Southland%2C+New+Zealand%7CKingston%2C+Otago%2C+New+Zealand",
             "imageUrl": "",
             "imageAlt": "",
             "sourceNote": "导航08"
@@ -3712,13 +3712,13 @@
             "sourceNote": "Google Maps"
           },
           {
-            "id": "fernhill-map",
-            "title": "皇后镇 Fernhill 的民宿",
+            "id": "qt-apartment-map",
+            "title": "皇后镇 Frankton 一带的公寓",
             "type": "map",
-            "url": "https://www.google.com/maps/search/?api=1&query=Fernhill%2C+Queenstown%2C+New+Zealand",
+            "url": "https://www.google.com/maps/search/?api=1&query=Frankton%2C+Queenstown%2C+New+Zealand",
             "imageUrl": "",
             "imageAlt": "",
-            "sourceNote": "确认邮件地址"
+            "sourceNote": "订单地址"
           },
           {
             "id": "qldc-parking-official",
@@ -3745,9 +3745,9 @@
           "resources": [
             {
               "id": "nav08-route",
-              "title": "完整路线到Fernhill",
+              "title": "完整路线到皇后镇公寓",
               "type": "map",
-              "url": "https://www.google.com/maps/dir/?api=1&origin=Te+Anau%2C+New+Zealand&destination=Fernhill%2C+Queenstown%2C+New+Zealand&travelmode=driving&waypoints=Mossburn%2C+New+Zealand%7CFive+Rivers%2C+Southland%2C+New+Zealand%7CKingston%2C+Otago%2C+New+Zealand",
+              "url": "https://www.google.com/maps/dir/?api=1&origin=Te+Anau%2C+New+Zealand&destination=Frankton%2C+Queenstown%2C+New+Zealand&travelmode=driving&waypoints=Mossburn%2C+New+Zealand%7CFive+Rivers%2C+Southland%2C+New+Zealand%7CKingston%2C+Otago%2C+New+Zealand",
               "imageUrl": "",
               "imageAlt": "",
               "sourceNote": "导航08"
@@ -3785,7 +3785,7 @@
           "place": "Kelvin Peninsula Sculpture Trail",
           "activity": "Kelvin Heights湖畔雕塑环线，绕高尔夫球场约3.5km、1小时，平路好走，对岸是Walter Peak和皇后镇。",
           "highlight": "湖畔雕塑步道",
-          "tip": "起点在Peninsula Road和Grove Lane路口；午饭晚了就跳过，直接去 Fernhill。",
+          "tip": "起点在Peninsula Road和Grove Lane路口；午饭晚了就跳过，直接去住处。",
           "choice": "可加 · Kelvin 半岛",
           "miss": "午饭后歇一会儿的时间；14:30 前要走完，才赶得上 16:30 的缆车。",
           "resources": [
@@ -3814,21 +3814,21 @@
           "dayId": "d12",
           "sortOrder": 35,
           "period": "15:00–15:45",
-          "place": "Fernhill 半山",
-          "activity": "开约20分钟到Fernhill，15:00入住，放下行李；车留在住处，15:50出发去缆车站。",
-          "highlight": "入住Fernhill",
+          "place": "Frankton 半山",
+          "activity": "从 Kelvin Heights 开约 10–15 分钟到住处，15:00 入住、放下行李；车留在住处，15:45 打车去缆车站（约 10–15 分钟）。",
+          "highlight": "入住皇后镇公寓",
           "tip": "",
           "choice": "",
           "miss": "",
           "resources": [
             {
-              "id": "fernhill-map",
-              "title": "皇后镇 Fernhill 的民宿",
+              "id": "qt-apartment-map",
+              "title": "皇后镇 Frankton 一带的公寓",
               "type": "map",
-              "url": "https://www.google.com/maps/search/?api=1&query=Fernhill%2C+Queenstown%2C+New+Zealand",
+              "url": "https://www.google.com/maps/search/?api=1&query=Frankton%2C+Queenstown%2C+New+Zealand",
               "imageUrl": "",
               "imageAlt": "",
-              "sourceNote": "确认邮件地址"
+              "sourceNote": "订单地址"
             }
           ],
           "id": "d12-35"
@@ -3838,7 +3838,7 @@
           "sortOrder": 40,
           "period": "16:30–18:30",
           "place": "Skyline Gondola + Luge · Bob’s Peak",
-          "activity": "已订：Skyline缆车＋Luge滑道3圈，两人。坐缆车上Bob’s Peak看湖和Remarkables山脉，再滑3圈Luge。16:15前到Brecon Street缆车站：从Fernhill打车约5分钟，或步行下坡约20分钟。",
+          "activity": "已订：Skyline缆车＋Luge滑道3圈，两人。坐缆车上Bob’s Peak看湖和Remarkables山脉，再滑3圈Luge。16:15前到Brecon Street缆车站：从住处打车约 10–15 分钟。",
           "highlight": "缆车＋Luge",
           "tip": "大风时可能停运，按Skyline通知改期；下山后走约10分钟到Blue Kanu。",
           "choice": "",
@@ -3902,7 +3902,7 @@
           "sortOrder": 60,
           "period": "20:45–21:10",
           "place": "Earnslaw Park / 湖边",
-          "activity": "饭后走几分钟到Earnslaw Park一带湖边，赶 21:01 左右的日落尾巴；之后打车回Fernhill。",
+          "activity": "饭后走几分钟到Earnslaw Park一带湖边，赶 21:01 左右的日落尾巴；之后打车回住处，约 10–15 分钟。",
           "highlight": "湖边日落",
           "tip": "",
           "choice": "",
@@ -3943,7 +3943,7 @@
       "base": "Queenstown",
       "title": "上午开去Glenorchy，傍晚坐百年蒸汽船游湖",
       "focus": "公路、红船屋、湿地步道；17:00 坐 1912 年的 TSS Earnslaw 在湖上转 90 分钟。",
-      "lodging": "皇后镇 Fernhill 的民宿",
+      "lodging": "皇后镇 Frankton 一带的公寓",
       "lodgingStatus": "",
       "climateNote": "Wakatipu湖区约10–24°C，晴天日照强，湖边风大。",
       "clothingNote": "防晒＋防风外套、驱蚊液；Lagoon步道雨后可能积水，穿防水鞋。",
@@ -3955,7 +3955,7 @@
       "notes": [
         {
           "label": "住宿",
-          "text": "Fernhill山景单间，第二晚。"
+          "text": "皇后镇 Frankton 一带的公寓，第二晚。"
         },
         {
           "label": "沙蝇",
@@ -3971,27 +3971,27 @@
         },
         {
           "label": "停车",
-          "text": "不去 Moke Lake：车停回 Fernhill 住处，打车约 5 分钟到码头，或下坡走约 20 分钟。要去 Moke Lake：16:15 直接开车下山，停 Boundary Street 停车场（按小时收费，周末傍晚可能满），走约 10 分钟到码头；下船拿了汉堡走回车上直接开去湖边。停车场满了就停回 Fernhill，按不去的方案打车。"
+          "text": "不去 Moke Lake：车停在住处，16:15 打车进城约 10–15 分钟到码头。要去 Moke Lake：16:05 从住处开车进城，停 Boundary Street 停车场（按小时收费，周末傍晚可能满），走约 10 分钟到码头；下船拿了汉堡走回车上直接开去湖边，看完开回住处约 40 分钟。停车场满了就开回住处，按不去的方案打车。"
         },
         {
           "label": "碎石路",
-          "text": "Moke Lake Road后段约8km碎石路，窄、陡、有弯，有对向来车。ACE 租车条款不让开碎石路（通往营地的路例外），已发邮件问 Moke Lake Road，书面确认能开才去；去的话车速压到30–40km/h，大雨后不去。没确认就不去，在皇后镇湖边看日落。"
+          "text": "Moke Lake Road后段约8km碎石路，窄、陡、有弯，有对向来车。ACE 已书面确认可以开（邮件），损坏仍按合同条款算，底盘撞坏不赔。车速压到30–40km/h，大雨后不去；累了也不去，在皇后镇湖边看日落。"
         }
       ],
       "lodgingResource": {
-        "id": "fernhill-map",
-        "title": "皇后镇 Fernhill 的民宿",
+        "id": "qt-apartment-map",
+        "title": "皇后镇 Frankton 一带的公寓",
         "type": "map",
-        "url": "https://www.google.com/maps/search/?api=1&query=Fernhill%2C+Queenstown%2C+New+Zealand",
+        "url": "https://www.google.com/maps/search/?api=1&query=Frankton%2C+Queenstown%2C+New+Zealand",
         "imageUrl": "",
         "imageAlt": "",
-        "sourceNote": "确认邮件地址"
+        "sourceNote": "订单地址"
       },
       "primaryResource": {
         "id": "nav09-out-route",
         "title": "去程经Bennetts Bluff",
         "type": "map",
-        "url": "https://www.google.com/maps/dir/?api=1&origin=Fernhill%2C+Queenstown%2C+New+Zealand&destination=Glenorchy+Wharf%2C+Glenorchy%2C+New+Zealand&travelmode=driving&waypoints=Bennetts+Bluff+Viewpoint%2C+Queenstown-Glenorchy+Road%2C+New+Zealand",
+        "url": "https://www.google.com/maps/dir/?api=1&origin=Frankton%2C+Queenstown%2C+New+Zealand&destination=Glenorchy+Wharf%2C+Glenorchy%2C+New+Zealand&travelmode=driving&waypoints=Bennetts+Bluff+Viewpoint%2C+Queenstown-Glenorchy+Road%2C+New+Zealand",
         "imageUrl": "",
         "imageAlt": "",
         "sourceNote": "导航09"
@@ -4008,15 +4008,15 @@
       "drive": {
         "id": "nav09",
         "dayId": "d13",
-        "title": "导航09 · Fernhill ↔ Glenorchy",
-        "duration": "08:30左右出发；单程约50–70分钟，往返按约2小时；14:00 左右离开 Glenorchy，回住处歇一会儿；不去 Moke Lake 就把车停在住处、打车去码头，要去就 16:15 开车下山停 Boundary Street 停车场。饭后可加 Moke Lake（ACE 书面确认才去），单程约30分钟。",
-        "sequence": "Fernhill 半山 → Queenstown–Glenorchy Road → Bennetts Bluff Viewpoint → Glenorchy Waterfront / Wharf → Lagoon步道 → 原路回Fernhill（可停 Bob's Cove）→ 傍晚 Moke Lake Road → Moke Lake → Fernhill",
-        "notes": "Bennetts Bluff是途中观景站；Glenorchy Waterfront/Wharf是小镇主停车区域。不往Paradise方向开（租车合同禁止）。Moke Lake Road后段是碎石路，ACE 书面确认能开才去，慢开。",
+        "title": "导航09 · 住处 ↔ Glenorchy",
+        "duration": "08:30左右出发；单程约60–75分钟，往返按约2.5小时；14:00 左右离开 Glenorchy，回住处歇一会儿；不去 Moke Lake 就把车停在住处、打车去码头，要去就 16:05 开车进城停 Boundary Street 停车场。饭后可加 Moke Lake（ACE 已书面确认可以开），单程约30分钟。",
+        "sequence": "Frankton 半山 → Frankton Road / 市区 → Queenstown–Glenorchy Road → Bennetts Bluff Viewpoint → Glenorchy Waterfront / Wharf → Lagoon步道 → 原路回住处（可停 Bob's Cove）→ 傍晚 Moke Lake Road → Moke Lake → 住处",
+        "notes": "Bennetts Bluff是途中观景站；Glenorchy Waterfront/Wharf是小镇主停车区域。不往Paradise方向开（租车合同禁止）。Moke Lake Road后段是碎石路，ACE 已书面确认可以开，慢开。",
         "legs": [
           {
             "sortOrder": 10,
-            "segment": "Fernhill → Bennetts Bluff",
-            "driveTime": "约25–35分钟",
+            "segment": "住处 → Bennetts Bluff",
+            "driveTime": "约35–45分钟",
             "stopNote": "使用新正规观景停车场，步行观景20–30分钟，不停旧盲弯路肩。"
           },
           {
@@ -4033,15 +4033,15 @@
           },
           {
             "sortOrder": 40,
-            "segment": "Glenorchy → Fernhill",
-            "driveTime": "约50–70分钟",
-            "stopNote": "午饭后 14:00 左右原路返回；停 Bob's Cove 就留 45–50 分钟，15:45 前回到 Fernhill，16:15 打车去码头。"
+            "segment": "Glenorchy → 住处",
+            "driveTime": "约60–75分钟",
+            "stopNote": "午饭后 14:00 左右原路返回；停 Bob's Cove 就留 45–50 分钟，15:45 前回到住处，16:15 打车去码头。"
           },
           {
             "sortOrder": 50,
             "segment": "皇后镇市中心 → Moke Lake",
             "driveTime": "约25–35分钟",
-            "stopNote": "ACE 书面确认才去。饭后 19:30 左右从 Boundary Street 停车场出发：Glenorchy路走约10分钟后右转Moke Lake Road，先是陡弯铺装路，后段约8km碎石路；停湖边营地停车场，20:40 前往回开。"
+            "stopNote": "ACE 已书面确认可以开。饭后 19:30 左右从 Boundary Street 停车场出发：Glenorchy路走约10分钟后右转Moke Lake Road，先是陡弯铺装路，后段约8km碎石路；停湖边营地停车场，20:40 前往回开。"
           }
         ],
         "resources": [
@@ -4049,7 +4049,7 @@
             "id": "nav09-out-route",
             "title": "去程经Bennetts Bluff",
             "type": "map",
-            "url": "https://www.google.com/maps/dir/?api=1&origin=Fernhill%2C+Queenstown%2C+New+Zealand&destination=Glenorchy+Wharf%2C+Glenorchy%2C+New+Zealand&travelmode=driving&waypoints=Bennetts+Bluff+Viewpoint%2C+Queenstown-Glenorchy+Road%2C+New+Zealand",
+            "url": "https://www.google.com/maps/dir/?api=1&origin=Frankton%2C+Queenstown%2C+New+Zealand&destination=Glenorchy+Wharf%2C+Glenorchy%2C+New+Zealand&travelmode=driving&waypoints=Bennetts+Bluff+Viewpoint%2C+Queenstown-Glenorchy+Road%2C+New+Zealand",
             "imageUrl": "",
             "imageAlt": "",
             "sourceNote": "导航09"
@@ -4067,7 +4067,7 @@
             "id": "nav09-back-route",
             "title": "Glenorchy回住宿",
             "type": "map",
-            "url": "https://www.google.com/maps/dir/?api=1&origin=Glenorchy+Wharf%2C+Glenorchy%2C+New+Zealand&destination=Fernhill%2C+Queenstown%2C+New+Zealand&travelmode=driving",
+            "url": "https://www.google.com/maps/dir/?api=1&origin=Glenorchy+Wharf%2C+Glenorchy%2C+New+Zealand&destination=Frankton%2C+Queenstown%2C+New+Zealand&travelmode=driving",
             "imageUrl": "",
             "imageAlt": "",
             "sourceNote": "导航09"
@@ -4115,8 +4115,8 @@
           "dayId": "d13",
           "sortOrder": 10,
           "period": "08:30左右",
-          "place": "Fernhill → Glenorchy Road",
-          "activity": "Fernhill出发，沿Queenstown–Glenorchy Road向西。",
+          "place": "住处 → Glenorchy Road",
+          "activity": "从住处出发，经市区接 Queenstown–Glenorchy Road 向西。",
           "highlight": "湖边公路",
           "tip": "",
           "choice": "",
@@ -4126,7 +4126,7 @@
               "id": "nav09-out-route",
               "title": "去程经Bennetts Bluff",
               "type": "map",
-              "url": "https://www.google.com/maps/dir/?api=1&origin=Fernhill%2C+Queenstown%2C+New+Zealand&destination=Glenorchy+Wharf%2C+Glenorchy%2C+New+Zealand&travelmode=driving&waypoints=Bennetts+Bluff+Viewpoint%2C+Queenstown-Glenorchy+Road%2C+New+Zealand",
+              "url": "https://www.google.com/maps/dir/?api=1&origin=Frankton%2C+Queenstown%2C+New+Zealand&destination=Glenorchy+Wharf%2C+Glenorchy%2C+New+Zealand&travelmode=driving&waypoints=Bennetts+Bluff+Viewpoint%2C+Queenstown-Glenorchy+Road%2C+New+Zealand",
               "imageUrl": "",
               "imageAlt": "",
               "sourceNote": "导航09"
@@ -4193,8 +4193,8 @@
           "dayId": "d13",
           "sortOrder": 40,
           "period": "12:30–15:45",
-          "place": "Glenorchy → Fernhill",
-          "activity": "午饭后 14:00 左右离开 Glenorchy，沿原路返回，最多在一个正规观景点短停；不停 Bob's Cove 的话 15:00 前后回到 Fernhill，歇一会儿。",
+          "place": "Glenorchy → 住处",
+          "activity": "午饭后 14:00 左右离开 Glenorchy，沿原路返回，最多在一个正规观景点短停；不停 Bob's Cove 的话 15:10 前后回到住处，歇一会儿。",
           "highlight": "",
           "tip": "",
           "choice": "",
@@ -4204,7 +4204,7 @@
               "id": "nav09-back-route",
               "title": "Glenorchy回住宿",
               "type": "map",
-              "url": "https://www.google.com/maps/dir/?api=1&origin=Glenorchy+Wharf%2C+Glenorchy%2C+New+Zealand&destination=Fernhill%2C+Queenstown%2C+New+Zealand&travelmode=driving",
+              "url": "https://www.google.com/maps/dir/?api=1&origin=Glenorchy+Wharf%2C+Glenorchy%2C+New+Zealand&destination=Frankton%2C+Queenstown%2C+New+Zealand&travelmode=driving",
               "imageUrl": "",
               "imageAlt": "",
               "sourceNote": "导航09"
@@ -4238,9 +4238,9 @@
         {
           "dayId": "d13",
           "sortOrder": 45,
-          "period": "16:15–16:45",
-          "place": "Fernhill → Steamer Wharf",
-          "activity": "不去 Moke Lake：车停在住处，打车约 5 分钟，或下坡走约 20 分钟。要去 Moke Lake：开车下山停 Boundary Street 停车场，走约 10 分钟。16:45 前到 Steamer Wharf（88 Beach Street）。",
+          "period": "16:05–16:45",
+          "place": "住处 → Steamer Wharf",
+          "activity": "不去 Moke Lake：车停在住处，16:15 打车，约 10–15 分钟。要去 Moke Lake：16:05 开车进城停 Boundary Street 停车场，走约 10 分钟。16:45 前到 Steamer Wharf（88 Beach Street）。",
           "highlight": "",
           "tip": "",
           "choice": "",
@@ -4304,7 +4304,7 @@
           "sortOrder": 60,
           "period": "18:45–19:30",
           "place": "Fergburger",
-          "activity": "下船走 3 分钟到 Fergburger。可以先打电话点单，到店付款取餐，不用排外面的长队；隔壁Fergbaker的派也可以带一个。要去 Moke Lake 就打包，走回 Boundary Street 停车场直接开去湖边；不去的话饭后在湖边看 21:00 左右的日落，再打车回 Fernhill，整理行李，准备次日加油还车。",
+          "activity": "下船走 3 分钟到 Fergburger。可以先打电话点单，到店付款取餐，不用排外面的长队；隔壁Fergbaker的派也可以带一个。要去 Moke Lake 就打包，走回 Boundary Street 停车场直接开去湖边；不去的话饭后在湖边看 21:00 左右的日落，再打车回住处，整理行李，准备次日加油还车。",
           "highlight": "皇后镇招牌汉堡",
           "tip": "",
           "choice": "",
@@ -4345,9 +4345,9 @@
           "sortOrder": 65,
           "period": "19:30–21:00",
           "place": "Moke Lake",
-          "activity": "有精神、而且 ACE 书面确认 Moke Lake Road 能开才去：从 Boundary Street 停车场开约 30 分钟到 Moke Lake（车停在 Fernhill 的话先打车回去取车），在营地一侧湖边停 30 分钟左右，吃汉堡、看傍晚倒影，无风时最好。20:40 前离开湖边，21:00 日落前回到铺装路。今天不绕湖一圈。",
+          "activity": "有精神就去（ACE 书面确认 Moke Lake Road 可以开）：从 Boundary Street 停车场开约 30 分钟到 Moke Lake（车停在住处的话先打车回去取车），在营地一侧湖边停 30 分钟左右，吃汉堡、看傍晚倒影，无风时最好。20:40 前离开湖边，21:00 日落前回到铺装路。今天不绕湖一圈。",
           "highlight": "傍晚湖面倒影",
-          "tip": "没拿到 ACE 书面确认、累了、下雨或风大就不去；碎石路慢开。",
+          "tip": "累了、下雨或风大就不去；碎石路慢开，避开坑洼和大石头。",
           "choice": "可加 · Moke Lake",
           "miss": "皇后镇湖边的日落和早点休息；来回要开约 8km 碎石路。",
           "resources": [
@@ -4431,7 +4431,7 @@
         "id": "nav10-route",
         "title": "机场方向参考路线",
         "type": "map",
-        "url": "https://www.google.com/maps/dir/?api=1&origin=Fernhill%2C+Queenstown%2C+New+Zealand&destination=50+Grant+Road%2C+Frankton%2C+Queenstown%2C+New+Zealand&travelmode=driving",
+        "url": "https://www.google.com/maps/dir/?api=1&origin=Frankton%2C+Queenstown%2C+New+Zealand&destination=50+Grant+Road%2C+Frankton%2C+Queenstown%2C+New+Zealand&travelmode=driving",
         "imageUrl": "",
         "imageAlt": "",
         "sourceNote": "导航10"
@@ -4448,15 +4448,15 @@
       "drive": {
         "id": "nav10",
         "dayId": "d14",
-        "title": "导航10 · Fernhill → ACE 皇后镇店还车",
-        "duration": "08:15 出发，先在 Remarkables Park 吃早午饭；住宿到 Frankton 约20–35分钟，加油和验车另计，10:00 还车，再坐接驳车去航站楼。",
-        "sequence": "Fernhill → Queenstown / SH6A → Remarkables Park早午饭 → Frankton加油 → ACE 皇后镇店（50 Grant Road）还车 → 接驳车到航站楼",
+        "title": "导航10 · 住处 → ACE 皇后镇店还车",
+        "duration": "08:30 出发，先在 Remarkables Park 吃早午饭；住处到 Frankton 约 10 分钟，加油和验车另计，10:00 还车，再坐接驳车去航站楼。",
+        "sequence": "Frankton 半山 → SH6A / Frankton → Remarkables Park早午饭 → Frankton加油 → ACE 皇后镇店（50 Grant Road）还车 → 接驳车到航站楼",
         "notes": "ACE 在机场外，导航到 50 Grant Road, Frankton，不要开去航站楼停车场；航班 13:30，还车后坐接驳车去航站楼等托运柜台开。",
         "legs": [
           {
             "sortOrder": 10,
-            "segment": "住宿 → Frankton加油",
-            "driveTime": "约20–30分钟",
+            "segment": "住处 → Frankton加油",
+            "driveTime": "约10分钟",
             "stopNote": "按租车油量要求加满油（离门店 15km 内），留着小票给店员看。"
           },
           {
@@ -4477,7 +4477,7 @@
             "id": "nav10-route",
             "title": "机场方向参考路线",
             "type": "map",
-            "url": "https://www.google.com/maps/dir/?api=1&origin=Fernhill%2C+Queenstown%2C+New+Zealand&destination=50+Grant+Road%2C+Frankton%2C+Queenstown%2C+New+Zealand&travelmode=driving",
+            "url": "https://www.google.com/maps/dir/?api=1&origin=Frankton%2C+Queenstown%2C+New+Zealand&destination=50+Grant+Road%2C+Frankton%2C+Queenstown%2C+New+Zealand&travelmode=driving",
             "imageUrl": "",
             "imageAlt": "",
             "sourceNote": "导航10"
@@ -4506,11 +4506,11 @@
         {
           "dayId": "d14",
           "sortOrder": 10,
-          "period": "08:15–10:00",
-          "place": "Fernhill → Remarkables Park → ACE 皇后镇店",
-          "activity": "退房出发，开到机场旁的 Remarkables Park 吃早午饭，车停商场停车场、行李留在车上；吃完在 Frankton 加满油（离门店 15km 内，留小票），10:00 到 ACE 门店（50 Grant Road）还车。",
+          "period": "08:30–10:00",
+          "place": "住处 → Remarkables Park → ACE 皇后镇店",
+          "activity": "退房出发，开约 10 分钟到机场旁的 Remarkables Park 吃早午饭，车停商场停车场、行李留在车上；吃完在 Frankton 加满油（离门店 15km 内，留小票），10:00 到 ACE 门店（50 Grant Road）还车。",
           "highlight": "南岛收车",
-          "tip": "也可以 09:15 出门直接加油还车，到机场里吃；咖啡馆营业时间以当天为准。",
+          "tip": "也可以 09:30 出门直接加油还车，到机场里吃；咖啡馆营业时间以当天为准。",
           "choice": "",
           "miss": "",
           "resources": [
@@ -4518,7 +4518,7 @@
               "id": "nav10-route",
               "title": "机场方向参考路线",
               "type": "map",
-              "url": "https://www.google.com/maps/dir/?api=1&origin=Fernhill%2C+Queenstown%2C+New+Zealand&destination=50+Grant+Road%2C+Frankton%2C+Queenstown%2C+New+Zealand&travelmode=driving",
+              "url": "https://www.google.com/maps/dir/?api=1&origin=Frankton%2C+Queenstown%2C+New+Zealand&destination=50+Grant+Road%2C+Frankton%2C+Queenstown%2C+New+Zealand&travelmode=driving",
               "imageUrl": "",
               "imageAlt": "",
               "sourceNote": "导航10"
@@ -4680,7 +4680,7 @@
       "coverImageAlt": "D15 Waitomo萤火虫洞 + Hobbiton一日团",
       "cityImageUrl": "/nz/city-auckland.jpg",
       "transport": "跟团大巴（Klook，已订）· 06:00出发，约17:30回到Auckland",
-      "leaveBy": "06:00出发；上车地点以确认单为准",
+      "leaveBy": "06:00出发；酒店门口上车，时间以司导确认为准",
       "notes": [
         {
           "label": "住宿",
@@ -4691,8 +4691,8 @@
           "text": "Klook Hobbiton + Waitomo 一日团：先去Waitomo萤火虫洞（洞里约1小时，最后坐小船看萤火虫，洞内讲解是英文），再去Hobbiton片场；车上有中文讲解。06:00出发，约17:30回到Auckland。"
         },
         {
-          "label": "以确认单为准",
-          "text": "上车地点（集合点还是酒店接送）、午餐是否包含，出发前一周在Klook确认。"
+          "label": "接送",
+          "text": "确认函写明奥克兰市中心酒店上门接，不含午餐；司导最晚 第 14 天 21:00 前加微信，确认接人时间和地点。"
         },
         {
           "label": "准备",
@@ -4733,7 +4733,7 @@
           "sortOrder": 10,
           "period": "06:00",
           "place": "Auckland出发",
-          "activity": "按确认单的时间和地点上车，早餐在车上吃。",
+          "activity": "按司导确认的时间在酒店门口上车，早餐在车上吃。",
           "highlight": "早起出发",
           "tip": "",
           "choice": "",
@@ -4828,7 +4828,7 @@
           "sortOrder": 90,
           "period": "饮食",
           "place": "车上 / 途中 / Auckland",
-          "activity": "早餐：带上车；午餐：途中或Hobbiton（以确认单为准）；晚餐：Auckland市中心",
+          "activity": "早餐：带上车；午餐：途中司导推荐的餐厅（团费不含，自付）；晚餐：Auckland市中心",
           "highlight": "",
           "tip": "",
           "choice": "",
@@ -5261,17 +5261,17 @@
     },
     {
       "sortOrder": 70,
-      "name": "皇后镇 Fernhill 的民宿",
-      "room": "NZ$721.63",
-      "detail": "15:00后入住；10:00前退房；Fernhill 半山",
+      "name": "皇后镇 Frankton 一带的公寓",
+      "room": "带水疗的行政公寓；和朋友合住，我们两人分摊 ¥2,666.67",
+      "detail": "15:00后入住；10:00前退房；Frankton 半山；入住、停车看 Duve 入住指南",
       "resource": {
-        "id": "fernhill-map",
-        "title": "皇后镇 Fernhill 的民宿",
+        "id": "qt-apartment-map",
+        "title": "皇后镇 Frankton 一带的公寓",
         "type": "map",
-        "url": "https://www.google.com/maps/search/?api=1&query=Fernhill%2C+Queenstown%2C+New+Zealand",
+        "url": "https://www.google.com/maps/search/?api=1&query=Frankton%2C+Queenstown%2C+New+Zealand",
         "imageUrl": "",
         "imageAlt": "",
-        "sourceNote": "确认邮件地址"
+        "sourceNote": "订单地址"
       },
       "status": "2 晚",
       "fromDay": 12,
@@ -5321,8 +5321,8 @@
       "kind": "prep",
       "dueDate": "",
       "dueLabel": "出发前",
-      "title": "等 ACE 回复碎石路的邮件",
-      "detail": "Henburn Road 已书面确认可以开。又问了三段：Clay Cliffs 大门后的农场私路、Moke Lake Road 的碎石段、Deer Park Heights，以及会不会影响保障和起赔额。回复存在手机里，取车时带着；没确认的路就不开。"
+      "title": "把 ACE 碎石路确认邮件存进手机",
+      "detail": "ACE 已书面确认 Henburn Road（之前的邮件）和 Clay Cliffs 大门后的农场私路、Moke Lake Road、Deer Park Heights（邮件）都可以开；损坏仍按合同条款算，底盘撞坏不赔。两封邮件存进手机，取车时带着。Skippers Canyon 和海滩不能开，Glenorchy 也不往 Paradise 方向开。"
     },
     {
       "id": "baggage-jq296",
@@ -5356,9 +5356,9 @@
       "sortOrder": 95,
       "kind": "prep",
       "dueDate": "",
-      "dueLabel": "出发前一周",
-      "title": "确认 第 15 天 一日团的上车地点",
-      "detail": "06:00 出发：在 Klook 确认单或客服问清是集合点还是酒店接送、午餐包不包含；把酒店地址发给他们：奥克兰市中心的酒店，Britomart 附近。"
+      "dueLabel": "第 14 天 21:00 前",
+      "title": "等 第 15 天 一日团司导加微信",
+      "detail": "确认函写明：奥克兰市中心酒店上门接，不含午餐。出发前 2 天会更新司导信息，司导最晚 第 14 天 21:00 前加微信确认接人时间和地点；没联系就主动找司导或 Klook。酒店是 奥克兰市中心的酒店，Britomart 附近。"
     },
     {
       "id": "hooker-alerts",
@@ -5457,7 +5457,7 @@
       "dueDate": "",
       "dueLabel": "出发前",
       "title": "查 Milford 订单的天气退改规则",
-      "detail": "Milford Road 封路时是全额退款还是改期，能改到哪天。"
+      "detail": "自己取消要在出发前 24 小时之前（第 10 天 09:50）；确认邮件没写 Milford Road 封路、RealNZ 取消时是全额退款还是改期，打 +64 3 249 6000 或发邮件问清能改到哪天。"
     },
     {
       "id": "host-notes",
@@ -5466,7 +5466,16 @@
       "dueDate": "",
       "dueLabel": "入住前",
       "title": "拿到三处民宿的入住说明",
-      "detail": "Wānaka、Te Anau、Fernhill：停车位置、门锁或钥匙、晚到怎么办。"
+      "detail": "Wānaka、Te Anau、皇后镇公寓（房东的 Duve 入住指南）：停车位置、门锁或钥匙、晚到怎么办。"
+    },
+    {
+      "id": "qt-apartment-share",
+      "sortOrder": 210,
+      "kind": "prep",
+      "dueDate": "",
+      "dueLabel": "出发前",
+      "title": "把皇后镇公寓的分摊转给朋友",
+      "detail": "整单 ¥8,000，按 6 人分摊，我们两人 ¥2,666.67（8000/6×2）。转完在账本里把这笔改成已付。"
     }
   ],
   "advice": [
