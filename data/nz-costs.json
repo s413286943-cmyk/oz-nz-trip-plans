@@ -1,0 +1,40 @@
+{
+  "trip": "nz",
+  "note": "两人，机票、住宿、租车和活动的合计，按原币种分开；旅途中的吃喝不含在内。",
+  "categories": [
+    {
+      "category": "flight",
+      "label": "机票",
+      "amounts": {
+        "CNY": 22960
+      }
+    },
+    {
+      "category": "lodging",
+      "label": "住宿",
+      "amounts": {
+        "CNY": 8804.01,
+        "NZD": 1008
+      }
+    },
+    {
+      "category": "car",
+      "label": "租车",
+      "amounts": {
+        "CNY": 3382
+      }
+    },
+    {
+      "category": "activity",
+      "label": "门票和活动",
+      "amounts": {
+        "CNY": 3782,
+        "NZD": 578
+      }
+    }
+  ],
+  "totals": {
+    "CNY": 38928.01,
+    "NZD": 1586
+  }
+}

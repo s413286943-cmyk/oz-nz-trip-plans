@@ -1,0 +1,538 @@
+/* Trip page styles; global element rules removed so the 澳新 pages keep their own base styles. */
+
+.itinerary-shell {
+  width: min(1160px, 100%);
+  padding: 18px 16px 112px;
+}
+
+.section,
+.stage-head,
+.day-card {
+  scroll-margin-top: 18px;
+}
+
+.section-kicker {
+  color: var(--accent);
+  font-size: 0.75rem;
+  font-weight: 950;
+  letter-spacing: 0;
+  text-transform: uppercase;
+}
+
+.docket-status span,
+.docket-metrics span,
+.day-title-row p,
+.weather-strip strong {
+  color: var(--accent);
+  font-size: 0.75rem;
+  font-weight: 950;
+  letter-spacing: 0;
+}
+
+.button {
+  min-height: 42px;
+  border-color: rgba(16, 33, 31, 0.18);
+  border-radius: var(--radius);
+  background: rgba(255, 253, 245, 0.92);
+  color: var(--foreground);
+  font-weight: 850;
+  box-shadow: none;
+}
+
+.button:hover {
+  border-color: rgba(0, 107, 100, 0.42);
+  background: var(--panel-strong);
+}
+
+.button:disabled {
+  cursor: not-allowed;
+  opacity: 0.58;
+  transform: none;
+}
+
+.button.primary {
+  border-color: var(--accent);
+  background: var(--accent);
+  color: white;
+}
+
+.button.small {
+  min-height: 32px;
+  padding: 0 11px;
+  font-size: 0.82rem;
+}
+
+.nav {
+  width: auto;
+  max-width: 640px;
+  padding: 7px;
+  border-color: rgba(16, 33, 31, 0.16);
+  border-radius: var(--radius);
+  background: rgba(255, 253, 245, 0.92);
+  box-shadow: 0 14px 36px rgba(37, 30, 20, 0.18);
+}
+
+.nav a {
+  min-height: 42px;
+  border-radius: 7px;
+  color: #60726f;
+  font-size: 0.86rem;
+  font-weight: 900;
+}
+
+.nav a.active {
+  background: var(--accent);
+  color: white;
+}
+
+.section {
+  margin-top: 18px;
+}
+
+.section h2 {
+  margin-top: 2px;
+  color: var(--foreground);
+  font-size: 1.16rem;
+  line-height: 1.2;
+}
+
+.docket-status,
+.docket-metrics article {
+  position: relative;
+  overflow: hidden;
+  border: 1px solid rgba(16, 33, 31, 0.12);
+  border-radius: var(--radius);
+  background: rgba(255, 253, 245, 0.9);
+  box-shadow: var(--receipt-shadow);
+}
+
+.docket-status {
+  display: grid;
+  align-content: end;
+  min-height: 178px;
+  padding: 18px;
+  background:
+    linear-gradient(135deg, rgba(0, 107, 100, 0.12), rgba(255, 253, 245, 0.92)),
+    repeating-linear-gradient(90deg, rgba(16, 33, 31, 0.045) 0 1px, transparent 1px 18px);
+}
+
+.docket-status::before,
+.docket-metrics article::before,
+.stage-head::before,
+.day-card::before {
+  content: "";
+  position: absolute;
+  inset: 0 auto 0 0;
+  width: 6px;
+  height: auto;
+  margin: 0;
+  border-radius: 0;
+  background: var(--accent);
+}
+
+.docket-status h2 {
+  margin-top: 8px;
+  font-size: 3.1rem;
+  line-height: 0.9;
+  font-variant-numeric: tabular-nums;
+  font-family: var(--font-display);
+}
+
+.docket-status p,
+.docket-metrics p {
+  margin-top: 8px;
+  color: #516461;
+  line-height: 1.45;
+}
+
+.docket-metrics {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 12px;
+}
+
+.docket-metric-link {
+  display: block;
+  color: inherit;
+}
+
+.docket-metric-link article {
+  cursor: pointer;
+  height: 100%;
+  transition: border-color 160ms ease, transform 160ms ease, background 160ms ease;
+}
+
+.docket-metric-link article::after {
+  content: "查看";
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  min-height: 24px;
+  display: inline-flex;
+  align-items: center;
+  padding: 0 8px;
+  border: 1px solid rgba(0, 107, 100, 0.14);
+  border-radius: 7px;
+  background: rgba(255, 253, 245, 0.82);
+  color: var(--accent);
+  font-size: 0.75rem;
+  font-weight: 950;
+}
+
+.docket-metric-link:hover article {
+  border-color: rgba(0, 107, 100, 0.34);
+  background:
+    linear-gradient(135deg, rgba(0, 107, 100, 0.12), rgba(255, 253, 245, 0.94)),
+    rgba(255, 253, 245, 0.9);
+  transform: translateY(-1px);
+}
+
+.docket-metrics article {
+  min-height: 178px;
+  padding: 16px 16px 16px 18px;
+}
+
+.docket-metrics strong {
+  display: block;
+  margin-top: 18px;
+  font-size: 2.6rem;
+  line-height: 0.92;
+  font-variant-numeric: tabular-nums;
+  font-family: var(--font-utility);
+}
+
+.card {
+  border-color: rgba(16, 33, 31, 0.12);
+  border-radius: var(--radius);
+  background: rgba(255, 253, 245, 0.9);
+  box-shadow: var(--receipt-shadow);
+}
+
+.card strong,
+.amount {
+  margin-top: 8px;
+  font-size: 1.75rem;
+  line-height: 1.05;
+  font-variant-numeric: tabular-nums;
+  font-family: var(--font-utility);
+}
+
+.itinerary-shell {
+  color: var(--foreground);
+}
+
+.route-hero {
+  min-height: 520px;
+  border: 1px solid rgba(16, 33, 31, 0.16);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+}
+
+.route-hero::before {
+  content: "";
+  position: absolute;
+  z-index: 2;
+  inset: 0 auto 0 0;
+  width: 8px;
+  background: linear-gradient(180deg, var(--accent), var(--sun), var(--danger));
+}
+
+.itinerary-hero::after {
+  background:
+    linear-gradient(90deg, rgba(8, 21, 24, 0.78), rgba(8, 21, 24, 0.28) 58%, rgba(8, 21, 24, 0.1)),
+    linear-gradient(0deg, rgba(8, 21, 24, 0.66), transparent 48%);
+}
+
+.itinerary-hero-copy {
+  max-width: 850px;
+  padding: 40px 42px 36px;
+}
+
+.itinerary-hero-copy p {
+  margin-bottom: 12px;
+  font-weight: 900;
+}
+
+.itinerary-hero-copy h1 {
+  max-width: 760px;
+  font-size: 4.35rem;
+  line-height: 0.98;
+  letter-spacing: 0;
+  font-family: var(--font-display);
+}
+
+.hero-meta span {
+  min-height: 34px;
+  border-radius: var(--radius);
+  font-weight: 900;
+}
+
+.hero-weather {
+  border-color: rgba(16, 33, 31, 0.14);
+  border-radius: var(--radius);
+  background:
+    linear-gradient(90deg, transparent 0 16px, rgba(0, 107, 100, 0.08) 16px 17px, transparent 17px),
+    rgba(255, 253, 245, 0.92);
+  box-shadow: var(--receipt-shadow);
+}
+
+.time-block > span {
+  color: var(--danger);
+}
+
+.resource-links a {
+  border-color: rgba(20, 92, 117, 0.16);
+  border-radius: 7px;
+  background: rgba(20, 92, 117, 0.08);
+  color: var(--ocean);
+}
+
+.day-jump {
+  top: 0;
+  margin: 12px 0 20px;
+  background: linear-gradient(180deg, rgba(247, 233, 208, 0.94), rgba(247, 233, 208, 0.72));
+}
+
+.day-jump a {
+  min-height: 36px;
+  border-color: rgba(16, 33, 31, 0.14);
+  border-radius: 7px;
+  background: rgba(255, 253, 245, 0.86);
+  color: var(--accent-strong);
+}
+
+.stage-stack {
+  gap: 24px;
+}
+
+.stage-head {
+  min-height: 220px;
+  border: 1px solid rgba(16, 33, 31, 0.12);
+  border-radius: var(--radius);
+  background:
+    linear-gradient(135deg, rgba(255, 253, 245, 0.96), rgba(221, 231, 223, 0.88)),
+    repeating-linear-gradient(0deg, rgba(16, 33, 31, 0.035) 0 1px, transparent 1px 32px);
+}
+
+.stage-head::before {
+  width: 6px;
+  background: var(--ocean);
+}
+
+.stage-head h2 {
+  font-size: 3.5rem;
+  line-height: 0.98;
+  letter-spacing: 0;
+  font-family: var(--font-display);
+}
+
+.stage-image {
+  border-radius: var(--radius);
+  box-shadow: 0 16px 40px rgba(20, 92, 117, 0.16);
+}
+
+.day-grid,
+.final-day {
+  gap: 12px;
+}
+
+.day-card {
+  position: relative;
+  border-color: rgba(16, 33, 31, 0.12);
+  border-radius: var(--radius);
+  background: rgba(255, 253, 245, 0.92);
+  box-shadow: var(--receipt-shadow);
+}
+
+.day-card::before {
+  width: 5px;
+  background: var(--accent);
+}
+
+.day-card.compact::before {
+  background: var(--sun);
+}
+
+.day-cover {
+  min-height: 210px;
+}
+
+.day-cover span {
+  font-size: 2.5rem;
+  letter-spacing: 0;
+  font-family: var(--font-display);
+}
+
+.day-title-row h3 {
+  font-size: 1.32rem;
+  letter-spacing: 0;
+}
+
+.day-title-row > span {
+  border-radius: 7px;
+  background: rgba(143, 59, 47, 0.09);
+  color: var(--danger);
+}
+
+.weather-strip {
+  border-left-color: var(--sun);
+  border-radius: var(--radius);
+  background: rgba(217, 130, 43, 0.11);
+}
+
+.weather-strip.live {
+  border-left-color: var(--accent);
+  background: rgba(0, 107, 100, 0.1);
+}
+
+.weather-strip.forecast {
+  border-left-color: var(--ocean);
+  background: rgba(20, 92, 117, 0.1);
+}
+
+@media (min-width: 1100px) {
+  .itinerary-shell {
+    width: min(1120px, calc(100% - 156px));
+    margin-left: 132px;
+    margin-right: auto;
+    padding-top: 24px;
+    padding-bottom: 56px;
+  }
+
+  .nav {
+    left: 24px;
+    right: auto;
+    top: 24px;
+    bottom: auto;
+    transform: none;
+    width: 92px;
+    max-width: none;
+    margin-inline: 0;
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .nav::before {
+    content: "AUS";
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 38px;
+    margin-bottom: 4px;
+    border-bottom: 1px solid rgba(16, 33, 31, 0.12);
+    color: var(--danger);
+    font-size: 0.78rem;
+    font-weight: 950;
+  }
+
+  .nav a {
+    flex: none;
+    width: 100%;
+  }
+}
+
+@media (max-width: 900px) {
+  .stage-head,
+.day-grid,
+.final-day {
+    grid-template-columns: 1fr;
+  }
+
+  .docket-metrics {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
+  .itinerary-hero-copy h1 {
+    font-size: 3.35rem;
+  }
+
+  .stage-head h2 {
+    font-size: 2.7rem;
+  }
+}
+
+@media (max-width: 720px) {
+  .itinerary-shell {
+    padding: 10px 10px 100px;
+  }
+
+  .docket-status {
+    min-height: 142px;
+  }
+
+  .docket-status h2 {
+    font-size: 2.5rem;
+  }
+
+  .docket-metrics {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 8px;
+  }
+
+  .docket-metrics article {
+    min-height: 96px;
+    padding: 12px 10px 12px 14px;
+  }
+
+  .docket-metrics strong {
+    margin-top: 9px;
+    font-size: 1.95rem;
+  }
+
+  .docket-metrics p {
+    font-size: 0.78rem;
+  }
+
+  .nav {
+    left: 10px;
+    right: 10px;
+    bottom: 12px;
+    width: auto;
+    max-width: 640px;
+  }
+
+  .nav a {
+    min-height: 40px;
+    font-size: 0.76rem;
+  }
+
+  .route-hero {
+    min-height: 560px;
+  }
+
+  .itinerary-hero-copy {
+    padding: 24px 18px;
+  }
+
+  .itinerary-hero-copy h1 {
+    font-size: 3rem;
+  }
+
+  .hero-weather {
+    margin: 12px;
+  }
+
+  .stage-head {
+    min-height: 0;
+    padding: 18px;
+  }
+}
+
+@media (max-width: 480px) {
+
+  .button {
+    width: 100%;
+  }
+
+  .itinerary-hero-copy h1 {
+    font-size: 2.62rem;
+  }
+
+  .hero-meta span {
+    width: 100%;
+  }
+
+  .time-block {
+    grid-template-columns: 1fr;
+  }
+}

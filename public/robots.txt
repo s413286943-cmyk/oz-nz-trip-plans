@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://oznz-trips.coze.site/sitemap.xml

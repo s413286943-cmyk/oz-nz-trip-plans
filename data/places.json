@@ -1,0 +1,1957 @@
+{
+  "countries": {
+    "nz": {
+      "name": "新西兰",
+      "currency": "NZD",
+      "rates": {
+        "flight": {
+          "amounts": {
+            "CNY": 11480
+          },
+          "note": "新西兰参考路线人均 ¥11,480：国际往返，加悉尼飞基督城、皇后镇飞奥克兰两段。航线不同差别很大，按查到的价格改。"
+        },
+        "lodging": {
+          "amounts": {
+            "CNY": 898
+          },
+          "note": "没有参考价格的地方，按参考路线住处的大致平均价算。"
+        },
+        "car": {
+          "amounts": {
+            "CNY": 375.78
+          },
+          "note": "新西兰参考路线租车 9 天共 ¥3,382，起亚 Seltos 或同级（5 座）。"
+        },
+        "insurance": {
+          "amounts": {
+            "NZD": 48
+          },
+          "note": "取车时在门店加买的全险，每天 NZ$48，另有手续费。"
+        },
+        "activity": {
+          "amounts": {
+            "CNY": 111.24,
+            "NZD": 17
+          },
+          "note": "新西兰参考路线两人门票和活动共 ¥3,782 + NZ$578（Milford 大巴加游船、萤火虫洞加 Hobbiton 一日团、缆车等），按每人每天摊开算。"
+        }
+      }
+    },
+    "au": {
+      "name": "澳洲",
+      "currency": "AUD",
+      "rates": {
+        "flight": {
+          "amounts": {
+            "CNY": 9160
+          },
+          "note": "澳洲参考路线人均 ¥9,160：国际段，加澳洲境内两段。"
+        },
+        "lodging": {
+          "amounts": {
+            "CNY": 898
+          },
+          "note": "澳洲参考路线 15 晚酒店，平均每间每晚约 ¥898。"
+        },
+        "car": {
+          "amounts": {
+            "CNY": 900.33
+          },
+          "note": "澳洲参考路线租车 4 次、开 6 天，共约 ¥5,402，都含全险。"
+        },
+        "activity": {
+          "amounts": {
+            "CNY": 235.96
+          },
+          "note": "澳洲参考路线四人门票和活动约 ¥16,045（外礁、雨林团、歌剧院导览、Puffing Billy 等），按每人每天摊开算。"
+        }
+      }
+    }
+  },
+  "daily": {
+    "food": {
+      "amounts": {
+        "CNY": 357.07
+      },
+      "note": "按澳洲参考路线算：人均每天约 ¥357，含两顿当体验吃的牛排。可以按习惯改。"
+    },
+    "transport": {
+      "amounts": {
+        "CNY": 64.09
+      },
+      "note": "按澳洲参考路线算：人均每天约 ¥64，含打车、公交、渡轮和油费。"
+    }
+  },
+  "places": [
+    {
+      "id": "r-79d939bec5",
+      "name": "悉尼",
+      "country": "au",
+      "ll": [
+        151.2,
+        -33.88
+      ],
+      "tz": "Australia/Sydney",
+      "mapLabel": [
+        12,
+        5,
+        "start"
+      ],
+      "airport": "international",
+      "image": "/au2026/sydney-harbor-evening.jpg",
+      "summary": "海港、Bondi 海岸步道、歌剧院、动物园和城里的街区，城里不用开车。",
+      "nights": {
+        "suggest": 3,
+        "max": 6
+      },
+      "lodging": {
+        "amounts": {
+          "CNY": 680
+        },
+        "note": "参考路线住 Haymarket 的酒店，每晚约 ¥680（一间房）"
+      },
+      "arrive": [
+        {
+          "from": "home",
+          "day": "nz:d1"
+        },
+        {
+          "from": "r-d14113e695",
+          "day": "au:d11"
+        }
+      ],
+      "days": [
+        {
+          "day": "nz:d2",
+          "title": "Bondi 海岸步道"
+        },
+        {
+          "day": "au:d12",
+          "title": "地标和歌剧院中文导览"
+        },
+        {
+          "day": "nz:d3",
+          "title": "美术馆和 Newtown"
+        },
+        {
+          "day": "au:d13",
+          "title": "Taronga 动物园和城里购物"
+        },
+        {
+          "day": "au:d14",
+          "title": "自己开车去南海岸",
+          "car": "day"
+        },
+        {
+          "day": "au:d15",
+          "title": "最后采购和整理退税"
+        }
+      ],
+      "leave": [
+        {
+          "to": "home",
+          "days": [
+            "au:d16"
+          ]
+        }
+      ],
+      "tips": [
+        "城里坐公共交通加步行就够，不用租车；南海岸那天才租一天车。"
+      ],
+      "climate": [
+        {
+          "high": 27,
+          "low": 19,
+          "rain": 42
+        },
+        {
+          "high": 26,
+          "low": 19,
+          "rain": 47
+        },
+        {
+          "high": 25,
+          "low": 18,
+          "rain": 48
+        },
+        {
+          "high": 23,
+          "low": 15,
+          "rain": 35
+        },
+        {
+          "high": 20,
+          "low": 11,
+          "rain": 25
+        },
+        {
+          "high": 17,
+          "low": 9,
+          "rain": 33
+        },
+        {
+          "high": 17,
+          "low": 8,
+          "rain": 23
+        },
+        {
+          "high": 18,
+          "low": 9,
+          "rain": 20
+        },
+        {
+          "high": 21,
+          "low": 11,
+          "rain": 25
+        },
+        {
+          "high": 22,
+          "low": 13,
+          "rain": 36
+        },
+        {
+          "high": 24,
+          "low": 15,
+          "rain": 38
+        },
+        {
+          "high": 26,
+          "low": 18,
+          "rain": 34
+        }
+      ]
+    },
+    {
+      "id": "r-5ac7a034cb",
+      "name": "基督城",
+      "country": "nz",
+      "ll": [
+        172.6,
+        -43.53
+      ],
+      "tz": "Pacific/Auckland",
+      "mapLabel": [
+        -12,
+        -11,
+        "end"
+      ],
+      "airport": "international",
+      "image": "/nz/city-christchurch.jpg",
+      "summary": "南岛自驾的起点：艺术中心、植物园、雅芳河，第二天取车。",
+      "nights": {
+        "suggest": 1,
+        "max": 3
+      },
+      "lodging": {
+        "amounts": {
+          "CNY": 510
+        },
+        "note": "参考路线住市中心的酒店，一晚约 ¥510"
+      },
+      "carPickup": "参考路线的取车点在机场外的 ACE 门店，从酒店直接打车过去。",
+      "arrive": [
+        {
+          "from": "r-79d939bec5",
+          "day": "nz:d4"
+        }
+      ],
+      "days": [],
+      "extra": [
+        {
+          "place": "Christchurch Botanic Gardens",
+          "activity": "白天进温室，玫瑰园和河边慢慢走。"
+        },
+        {
+          "place": "Riverside Market",
+          "activity": "午饭在市场里挑着吃。"
+        }
+      ],
+      "climate": [
+        {
+          "high": 22,
+          "low": 13,
+          "rain": 25
+        },
+        {
+          "high": 22,
+          "low": 13,
+          "rain": 23
+        },
+        {
+          "high": 20,
+          "low": 11,
+          "rain": 24
+        },
+        {
+          "high": 17,
+          "low": 8,
+          "rain": 28
+        },
+        {
+          "high": 15,
+          "low": 6,
+          "rain": 27
+        },
+        {
+          "high": 12,
+          "low": 4,
+          "rain": 34
+        },
+        {
+          "high": 11,
+          "low": 3,
+          "rain": 34
+        },
+        {
+          "high": 12,
+          "low": 3,
+          "rain": 28
+        },
+        {
+          "high": 14,
+          "low": 5,
+          "rain": 31
+        },
+        {
+          "high": 17,
+          "low": 7,
+          "rain": 36
+        },
+        {
+          "high": 19,
+          "low": 9,
+          "rain": 37
+        },
+        {
+          "high": 21,
+          "low": 12,
+          "rain": 35
+        }
+      ]
+    },
+    {
+      "id": "r-09003b3bc9",
+      "name": "Twizel（Mackenzie 湖区）",
+      "short": "Twizel",
+      "country": "nz",
+      "ll": [
+        170.1,
+        -44.26
+      ],
+      "tz": "Pacific/Auckland",
+      "mapLabel": [
+        19,
+        6,
+        "start"
+      ],
+      "image": "/nz/city-twizel.jpg",
+      "summary": "去 Mt Cook 最方便的小镇，湖区、Tekapo、Pukaki 和观星。",
+      "nights": {
+        "suggest": 3,
+        "max": 4
+      },
+      "lodging": {
+        "amounts": {
+          "NZD": 180
+        },
+        "note": "参考路线住镇上，每晚约 NZ$180"
+      },
+      "arrive": [
+        {
+          "from": "r-5ac7a034cb",
+          "day": "nz:d5"
+        }
+      ],
+      "days": [
+        {
+          "day": "nz:d6",
+          "title": "Mt Cook：Hooker Valley",
+          "weather": true,
+          "must": true
+        },
+        {
+          "day": "nz:d7",
+          "title": "湖区慢一天，晚上看星星"
+        }
+      ],
+      "extra": [
+        {
+          "place": "Lake Pukaki",
+          "activity": "天气好的傍晚再去一次湖边，看 Aoraki 在湖对面。"
+        }
+      ],
+      "climate": [
+        {
+          "high": 21,
+          "low": 11,
+          "rain": 39
+        },
+        {
+          "high": 20,
+          "low": 10,
+          "rain": 31
+        },
+        {
+          "high": 18,
+          "low": 9,
+          "rain": 34
+        },
+        {
+          "high": 14,
+          "low": 6,
+          "rain": 34
+        },
+        {
+          "high": 10,
+          "low": 3,
+          "rain": 32
+        },
+        {
+          "high": 5,
+          "low": 0,
+          "rain": 34
+        },
+        {
+          "high": 5,
+          "low": -1,
+          "rain": 33
+        },
+        {
+          "high": 7,
+          "low": 0,
+          "rain": 33
+        },
+        {
+          "high": 11,
+          "low": 2,
+          "rain": 40
+        },
+        {
+          "high": 14,
+          "low": 4,
+          "rain": 40
+        },
+        {
+          "high": 16,
+          "low": 7,
+          "rain": 45
+        },
+        {
+          "high": 19,
+          "low": 9,
+          "rain": 45
+        }
+      ]
+    },
+    {
+      "id": "r-5b7c6a0e4d",
+      "name": "Wānaka",
+      "country": "nz",
+      "ll": [
+        169.14,
+        -44.69
+      ],
+      "tz": "Pacific/Auckland",
+      "mapLabel": [
+        -11,
+        -7,
+        "end"
+      ],
+      "image": "/nz/city-wanaka.jpg",
+      "summary": "比皇后镇安静的湖边小镇，适合慢下来过一天。",
+      "nights": {
+        "suggest": 2,
+        "max": 3
+      },
+      "lodging": {
+        "amounts": {
+          "CNY": 1040
+        },
+        "note": "参考路线住镇外，按两人一间折算每晚约 ¥1,040"
+      },
+      "arrive": [
+        {
+          "from": "r-09003b3bc9",
+          "day": "nz:d8"
+        }
+      ],
+      "days": [
+        {
+          "day": "nz:d9",
+          "title": "Wānaka 慢慢过一天"
+        }
+      ],
+      "climate": [
+        {
+          "high": 22,
+          "low": 12,
+          "rain": 35
+        },
+        {
+          "high": 21,
+          "low": 12,
+          "rain": 33
+        },
+        {
+          "high": 19,
+          "low": 11,
+          "rain": 32
+        },
+        {
+          "high": 15,
+          "low": 8,
+          "rain": 33
+        },
+        {
+          "high": 11,
+          "low": 5,
+          "rain": 39
+        },
+        {
+          "high": 8,
+          "low": 2,
+          "rain": 35
+        },
+        {
+          "high": 7,
+          "low": 1,
+          "rain": 38
+        },
+        {
+          "high": 9,
+          "low": 2,
+          "rain": 41
+        },
+        {
+          "high": 11,
+          "low": 3,
+          "rain": 40
+        },
+        {
+          "high": 14,
+          "low": 5,
+          "rain": 39
+        },
+        {
+          "high": 17,
+          "low": 8,
+          "rain": 46
+        },
+        {
+          "high": 20,
+          "low": 11,
+          "rain": 43
+        }
+      ]
+    },
+    {
+      "id": "r-c62ef12c38",
+      "name": "Te Anau",
+      "country": "nz",
+      "ll": [
+        167.72,
+        -45.41
+      ],
+      "tz": "Pacific/Auckland",
+      "mapLabel": [
+        6,
+        28,
+        "end"
+      ],
+      "image": "/nz/city-te-anau.jpg",
+      "summary": "去 Milford Sound 的出发地，坐大巴加游船看峡湾。",
+      "nights": {
+        "suggest": 2,
+        "max": 3
+      },
+      "lodging": {
+        "amounts": {
+          "NZD": 240
+        },
+        "note": "参考路线住镇上，每晚约 NZ$240"
+      },
+      "arrive": [
+        {
+          "from": "r-5b7c6a0e4d",
+          "day": "nz:d10"
+        }
+      ],
+      "days": [
+        {
+          "day": "nz:d11",
+          "title": "Milford Sound 大巴加游船",
+          "weather": true,
+          "must": true
+        }
+      ],
+      "extra": [
+        {
+          "place": "Lake Te Anau",
+          "activity": "湖边步道走一段，傍晚在镇上慢慢吃饭。"
+        }
+      ],
+      "climate": [
+        {
+          "high": 19,
+          "low": 11,
+          "rain": 43
+        },
+        {
+          "high": 19,
+          "low": 10,
+          "rain": 46
+        },
+        {
+          "high": 17,
+          "low": 9,
+          "rain": 43
+        },
+        {
+          "high": 14,
+          "low": 7,
+          "rain": 47
+        },
+        {
+          "high": 11,
+          "low": 5,
+          "rain": 51
+        },
+        {
+          "high": 9,
+          "low": 3,
+          "rain": 44
+        },
+        {
+          "high": 8,
+          "low": 2,
+          "rain": 55
+        },
+        {
+          "high": 9,
+          "low": 3,
+          "rain": 52
+        },
+        {
+          "high": 11,
+          "low": 4,
+          "rain": 52
+        },
+        {
+          "high": 13,
+          "low": 5,
+          "rain": 56
+        },
+        {
+          "high": 16,
+          "low": 7,
+          "rain": 53
+        },
+        {
+          "high": 18,
+          "low": 9,
+          "rain": 55
+        }
+      ]
+    },
+    {
+      "id": "r-c4d3714a08",
+      "name": "皇后镇",
+      "country": "nz",
+      "ll": [
+        168.66,
+        -45.03
+      ],
+      "tz": "Pacific/Auckland",
+      "mapLabel": [
+        13,
+        7,
+        "start"
+      ],
+      "airport": "tasman",
+      "image": "/nz/city-queenstown.jpg",
+      "summary": "湖边公路去 Glenorchy、百年蒸汽船、缆车，南岛自驾的终点。",
+      "nights": {
+        "suggest": 2,
+        "max": 4
+      },
+      "lodging": {
+        "amounts": {
+          "CNY": 1480
+        },
+        "note": "参考路线住 Frankton 一带的公寓，按两人一间折算每晚约 ¥1,480"
+      },
+      "carReturn": "参考路线的还车点在 Frankton 的 ACE 门店，还完坐接驳车去航站楼。",
+      "arrive": [
+        {
+          "from": "r-c62ef12c38",
+          "day": "nz:d12"
+        }
+      ],
+      "days": [
+        {
+          "day": "nz:d13",
+          "title": "Glenorchy 湖边公路和蒸汽船"
+        }
+      ],
+      "climate": [
+        {
+          "high": 21,
+          "low": 12,
+          "rain": 38
+        },
+        {
+          "high": 20,
+          "low": 12,
+          "rain": 37
+        },
+        {
+          "high": 18,
+          "low": 10,
+          "rain": 34
+        },
+        {
+          "high": 15,
+          "low": 8,
+          "rain": 43
+        },
+        {
+          "high": 11,
+          "low": 5,
+          "rain": 43
+        },
+        {
+          "high": 7,
+          "low": 2,
+          "rain": 38
+        },
+        {
+          "high": 6,
+          "low": 1,
+          "rain": 45
+        },
+        {
+          "high": 8,
+          "low": 2,
+          "rain": 44
+        },
+        {
+          "high": 10,
+          "low": 3,
+          "rain": 45
+        },
+        {
+          "high": 13,
+          "low": 5,
+          "rain": 48
+        },
+        {
+          "high": 17,
+          "low": 8,
+          "rain": 47
+        },
+        {
+          "high": 19,
+          "low": 10,
+          "rain": 48
+        }
+      ]
+    },
+    {
+      "id": "r-48af1c9169",
+      "name": "奥克兰",
+      "country": "nz",
+      "ll": [
+        174.77,
+        -36.84
+      ],
+      "tz": "Pacific/Auckland",
+      "mapXY": [
+        330,
+        120
+      ],
+      "airport": "international",
+      "image": "/nz/city-auckland.jpg",
+      "summary": "海港城市，萤火虫洞加 Hobbiton 一日团从这里出发。",
+      "nights": {
+        "suggest": 2,
+        "max": 4
+      },
+      "lodging": {
+        "amounts": {
+          "CNY": 610
+        },
+        "note": "参考路线住市中心的酒店，每晚约 ¥610"
+      },
+      "arrive": [
+        {
+          "from": "r-c4d3714a08",
+          "day": "nz:d14"
+        }
+      ],
+      "days": [
+        {
+          "day": "nz:d15",
+          "title": "萤火虫洞加 Hobbiton 一日团"
+        }
+      ],
+      "leave": [
+        {
+          "to": "home",
+          "days": [
+            "nz:d16",
+            "nz:d17"
+          ]
+        }
+      ],
+      "extra": [
+        {
+          "place": "Waiheke Island",
+          "activity": "坐渡轮去岛上，海滩和酒庄走一圈。渡轮班次和酒庄开放时间出发前查官网。"
+        }
+      ],
+      "climate": [
+        {
+          "high": 23,
+          "low": 18,
+          "rain": 36
+        },
+        {
+          "high": 23,
+          "low": 18,
+          "rain": 39
+        },
+        {
+          "high": 22,
+          "low": 16,
+          "rain": 35
+        },
+        {
+          "high": 20,
+          "low": 15,
+          "rain": 38
+        },
+        {
+          "high": 17,
+          "low": 12,
+          "rain": 42
+        },
+        {
+          "high": 15,
+          "low": 11,
+          "rain": 39
+        },
+        {
+          "high": 14,
+          "low": 10,
+          "rain": 43
+        },
+        {
+          "high": 15,
+          "low": 9,
+          "rain": 47
+        },
+        {
+          "high": 15,
+          "low": 11,
+          "rain": 50
+        },
+        {
+          "high": 17,
+          "low": 12,
+          "rain": 43
+        },
+        {
+          "high": 19,
+          "low": 14,
+          "rain": 47
+        },
+        {
+          "high": 21,
+          "low": 16,
+          "rain": 43
+        }
+      ]
+    },
+    {
+      "id": "r-1da82bbab4",
+      "name": "墨尔本",
+      "country": "au",
+      "ll": [
+        144.96,
+        -37.81
+      ],
+      "tz": "Australia/Melbourne",
+      "mapLabel": [
+        12,
+        -6,
+        "start"
+      ],
+      "airport": "international",
+      "image": "/au2026/melbourne-city-morning.jpg",
+      "summary": "城里的街巷、市场和美术馆，大洋路自驾从这里出发。",
+      "nights": {
+        "suggest": 2,
+        "max": 4
+      },
+      "carPickup": "参考路线在墨尔本机场取车：大箱寄存在机场，只带两晚的小箱。",
+      "arrive": [
+        {
+          "from": "home",
+          "day": "au:d1"
+        },
+        {
+          "from": "r-71660243d0",
+          "day": "au:d5"
+        }
+      ],
+      "days": [
+        {
+          "day": "au:d2",
+          "title": "Puffing Billy 蒸汽火车"
+        }
+      ],
+      "extra": [
+        {
+          "place": "NGV",
+          "activity": "天冷或下雨就进美术馆，免费的常设展就够看半天。"
+        }
+      ],
+      "climate": [
+        {
+          "high": 26,
+          "low": 15,
+          "rain": 25
+        },
+        {
+          "high": 26,
+          "low": 14,
+          "rain": 20
+        },
+        {
+          "high": 24,
+          "low": 14,
+          "rain": 23
+        },
+        {
+          "high": 20,
+          "low": 11,
+          "rain": 29
+        },
+        {
+          "high": 16,
+          "low": 9,
+          "rain": 36
+        },
+        {
+          "high": 14,
+          "low": 7,
+          "rain": 35
+        },
+        {
+          "high": 13,
+          "low": 6,
+          "rain": 42
+        },
+        {
+          "high": 14,
+          "low": 7,
+          "rain": 40
+        },
+        {
+          "high": 17,
+          "low": 8,
+          "rain": 41
+        },
+        {
+          "high": 20,
+          "low": 9,
+          "rain": 39
+        },
+        {
+          "high": 22,
+          "low": 11,
+          "rain": 36
+        },
+        {
+          "high": 25,
+          "low": 13,
+          "rain": 28
+        }
+      ]
+    },
+    {
+      "id": "r-597261d8d9",
+      "name": "Apollo Bay（大洋路）",
+      "short": "Apollo Bay",
+      "country": "au",
+      "ll": [
+        143.67,
+        -38.76
+      ],
+      "tz": "Australia/Melbourne",
+      "mapLabel": [
+        8,
+        18,
+        "start"
+      ],
+      "image": "/au2026/great-ocean-road-coast.jpg",
+      "summary": "大洋路第一晚：冲浪海滩、灯塔、海边小镇一路开过来。",
+      "nights": {
+        "suggest": 1,
+        "max": 2
+      },
+      "lodging": {
+        "amounts": {
+          "CNY": 453.14
+        },
+        "note": "参考路线住汽车旅馆，两间房一晚共约 ¥906"
+      },
+      "arrive": [
+        {
+          "from": "r-1da82bbab4",
+          "day": "au:d3"
+        }
+      ],
+      "days": [],
+      "extra": [
+        {
+          "place": "Apollo Bay",
+          "activity": "上午不赶路，在小镇海边走走，下午再往下一站开。"
+        }
+      ],
+      "climate": [
+        {
+          "high": 21,
+          "low": 15,
+          "rain": 30
+        },
+        {
+          "high": 20,
+          "low": 15,
+          "rain": 33
+        },
+        {
+          "high": 20,
+          "low": 14,
+          "rain": 38
+        },
+        {
+          "high": 17,
+          "low": 12,
+          "rain": 39
+        },
+        {
+          "high": 15,
+          "low": 10,
+          "rain": 49
+        },
+        {
+          "high": 13,
+          "low": 9,
+          "rain": 45
+        },
+        {
+          "high": 12,
+          "low": 8,
+          "rain": 53
+        },
+        {
+          "high": 13,
+          "low": 8,
+          "rain": 54
+        },
+        {
+          "high": 14,
+          "low": 9,
+          "rain": 51
+        },
+        {
+          "high": 16,
+          "low": 10,
+          "rain": 48
+        },
+        {
+          "high": 18,
+          "low": 11,
+          "rain": 44
+        },
+        {
+          "high": 19,
+          "low": 13,
+          "rain": 34
+        }
+      ]
+    },
+    {
+      "id": "r-71660243d0",
+      "name": "Port Campbell（十二门徒）",
+      "short": "Port Campbell",
+      "country": "au",
+      "ll": [
+        143,
+        -38.62
+      ],
+      "tz": "Australia/Melbourne",
+      "mapLabel": [
+        -10,
+        -8,
+        "end"
+      ],
+      "summary": "住在十二门徒旁边，傍晚看日落、第二天清晨看日出。",
+      "nights": {
+        "suggest": 1,
+        "max": 2
+      },
+      "lodging": {
+        "amounts": {
+          "AUD": 176.2
+        },
+        "note": "参考路线住海边小屋，一晚共 A$352.40，按两间房折算"
+      },
+      "arrive": [
+        {
+          "from": "r-597261d8d9",
+          "day": "au:d4"
+        }
+      ],
+      "days": [],
+      "climate": [
+        {
+          "high": 22,
+          "low": 15,
+          "rain": 27
+        },
+        {
+          "high": 21,
+          "low": 15,
+          "rain": 29
+        },
+        {
+          "high": 20,
+          "low": 14,
+          "rain": 31
+        },
+        {
+          "high": 18,
+          "low": 12,
+          "rain": 36
+        },
+        {
+          "high": 15,
+          "low": 10,
+          "rain": 45
+        },
+        {
+          "high": 13,
+          "low": 9,
+          "rain": 43
+        },
+        {
+          "high": 13,
+          "low": 8,
+          "rain": 54
+        },
+        {
+          "high": 13,
+          "low": 8,
+          "rain": 55
+        },
+        {
+          "high": 15,
+          "low": 9,
+          "rain": 52
+        },
+        {
+          "high": 17,
+          "low": 10,
+          "rain": 45
+        },
+        {
+          "high": 18,
+          "low": 11,
+          "rain": 42
+        },
+        {
+          "high": 20,
+          "low": 13,
+          "rain": 34
+        }
+      ]
+    },
+    {
+      "id": "r-d14113e695",
+      "name": "凯恩斯",
+      "country": "au",
+      "ll": [
+        145.78,
+        -16.92
+      ],
+      "tz": "Australia/Brisbane",
+      "mapLabel": [
+        12,
+        5,
+        "start"
+      ],
+      "airport": "international",
+      "image": "/au2026/cairns-reef-lagoon.jpg",
+      "summary": "外礁、丹翠雨林、阿瑟顿高原和 Palm Cove，冬天也暖和。",
+      "nights": {
+        "suggest": 5,
+        "max": 6
+      },
+      "lodging": {
+        "amounts": {
+          "CNY": 966.97
+        },
+        "note": "参考路线住公寓式酒店，5 晚 ¥9,669.66，能洗衣做饭，按两间房折算"
+      },
+      "arrive": [
+        {
+          "from": "r-1da82bbab4",
+          "day": "au:d6"
+        }
+      ],
+      "days": [
+        {
+          "day": "au:d7",
+          "title": "外礁一日游",
+          "weather": true,
+          "must": true
+        },
+        {
+          "day": "au:d8",
+          "title": "丹翠雨林小团"
+        },
+        {
+          "day": "au:d9",
+          "title": "自己开车上阿瑟顿高原",
+          "car": "day"
+        },
+        {
+          "day": "au:d10",
+          "title": "Rusty's Market 和 Palm Cove",
+          "car": "day"
+        }
+      ],
+      "extra": [
+        {
+          "place": "Esplanade Lagoon",
+          "activity": "海边的免费泳池，晒太阳、游一会儿。"
+        }
+      ],
+      "climate": [
+        {
+          "high": 30,
+          "low": 25,
+          "rain": 75
+        },
+        {
+          "high": 30,
+          "low": 25,
+          "rain": 70
+        },
+        {
+          "high": 29,
+          "low": 25,
+          "rain": 66
+        },
+        {
+          "high": 28,
+          "low": 24,
+          "rain": 58
+        },
+        {
+          "high": 26,
+          "low": 22,
+          "rain": 42
+        },
+        {
+          "high": 25,
+          "low": 20,
+          "rain": 37
+        },
+        {
+          "high": 24,
+          "low": 19,
+          "rain": 30
+        },
+        {
+          "high": 24,
+          "low": 19,
+          "rain": 23
+        },
+        {
+          "high": 26,
+          "low": 21,
+          "rain": 29
+        },
+        {
+          "high": 28,
+          "low": 22,
+          "rain": 28
+        },
+        {
+          "high": 29,
+          "low": 24,
+          "rain": 39
+        },
+        {
+          "high": 29,
+          "low": 25,
+          "rain": 53
+        }
+      ]
+    }
+  ],
+  "legs": [
+    {
+      "from": "r-79d939bec5",
+      "to": "r-5ac7a034cb",
+      "mode": "flight",
+      "day": "nz:d4",
+      "note": "参考路线是早班机，上午出发，午后到基督城。"
+    },
+    {
+      "from": "r-5ac7a034cb",
+      "to": "r-09003b3bc9",
+      "mode": "drive",
+      "time": "纯开车约 4–4.5 小时",
+      "hours": 4.5,
+      "day": "nz:d5",
+      "note": "经 Tekapo 和 Pukaki 湖边，连停靠按 6–7 小时排，傍晚到。",
+      "path": [
+        [
+          172.6,
+          -43.53
+        ],
+        [
+          171.75,
+          -43.9
+        ],
+        [
+          171.24,
+          -44.09
+        ],
+        [
+          170.83,
+          -44.1
+        ],
+        [
+          170.48,
+          -44
+        ],
+        [
+          170.2,
+          -44.2
+        ],
+        [
+          170.1,
+          -44.26
+        ]
+      ]
+    },
+    {
+      "from": "r-09003b3bc9",
+      "to": "r-5b7c6a0e4d",
+      "mode": "drive",
+      "time": "纯开车约 2.5–3 小时",
+      "hours": 3,
+      "day": "nz:d8",
+      "note": "翻 Lindis Pass，山口有观景停车场。",
+      "path": [
+        [
+          170.1,
+          -44.26
+        ],
+        [
+          169.97,
+          -44.49
+        ],
+        [
+          169.64,
+          -44.58
+        ],
+        [
+          169.41,
+          -44.84
+        ],
+        [
+          169.28,
+          -44.73
+        ],
+        [
+          169.14,
+          -44.7
+        ]
+      ]
+    },
+    {
+      "from": "r-5b7c6a0e4d",
+      "to": "r-c62ef12c38",
+      "mode": "drive",
+      "time": "纯开车约 3.5–4.5 小时",
+      "hours": 4.5,
+      "day": "nz:d10",
+      "note": "翻 Crown Range、经 Arrowtown 和 Kingston。天气不好改走 Cromwell。",
+      "path": [
+        [
+          169.14,
+          -44.7
+        ],
+        [
+          169.01,
+          -44.87
+        ],
+        [
+          168.95,
+          -44.99
+        ],
+        [
+          168.83,
+          -44.94
+        ],
+        [
+          168.73,
+          -45.02
+        ],
+        [
+          168.71,
+          -45.33
+        ],
+        [
+          168.45,
+          -45.63
+        ],
+        [
+          168.24,
+          -45.67
+        ],
+        [
+          167.72,
+          -45.41
+        ]
+      ]
+    },
+    {
+      "from": "r-c62ef12c38",
+      "to": "r-c4d3714a08",
+      "mode": "drive",
+      "time": "纯开车约 2–2.5 小时",
+      "hours": 2.5,
+      "day": "nz:d12",
+      "note": "经 Mossburn、Five Rivers 和 Kingston。",
+      "path": [
+        [
+          167.72,
+          -45.41
+        ],
+        [
+          168.24,
+          -45.67
+        ],
+        [
+          168.45,
+          -45.63
+        ],
+        [
+          168.71,
+          -45.33
+        ],
+        [
+          168.73,
+          -45.02
+        ],
+        [
+          168.66,
+          -45.03
+        ]
+      ]
+    },
+    {
+      "from": "r-5b7c6a0e4d",
+      "to": "r-c4d3714a08",
+      "mode": "drive",
+      "time": "纯开车约 70–90 分钟",
+      "hours": 1.5,
+      "note": "翻 Crown Range、经 Arrowtown 到 Frankton，就是参考路线去 Te Anau 那天的前两段。",
+      "path": [
+        [
+          169.14,
+          -44.7
+        ],
+        [
+          169.01,
+          -44.87
+        ],
+        [
+          168.95,
+          -44.99
+        ],
+        [
+          168.83,
+          -44.94
+        ],
+        [
+          168.73,
+          -45.02
+        ],
+        [
+          168.66,
+          -45.03
+        ]
+      ]
+    },
+    {
+      "from": "r-c4d3714a08",
+      "to": "r-48af1c9169",
+      "mode": "flight",
+      "day": "nz:d14",
+      "note": "上午还车，午后的航班飞奥克兰。"
+    },
+    {
+      "from": "r-1da82bbab4",
+      "to": "r-597261d8d9",
+      "mode": "drive",
+      "time": "纯开车约 3 小时（沿海岸约 200 公里）",
+      "hours": 3,
+      "day": "au:d3",
+      "note": "冲浪海滩、灯塔、纪念拱门、Lorne 和 Teddy's Lookout 一路停，参考路线这天连停靠共开了约 212 公里、3 小时 20 分。",
+      "path": [
+        [
+          144.96,
+          -37.81
+        ],
+        [
+          144.36,
+          -38.15
+        ],
+        [
+          144.33,
+          -38.34
+        ],
+        [
+          143.98,
+          -38.54
+        ],
+        [
+          143.86,
+          -38.67
+        ],
+        [
+          143.67,
+          -38.76
+        ]
+      ]
+    },
+    {
+      "from": "r-597261d8d9",
+      "to": "r-71660243d0",
+      "mode": "drive",
+      "time": "纯开车约 1.5 小时（沿海岸约 95 公里）",
+      "hours": 1.5,
+      "day": "au:d4",
+      "note": "参考路线这天先进内陆看雨林和红杉林，再折回海边，连绕路共开了约 213 公里、3 小时 20 分；傍晚到十二门徒看日落。",
+      "path": [
+        [
+          143.67,
+          -38.76
+        ],
+        [
+          143.55,
+          -38.68
+        ],
+        [
+          143.39,
+          -38.68
+        ],
+        [
+          143.1,
+          -38.65
+        ],
+        [
+          142.99,
+          -38.62
+        ]
+      ]
+    },
+    {
+      "from": "r-71660243d0",
+      "to": "r-1da82bbab4",
+      "mode": "drive",
+      "time": "纯开车约 3–3.5 小时（经 Colac 走内陆约 240 公里）",
+      "hours": 3.5,
+      "day": "au:d5",
+      "note": "参考路线清晨看十二门徒日出，再经 Colac 走内陆回墨尔本机场还车，到机场共开了约 306 公里、3 小时 55 分。",
+      "path": [
+        [
+          142.99,
+          -38.62
+        ],
+        [
+          142.98,
+          -38.48
+        ],
+        [
+          143.58,
+          -38.34
+        ],
+        [
+          144.36,
+          -38.15
+        ],
+        [
+          144.96,
+          -37.81
+        ]
+      ]
+    },
+    {
+      "from": "r-1da82bbab4",
+      "to": "r-d14113e695",
+      "mode": "flight",
+      "day": "au:d6",
+      "note": "境内航班随身行李可能被称重，按航司限额准备。"
+    },
+    {
+      "from": "r-d14113e695",
+      "to": "r-79d939bec5",
+      "mode": "flight",
+      "day": "au:d11",
+      "note": "同样的行李，这段随身行李被称重补了钱。"
+    }
+  ],
+  "presets": [
+    {
+      "trip": "nz",
+      "name": "新西兰参考路线",
+      "line": "悉尼 3 晚 → 基督城 1 晚 → Twizel 3 晚 → Wānaka 2 晚 → Te Anau 2 晚 → 皇后镇 2 晚 → 奥克兰 2 晚",
+      "stops": [
+        [
+          "r-79d939bec5",
+          3
+        ],
+        [
+          "r-5ac7a034cb",
+          1
+        ],
+        [
+          "r-09003b3bc9",
+          3
+        ],
+        [
+          "r-5b7c6a0e4d",
+          2
+        ],
+        [
+          "r-c62ef12c38",
+          2
+        ],
+        [
+          "r-c4d3714a08",
+          2
+        ],
+        [
+          "r-48af1c9169",
+          2
+        ]
+      ]
+    },
+    {
+      "trip": "au2026",
+      "name": "澳洲参考路线",
+      "line": "墨尔本 2 晚 → 大洋路 2 晚 → 墨尔本 1 晚 → 凯恩斯 5 晚 → 悉尼 5 晚",
+      "stops": [
+        [
+          "r-1da82bbab4",
+          2
+        ],
+        [
+          "r-597261d8d9",
+          1
+        ],
+        [
+          "r-71660243d0",
+          1
+        ],
+        [
+          "r-1da82bbab4",
+          1
+        ],
+        [
+          "r-d14113e695",
+          5
+        ],
+        [
+          "r-79d939bec5",
+          5
+        ]
+      ]
+    }
+  ],
+  "bookings": [
+    {
+      "id": "r-d79ec1bfb2",
+      "title": "订机票",
+      "detail": "国际段和中间的境内航班。日子定了就开始看，转机时间留够。",
+      "ref": "start",
+      "before": 120
+    },
+    {
+      "id": "r-faae284a1d",
+      "title": "订每一处住的地方",
+      "detail": "每处住几晚定了就订，选能退改的，把每家的退改期限记下来：参考路线订的几处，期限从入住前一天到入住前一周多不等。",
+      "ref": "start",
+      "before": 90
+    },
+    {
+      "id": "r-41df5e0c8f",
+      "title": "订租车",
+      "detail": "选允许异地还车的车行。订之前发邮件问清哪些碎石路能开，回信存进手机，取车时带着。",
+      "ref": "start",
+      "before": 90,
+      "needs": "car:nz"
+    },
+    {
+      "id": "r-a2f8a12bc2",
+      "title": "订租车，买全险",
+      "detail": "能买租车公司直营的全险就买直营，不是直营的通常要先垫付、回国再理赔。尽量选可取消的。",
+      "ref": "start",
+      "before": 30,
+      "needs": "car:au"
+    },
+    {
+      "id": "r-f6a56aae4d",
+      "title": "订 Milford 大巴加游船",
+      "detail": "Te Anau 出发的大巴加游船，两人 NZ$578。参考路线用的这种票，出发前 24 小时还能取消；峡湾天气多变，订之前看清天气退改规则。",
+      "ref": "nz:d11",
+      "before": 60
+    },
+    {
+      "id": "r-bebd331fd0",
+      "title": "订萤火虫洞加 Hobbiton 一日团",
+      "detail": "奥克兰出发、当天回来的一日团，大巴早上很早出发。确认接送地点离住处近。",
+      "ref": "nz:d15",
+      "before": 60
+    },
+    {
+      "id": "r-ffc8e542a5",
+      "title": "订 The Gidley（悉尼）",
+      "detail": "CBD 地下室牛排馆，网上订位按 30 天开放，开放那天早上 7 点就订。只接待 18 岁以上。",
+      "ref": "nz:d3",
+      "before": 30
+    },
+    {
+      "id": "r-e1e51b39d9",
+      "title": "订 Kika（Wānaka 晚餐）",
+      "detail": "分享式的小盘菜，晚上很难临时有位。",
+      "ref": "nz:d9",
+      "before": 21
+    },
+    {
+      "id": "r-ca6e9c162c",
+      "title": "订 The Redcliff（Te Anau 晚餐）",
+      "detail": "坐完 Milford 回来那天的晚饭，订晚一点的位子。",
+      "ref": "nz:d11",
+      "before": 21
+    },
+    {
+      "id": "r-ba96e78d37",
+      "title": "订皇后镇缆车加 Luge",
+      "detail": "参考路线用的这种票，用之前一周还能改退。",
+      "ref": "nz:d12",
+      "before": 21
+    },
+    {
+      "id": "r-9f55b201e8",
+      "title": "订 Blue Kanu（皇后镇晚餐）",
+      "detail": "皇后镇镇上，晚上人多。",
+      "ref": "nz:d12",
+      "before": 21
+    },
+    {
+      "id": "r-a0b568a3cc",
+      "title": "订 TSS Earnslaw 蒸汽船",
+      "detail": "皇后镇的百年蒸汽船游湖，傍晚那班坐的人多。",
+      "ref": "nz:d13",
+      "before": 21
+    },
+    {
+      "id": "r-c3be760492",
+      "title": "订奥克兰海港晚餐（Sails 或 SOUL）",
+      "detail": "到奥克兰那天的晚饭，靠窗的位子要早订。",
+      "ref": "nz:d14",
+      "before": 21
+    },
+    {
+      "id": "r-b4f1af79be",
+      "title": "订 Amano（奥克兰午餐）",
+      "detail": "奥克兰市中心的意大利餐厅，午饭时段人多，官网能订位。",
+      "ref": "nz:d16",
+      "before": 21
+    },
+    {
+      "id": "r-d0ec9b58b7",
+      "title": "订 Twizel 观星（可选）",
+      "detail": "看天气和月亮，阴天会改期或退款，订之前看清规则。",
+      "ref": "nz:d7",
+      "before": 14,
+      "optional": true
+    },
+    {
+      "id": "r-bc31c3cb02",
+      "title": "订外礁一日游",
+      "detail": "订能改期的。晕船药会让人犯困，吃了可能在船上睡过去、错过浮潜：想浮潜就问清药效再吃。",
+      "ref": "au:d7",
+      "before": 30
+    },
+    {
+      "id": "r-4690b1e6a5",
+      "title": "订丹翠雨林小团",
+      "detail": "雨林里没有信号，跟团省心。",
+      "ref": "au:d8",
+      "before": 30
+    },
+    {
+      "id": "r-9b7d3b6005",
+      "title": "订悉尼歌剧院中文导览",
+      "detail": "中文导览场次不多，日子定了就订。",
+      "ref": "au:d12",
+      "before": 30
+    },
+    {
+      "id": "r-1b05a46549",
+      "title": "订 Puffing Billy 半日团",
+      "detail": "含接驳车的半日团省得自己开车去 Belgrave。",
+      "ref": "au:d2",
+      "before": 30
+    }
+  ],
+  "prep": [
+    {
+      "id": "r-cbb49c57a8",
+      "country": "nz",
+      "title": "办好新西兰访客签证或 NZeTA",
+      "detail": "中国护照去新西兰一般要先办访客签证。从澳洲直飞新西兰、值机时持有效澳洲签证的，按新西兰移民局的试行政策可以改办 NZeTA，中途只在澳洲转机不算。审理要时间，出发前在新西兰移民局官网核对现行规定。",
+      "before": 60
+    },
+    {
+      "id": "r-9a4d8f1faf",
+      "country": "au",
+      "title": "办好澳洲访客签证",
+      "detail": "中国护照去澳洲要先办访客签证，审理时间不定。出发前在澳洲内政部官网核对现行规定。",
+      "before": 60
+    },
+    {
+      "id": "r-0f44b40e3a",
+      "country": "nz",
+      "needs": "car:nz",
+      "title": "驾照英文翻译件",
+      "detail": "要 NZTA 认可的翻译员或中国公证处出具的翻译件，国内平台卖的「认证件」不算；取车时连同中国驾照一起查。",
+      "before": 30
+    },
+    {
+      "id": "r-9c662070cf",
+      "country": "nz",
+      "title": "填新西兰入境申报 NZTD（每人一份）",
+      "detail": "飞新西兰前 24 小时内填好。",
+      "before": 1,
+      "ref": "country:nz"
+    },
+    {
+      "id": "r-518adf9fd9",
+      "country": "au",
+      "needs": "car:au",
+      "title": "驾照翻译件：按取车的州准备，贴好照片",
+      "detail": "各州对中文驾照翻译件的要求不一样，例如维州要 NAATI 认证翻译员或领事馆出具的翻译件；取车前查取车所在州交通部门的官网和租车公司的条款。墨尔本和凯恩斯取车时没细看，悉尼柜台要求翻译件上有照片，只好临时去拍。",
+      "before": 7
+    },
+    {
+      "id": "r-b65950f4d7",
+      "needs": "car",
+      "title": "核对每次租车的取还点、第二驾驶人、过路费和加油规则",
+      "detail": "澳洲参考路线租了 4 次车，每家的规矩都不一样。",
+      "before": 7
+    },
+    {
+      "id": "r-ebe814b738",
+      "title": "下载离线地图",
+      "detail": "大洋路、雨林和新西兰的山路都有没信号的路段。",
+      "before": 7
+    },
+    {
+      "id": "r-6eb70ed0a2",
+      "title": "安排好手机流量",
+      "detail": "地图、支付、票据都靠手机。",
+      "before": 7
+    },
+    {
+      "id": "r-e58b0df6bd",
+      "title": "看天气、路况和国家公园通告",
+      "detail": "出海、爬山、自驾那几天尤其要看。",
+      "before": 2
+    }
+  ],
+  "seasons": [
+    {
+      "places": [
+        "r-09003b3bc9",
+        "r-5b7c6a0e4d",
+        "r-c62ef12c38",
+        "r-c4d3714a08"
+      ],
+      "months": [
+        6,
+        7,
+        8,
+        9
+      ],
+      "text": "南岛冬季：内陆的山口（例如 Lindis Pass、Crown Range）可能下雪结冰、临时封路。租车时问清能不能配雪链，每天出发前在 NZTA 官网看路况。"
+    },
+    {
+      "places": [
+        "r-c62ef12c38"
+      ],
+      "months": [
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "text": "Milford Road（去 Milford Sound 的路）这段时间路况牌可能要求随车带雪链，没带被查到会罚款；也会因雪崩风险临时封路，封路时大巴和游船也去不了。出发前在 NZTA 官网看 Milford Road 的路况和雪崩提示。"
+    },
+    {
+      "places": [
+        "r-d14113e695"
+      ],
+      "months": [
+        11,
+        12,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "text": "凯恩斯一带的海域全年都可能有海蜇（stinger），这段时间是高发季：只在有防蜇网的海滩下水，考虑穿全身防蜇服，出发前在昆士兰政府网站核对提醒。"
+    }
+  ],
+  "driveHours": {
+    "nz:d5": 4.25,
+    "nz:d6": 2,
+    "nz:d7": 1.2,
+    "nz:d8": 2.75,
+    "nz:d9": 0.75,
+    "nz:d10": 4,
+    "nz:d12": 2.25,
+    "nz:d13": 2.5,
+    "nz:d14": 0.25,
+    "au:d3": 3.33,
+    "au:d4": 3.33,
+    "au:d5": 3.92,
+    "au:d9": 4.67,
+    "au:d10": 1,
+    "au:d14": 5.25
+  }
+}

@@ -1,0 +1,4031 @@
+{
+  "version": "34f2326c295f",
+  "trip": {
+    "title": "澳洲 16 天",
+    "subtitle": "南十字星下的十六日",
+    "dates": "2026.07.28-08.13",
+    "route": "国内出发 · 墨尔本进 · 悉尼出",
+    "coverImageUrl": "/au2026/cover-australia-editorial.jpg",
+    "coverImageAlt": "澳洲十六日旅行封面",
+    "travelers": "两对夫妻，4 人"
+  },
+  "stages": [
+    {
+      "summary": "",
+      "id": "melbourne-road",
+      "title": "墨尔本 + 大洋路",
+      "dayIds": [
+        "d1",
+        "d2",
+        "d3",
+        "d4",
+        "d5"
+      ],
+      "imageUrl": "/au2026/great-ocean-road-coast.jpg"
+    },
+    {
+      "summary": "",
+      "id": "cairns",
+      "title": "凯恩斯热带暖冬",
+      "dayIds": [
+        "d6",
+        "d7",
+        "d8",
+        "d9",
+        "d10"
+      ],
+      "imageUrl": "/au2026/cairns-reef-lagoon.jpg"
+    },
+    {
+      "summary": "",
+      "id": "sydney",
+      "title": "悉尼 + 南海岸",
+      "dayIds": [
+        "d11",
+        "d12",
+        "d13",
+        "d14",
+        "d15"
+      ],
+      "imageUrl": "/au2026/sydney-harbor-evening.jpg"
+    }
+  ],
+  "days": [
+    {
+      "id": "d0",
+      "label": "D0",
+      "date": "2026-07-28",
+      "weekday": "周二",
+      "city": "国内 → 香港 → 墨尔本",
+      "lat": 31.2304,
+      "lon": 121.4737,
+      "title": "国内出发，香港转机飞墨尔本",
+      "focus": "经香港转机，夜航前往墨尔本。",
+      "lodging": "飞机上",
+      "climateNote": "夜航为主，机场和机舱温差明显。",
+      "clothingNote": "随身带薄外套、颈枕、充电线和第一天入境资料。",
+      "coverImageUrl": "/au2026/d0-departure.jpg",
+      "coverImageAlt": "国内机场夜间出发",
+      "transport": "航班 / 机场转场",
+      "leaveBy": "按国际航班时间倒推，提前 3 小时到机场",
+      "lodgingResource": {
+        "id": "flight-cathay",
+        "title": "国泰航空",
+        "type": "official",
+        "url": "https://www.cathaypacific.com/",
+        "imageUrl": "",
+        "imageAlt": "",
+        "sourceNote": "航司官网"
+      },
+      "primaryResource": null,
+      "ticketResource": {
+        "id": "flight-cathay",
+        "title": "国泰航空",
+        "type": "official",
+        "url": "https://www.cathaypacific.com/",
+        "imageUrl": "",
+        "imageAlt": "",
+        "sourceNote": "航司官网"
+      },
+      "blocks": [
+        {
+          "choice": "",
+          "miss": "",
+          "dayId": "d0",
+          "sortOrder": 10,
+          "period": "全天",
+          "place": "国内 → 香港 → 墨尔本",
+          "activity": "出发，香港转机 1h35m，夜航飞墨尔本",
+          "highlight": "旅程开始",
+          "tip": "护照、签证、酒店信息和第一晚随身物品放随身包",
+          "resources": [
+            {
+              "id": "flight-cathay",
+              "title": "国泰航空",
+              "type": "official",
+              "url": "https://www.cathaypacific.com/",
+              "imageUrl": "",
+              "imageAlt": "",
+              "sourceNote": "航司官网"
+            }
+          ],
+          "id": "d0-10"
+        }
+      ],
+      "base": "墨尔本",
+      "lodgingStatus": "",
+      "notes": [],
+      "drive": null
+    },
+    {
+      "id": "d1",
+      "label": "D1",
+      "date": "2026-07-29",
+      "weekday": "周三",
+      "city": "墨尔本",
+      "lat": -37.8136,
+      "lon": 144.9631,
+      "title": "抵达墨尔本，CBD + Carlton + QVM 冬季夜市",
+      "focus": "落地恢复，轻走 CBD；晚间逛 QVM 冬季夜市。",
+      "lodging": "Oaks Melbourne on Market Hotel",
+      "climateNote": "墨尔本冬季约 6-14°C，早晚冷，多风，偶有阵雨。",
+      "clothingNote": "羽绒服或防风外套、毛衣、长裤、防水鞋。",
+      "coverImageUrl": "/au2026/melbourne-city-morning.jpg",
+      "coverImageAlt": "墨尔本清晨城市街景",
+      "transport": "机场接送 + 步行 / 市内交通",
+      "leaveBy": "05:55 抵达；入境后直接前往 CBD",
+      "lodgingResource": {
+        "id": "oaks-market-map",
+        "title": "Oaks Melbourne on Market Hotel",
+        "type": "map",
+        "url": "https://www.google.com/maps/search/?api=1&query=Oaks+Melbourne+on+Market+Hotel",
+        "imageUrl": "",
+        "imageAlt": "",
+        "sourceNote": "Google Maps"
+      },
+      "primaryResource": {
+        "id": "mel-airport-map",
+        "title": "墨尔本机场",
+        "type": "map",
+        "url": "https://www.google.com/maps/search/?api=1&query=Melbourne+Airport",
+        "imageUrl": "",
+        "imageAlt": "",
+        "sourceNote": "Google Maps"
+      },
+      "ticketResource": {
+        "id": "no-fixed-ticket",
+        "title": "当天无固定票券",
+        "type": "note",
+        "url": "",
+        "imageUrl": "",
+        "imageAlt": "",
+        "sourceNote": "每日明确票券状态"
+      },
+      "blocks": [
+        {
+          "choice": "",
+          "miss": "",
+          "dayId": "d1",
+          "sortOrder": 10,
+          "period": "早上",
+          "place": "墨尔本机场 → CBD",
+          "activity": "入境、取行李，打车 / Uber 或 SkyBus 进城",
+          "highlight": "初到澳洲，适应南半球冬天",
+          "tip": "4人 + 行李较多，打车 / Uber 更舒服；拍照：机场到达、第一眼 Melbourne CBD",
+          "resources": [
+            {
+              "id": "mel-airport-map",
+              "title": "墨尔本机场",
+              "type": "map",
+              "url": "https://www.google.com/maps/search/?api=1&query=Melbourne+Airport",
+              "imageUrl": "",
+              "imageAlt": "",
+              "sourceNote": "Google Maps"
+            }
+          ],
+          "id": "d1-10"
+        },
+        {
+          "choice": "",
+          "miss": "",
+          "dayId": "d1",
+          "sortOrder": 20,
+          "period": "上午",
+          "place": "CBD / 酒店附近",
+          "activity": "酒店寄存行李 + 咖啡早餐",
+          "highlight": "墨尔本咖啡文化开场",
+          "tip": "不要急着暴走，先恢复；拍照：咖啡桌面、街角 café",
+          "resources": [
+            {
+              "id": "oaks-market-map",
+              "title": "Oaks Melbourne on Market Hotel",
+              "type": "map",
+              "url": "https://www.google.com/maps/search/?api=1&query=Oaks+Melbourne+on+Market+Hotel",
+              "imageUrl": "",
+              "imageAlt": "",
+              "sourceNote": "Google Maps"
+            },
+            {
+              "id": "oaks-market-booking",
+              "title": "Oaks Melbourne on Market",
+              "type": "booking",
+              "url": "https://www.oakshotels.com/en/oaks-on-market",
+              "imageUrl": "",
+              "imageAlt": "",
+              "sourceNote": "酒店官网"
+            },
+            {
+              "id": "operator25-map",
+              "title": "Operator25",
+              "type": "restaurant",
+              "url": "https://www.google.com/maps/search/?api=1&query=Operator25+Melbourne",
+              "imageUrl": "",
+              "imageAlt": "",
+              "sourceNote": "Google Maps"
+            }
+          ],
+          "id": "d1-20"
+        },
+        {
+          "choice": "",
+          "miss": "",
+          "dayId": "d1",
+          "sortOrder": 30,
+          "period": "中午",
+          "place": "Degraves Lane / Flinders Street 一带",
+          "activity": "轻量午餐 / café / laneway walk",
+          "highlight": "墨尔本巷弄文化",
+          "tip": "如果疲惫，就只做 Degraves + Flinders，不再加远点；拍照：Degraves Street 巷道纵深、Flinders Street Station 外观",
+          "resources": [
+            {
+              "id": "degraves-map",
+              "title": "Degraves Street",
+              "type": "map",
+              "url": "https://www.google.com/maps/search/?api=1&query=Degraves+Street+Melbourne",
+              "imageUrl": "",
+              "imageAlt": "",
+              "sourceNote": "Google Maps"
+            },
+            {
+              "id": "flinders-street-map",
+              "title": "Flinders Street Station",
+              "type": "map",
+              "url": "https://www.google.com/maps/search/?api=1&query=Flinders+Street+Station+Melbourne",
+              "imageUrl": "",
+              "imageAlt": "",
+              "sourceNote": "Google Maps"
+            }
+          ],
+          "id": "d1-30"
+        },
+        {
+          "choice": "",
+          "miss": "",
+          "dayId": "d1",
+          "sortOrder": 40,
+          "period": "下午",
+          "place": "State Library of Victoria",
+          "activity": "参观经典阅览室",
+          "highlight": "历史建筑 + 圆顶阅览室",
+          "tip": "只短暂停留拍照，不必完整逛；拍照：State Library 圆顶阅览室 6F 俯拍",
+          "resources": [
+            {
+              "id": "state-library-map",
+              "title": "State Library of Victoria",
+              "type": "map",
+              "url": "https://www.google.com/maps/search/?api=1&query=State+Library+of+Victoria",
+              "imageUrl": "",
+              "imageAlt": "",
+              "sourceNote": "Google Maps"
+            }
+          ],
+          "id": "d1-40"
+        },
+        {
+          "choice": "",
+          "miss": "",
+          "dayId": "d1",
+          "sortOrder": 50,
+          "period": "下午",
+          "place": "Carlton / Lygon Street (Little Italy)",
+          "activity": "从 State Library 向北前往 Carlton，沿 Lygon Street 散步，安排咖啡或 gelato",
+          "highlight": "墨尔本意大利移民街区 + café culture",
+          "tip": "固定站点，控制在 60–90 分钟；若当天延误，先删 NGV，不删 Carlton 或 QVM",
+          "resources": [
+            {
+              "id": "carlton-lygon-map",
+              "title": "Carlton / Lygon Street Little Italy",
+              "type": "map",
+              "url": "https://www.google.com/maps/search/?api=1&query=Carlton+Lygon+Street+Little+Italy+Melbourne",
+              "imageUrl": "",
+              "imageAlt": "Carlton Lygon Street Little Italy 地图",
+              "sourceNote": "Google Maps"
+            }
+          ],
+          "id": "d1-50"
+        },
+        {
+          "choice": "",
+          "miss": "",
+          "dayId": "d1",
+          "sortOrder": 60,
+          "period": "下午后段",
+          "place": "Hosier Lane",
+          "activity": "涂鸦巷拍照",
+          "highlight": "街头艺术 + 文艺墨尔本",
+          "tip": "20-30 分钟足够；拍照：Hosier Lane 涂鸦墙主背景",
+          "resources": [
+            {
+              "id": "hosier-map",
+              "title": "Hosier Lane",
+              "type": "map",
+              "url": "https://www.google.com/maps/search/?api=1&query=Hosier+Lane+Melbourne",
+              "imageUrl": "",
+              "imageAlt": "",
+              "sourceNote": "Google Maps"
+            }
+          ],
+          "id": "d1-60"
+        },
+        {
+          "choice": "",
+          "miss": "",
+          "dayId": "d1",
+          "sortOrder": 70,
+          "period": "可选",
+          "place": "NGV",
+          "activity": "天气冷 / 想室内休息时进入",
+          "highlight": "冬天避风避寒",
+          "tip": "Carlton 为固定站点；若时间不足，先跳过 NGV；拍照：NGV 中庭 / 红幕布",
+          "resources": [
+            {
+              "id": "ngv-map",
+              "title": "NGV",
+              "type": "map",
+              "url": "https://www.google.com/maps/search/?api=1&query=National+Gallery+of+Victoria",
+              "imageUrl": "",
+              "imageAlt": "",
+              "sourceNote": "Google Maps"
+            }
+          ],
+          "id": "d1-70"
+        },
+        {
+          "choice": "",
+          "miss": "",
+          "dayId": "d1",
+          "sortOrder": 80,
+          "period": "傍晚",
+          "place": "Queen Victoria Market",
+          "activity": "17:30-19:30 QVM Winter Night Market",
+          "highlight": "冬季周三限定夜市",
+          "tip": "官方场次 17:00-22:00，免费入场、免预约；落地日建议 17:30 前到，按体力逛 30-120 分钟，穿防风保暖外套。",
+          "resources": [
+            {
+              "id": "qvm-map",
+              "title": "Queen Victoria Market",
+              "type": "map",
+              "url": "https://www.google.com/maps/search/?api=1&query=Queen+Victoria+Market",
+              "imageUrl": "",
+              "imageAlt": "",
+              "sourceNote": "Google Maps"
+            },
+            {
+              "id": "qvm-winter-night-market-official",
+              "title": "Queen Victoria Market 冬季夜市",
+              "type": "official",
+              "url": "https://qvm.com.au/",
+              "imageUrl": "",
+              "imageAlt": "",
+              "sourceNote": "QVM 官网：冬季夜市每年冬天的周三晚上开，场次以官网为准"
+            }
+          ],
+          "id": "d1-80"
+        },
+        {
+          "choice": "",
+          "miss": "",
+          "dayId": "d1",
+          "sortOrder": 90,
+          "period": "晚上",
+          "place": "QVM → Oaks Melbourne on Market Hotel",
+          "activity": "夜市用餐后直接回酒店休息",
+          "highlight": "落地日收尾",
+          "tip": "不再另订正式餐厅；如体力不足，可只逛 30-60 分钟后返回酒店。",
+          "resources": [
+            {
+              "id": "qvm-map",
+              "title": "Queen Victoria Market",
+              "type": "map",
+              "url": "https://www.google.com/maps/search/?api=1&query=Queen+Victoria+Market",
+              "imageUrl": "",
+              "imageAlt": "",
+              "sourceNote": "Google Maps"
+            },
+            {
+              "id": "oaks-market-map",
+              "title": "Oaks Melbourne on Market Hotel",
+              "type": "map",
+              "url": "https://www.google.com/maps/search/?api=1&query=Oaks+Melbourne+on+Market+Hotel",
+              "imageUrl": "",
+              "imageAlt": "",
+              "sourceNote": "Google Maps"
+            },
+            {
+              "id": "qvm-winter-night-market-official",
+              "title": "Queen Victoria Market 冬季夜市",
+              "type": "official",
+              "url": "https://qvm.com.au/",
+              "imageUrl": "",
+              "imageAlt": "",
+              "sourceNote": "QVM 官网：冬季夜市每年冬天的周三晚上开，场次以官网为准"
+            }
+          ],
+          "id": "d1-90"
+        },
+        {
+          "choice": "",
+          "miss": "",
+          "dayId": "d1",
+          "sortOrder": 900,
+          "period": "饮食",
+          "place": "饮食安排",
+          "activity": "早餐：CBD café / Operator25（可选 Brunch）；午餐：Degraves Lane / CBD 简餐 / Pho Tùng（可选）；Carlton：咖啡或 gelato；晚餐：QVM Winter Night Market 街头热食（主）/ CBD 简餐（体力不足）",
+          "highlight": "每日餐食参考",
+          "tip": "Carlton 只做轻量 café / gelato；QVM 夜市就当晚餐。",
+          "resources": [
+            {
+              "id": "qvm-map",
+              "title": "Queen Victoria Market",
+              "type": "map",
+              "url": "https://www.google.com/maps/search/?api=1&query=Queen+Victoria+Market",
+              "imageUrl": "",
+              "imageAlt": "",
+              "sourceNote": "Google Maps"
+            },
+            {
+              "id": "qvm-winter-night-market-official",
+              "title": "Queen Victoria Market 冬季夜市",
+              "type": "official",
+              "url": "https://qvm.com.au/",
+              "imageUrl": "",
+              "imageAlt": "",
+              "sourceNote": "QVM 官网：冬季夜市每年冬天的周三晚上开，场次以官网为准"
+            },
+            {
+              "id": "operator25-map",
+              "title": "Operator25",
+              "type": "restaurant",
+              "url": "https://www.google.com/maps/search/?api=1&query=Operator25+Melbourne",
+              "imageUrl": "",
+              "imageAlt": "",
+              "sourceNote": "Google Maps"
+            },
+            {
+              "id": "pho-tung-map",
+              "title": "Pho Tùng Melbourne",
+              "type": "restaurant",
+              "url": "https://www.google.com/maps/search/?api=1&query=Pho+Tung+Melbourne",
+              "imageUrl": "",
+              "imageAlt": "",
+              "sourceNote": "Google Maps"
+            },
+            {
+              "id": "degraves-map",
+              "title": "Degraves Street",
+              "type": "map",
+              "url": "https://www.google.com/maps/search/?api=1&query=Degraves+Street+Melbourne",
+              "imageUrl": "",
+              "imageAlt": "",
+              "sourceNote": "Google Maps"
+            }
+          ],
+          "id": "d1-900"
+        }
+      ],
+      "base": "墨尔本",
+      "lodgingStatus": "",
+      "notes": [],
+      "drive": null
+    },
+    {
+      "id": "d2",
+      "label": "D2",
+      "date": "2026-07-30",
+      "weekday": "周四",
+      "city": "墨尔本 + Belgrave",
+      "lat": -37.8136,
+      "lon": 144.9631,
+      "title": "Puffing Billy + Sassafras + Fitzroy",
+      "focus": "蒸汽小火车半日，下午漫步 Fitzroy。",
+      "lodging": "Oaks Melbourne on Market Hotel",
+      "climateNote": "墨尔本冬季约 6-14°C，早晚冷，多风，偶有阵雨。",
+      "clothingNote": "防风外套比单纯厚毛衣更实用，雨天鞋子尽量防水。",
+      "coverImageUrl": "/au2026/d2-puffing-billy-railway.jpg",
+      "coverImageAlt": "Puffing Billy 蒸汽小火车穿过 Dandenong Ranges 森林",
+      "transport": "半日团接驳车 + Puffing Billy 蒸汽火车",
+      "leaveBy": "按通知的集合时间，提前 15 分钟到 343 Russell Street",
+      "lodgingResource": {
+        "id": "oaks-market-map",
+        "title": "Oaks Melbourne on Market Hotel",
+        "type": "map",
+        "url": "https://www.google.com/maps/search/?api=1&query=Oaks+Melbourne+on+Market+Hotel",
+        "imageUrl": "",
+        "imageAlt": "",
+        "sourceNote": "Google Maps"
+      },
+      "primaryResource": {
+        "id": "russell-343-map",
+        "title": "343 Russell Street",
+        "type": "map",
+        "url": "https://www.google.com/maps/search/?api=1&query=343+Russell+Street+Melbourne",
+        "imageUrl": "",
+        "imageAlt": "",
+        "sourceNote": "Google Maps"
+      },
+      "ticketResource": {
+        "id": "puffing-billy-official",
+        "title": "Puffing Billy Railway",
+        "type": "official",
+        "url": "https://puffingbilly.com.au/",
+        "imageUrl": "",
+        "imageAlt": "",
+        "sourceNote": "Puffing Billy official site"
+      },
+      "blocks": [
+        {
+          "choice": "",
+          "miss": "",
+          "dayId": "d2",
+          "sortOrder": 10,
+          "period": "早上",
+          "place": "Oaks Melbourne on Market → 343 Russell Street",
+          "activity": "前往 Klook / Oznara 集合点",
+          "highlight": "集合点在 CBD 内",
+          "tip": "从酒店打车约 7-12 分钟，步行约 20-25 分钟；建议打车",
+          "resources": [
+            {
+              "id": "oaks-market-map",
+              "title": "Oaks Melbourne on Market Hotel",
+              "type": "map",
+              "url": "https://www.google.com/maps/search/?api=1&query=Oaks+Melbourne+on+Market+Hotel",
+              "imageUrl": "",
+              "imageAlt": "",
+              "sourceNote": "Google Maps"
+            },
+            {
+              "id": "russell-343-map",
+              "title": "343 Russell Street",
+              "type": "map",
+              "url": "https://www.google.com/maps/search/?api=1&query=343+Russell+Street+Melbourne",
+              "imageUrl": "",
+              "imageAlt": "",
+              "sourceNote": "Google Maps"
+            },
+            {
+              "id": "klook-oznara-puffing-billy-note",
+              "title": "Klook / Oznara Puffing Billy + Sassafras 半日团",
+              "type": "note",
+              "url": "",
+              "imageUrl": "",
+              "imageAlt": "",
+              "sourceNote": "已订半日团；以出发前一天通知的 pickup 时间为准"
+            }
+          ],
+          "id": "d2-10"
+        },
+        {
+          "choice": "",
+          "miss": "",
+          "dayId": "d2",
+          "sortOrder": 20,
+          "period": "上午",
+          "place": "343 Russell Street",
+          "activity": "Klook / Oznara 半日团集合",
+          "highlight": "Puffing Billy + Sassafras 行程开始",
+          "tip": "具体 pickup 时间以前一天通知为准；提前 10-15 分钟到",
+          "resources": [
+            {
+              "id": "russell-343-map",
+              "title": "343 Russell Street",
+              "type": "map",
+              "url": "https://www.google.com/maps/search/?api=1&query=343+Russell+Street+Melbourne",
+              "imageUrl": "",
+              "imageAlt": "",
+              "sourceNote": "Google Maps"
+            },
+            {
+              "id": "klook-oznara-puffing-billy-note",
+              "title": "Klook / Oznara Puffing Billy + Sassafras 半日团",
+              "type": "note",
+              "url": "",
+              "imageUrl": "",
+              "imageAlt": "",
+              "sourceNote": "已订半日团；以出发前一天通知的 pickup 时间为准"
+            }
+          ],
+          "id": "d2-20"
+        },
+        {
+          "choice": "",
+          "miss": "",
+          "dayId": "d2",
+          "sortOrder": 30,
+          "period": "上午",
+          "place": "Melbourne CBD → Belgrave",
+          "activity": "乘团车前往 Puffing Billy Railway",
+          "highlight": "进入 Dandenong Ranges 近郊",
+          "tip": "路上可休息，不用自己研究公共交通",
+          "resources": [
+            {
+              "id": "puffing-billy-map",
+              "title": "Puffing Billy Railway Belgrave",
+              "type": "map",
+              "url": "https://www.google.com/maps/search/?api=1&query=Puffing+Billy+Railway+Belgrave",
+              "imageUrl": "",
+              "imageAlt": "",
+              "sourceNote": "Google Maps"
+            },
+            {
+              "id": "puffing-billy-official",
+              "title": "Puffing Billy Railway",
+              "type": "official",
+              "url": "https://puffingbilly.com.au/",
+              "imageUrl": "",
+              "imageAlt": "",
+              "sourceNote": "Puffing Billy official site"
+            },
+            {
+              "id": "klook-oznara-puffing-billy-note",
+              "title": "Klook / Oznara Puffing Billy + Sassafras 半日团",
+              "type": "note",
+              "url": "",
+              "imageUrl": "",
+              "imageAlt": "",
+              "sourceNote": "已订半日团；以出发前一天通知的 pickup 时间为准"
+            }
+          ],
+          "id": "d2-30"
+        },
+        {
+          "choice": "",
+          "miss": "",
+          "dayId": "d2",
+          "sortOrder": 40,
+          "period": "上午 / 中午",
+          "place": "Puffing Billy Railway",
+          "activity": "Belgrave-Lakeside 往返蒸汽小火车体验",
+          "highlight": "复古蒸汽火车、森林、木桥、Dandenong Ranges 山林氛围",
+          "tip": "注意保暖，车厢和山林会冷",
+          "resources": [
+            {
+              "id": "puffing-billy-map",
+              "title": "Puffing Billy Railway Belgrave",
+              "type": "map",
+              "url": "https://www.google.com/maps/search/?api=1&query=Puffing+Billy+Railway+Belgrave",
+              "imageUrl": "",
+              "imageAlt": "",
+              "sourceNote": "Google Maps"
+            },
+            {
+              "id": "puffing-billy-official",
+              "title": "Puffing Billy Railway",
+              "type": "official",
+              "url": "https://puffingbilly.com.au/",
+              "imageUrl": "",
+              "imageAlt": "",
+              "sourceNote": "Puffing Billy official site"
+            },
+            {
+              "id": "lakeside-station-map",
+              "title": "Lakeside Station",
+              "type": "map",
+              "url": "https://www.google.com/maps/search/?api=1&query=Lakeside+Station+Puffing+Billy",
+              "imageUrl": "",
+              "imageAlt": "",
+              "sourceNote": "Google Maps"
+            }
+          ],
+          "id": "d2-40"
+        },
+        {
+          "choice": "",
+          "miss": "",
+          "dayId": "d2",
+          "sortOrder": 50,
+          "period": "中午 / 下午",
+          "place": "Lakeside / Emerald Lake Park",
+          "activity": "湖边短停 / visitor centre / café / 简单休息",
+          "highlight": "湖边公园、游客中心、火车站台氛围",
+          "tip": "不安排正式深度游，轻松走走即可",
+          "resources": [
+            {
+              "id": "emerald-lake-park-map",
+              "title": "Emerald Lake Park / Lakeside",
+              "type": "map",
+              "url": "https://www.google.com/maps/search/?api=1&query=Emerald+Lake+Park+Lakeside+Victoria",
+              "imageUrl": "",
+              "imageAlt": "",
+              "sourceNote": "Google Maps"
+            },
+            {
+              "id": "lakeside-station-map",
+              "title": "Lakeside Station",
+              "type": "map",
+              "url": "https://www.google.com/maps/search/?api=1&query=Lakeside+Station+Puffing+Billy",
+              "imageUrl": "",
+              "imageAlt": "",
+              "sourceNote": "Google Maps"
+            }
+          ],
+          "id": "d2-50"
+        },
+        {
+          "choice": "",
+          "miss": "",
+          "dayId": "d2",
+          "sortOrder": 60,
+          "period": "中午 / 下午",
+          "place": "Sassafras",
+          "activity": "小镇短停",
+          "highlight": "茶屋、糖果店、Dandenong Ranges 小镇感",
+          "tip": "只做短停，不安排正式下午茶，避免拖慢行程",
+          "resources": [
+            {
+              "id": "sassafras-map",
+              "title": "Sassafras Village",
+              "type": "map",
+              "url": "https://www.google.com/maps/search/?api=1&query=Sassafras+Victoria",
+              "imageUrl": "",
+              "imageAlt": "",
+              "sourceNote": "Google Maps"
+            }
+          ],
+          "id": "d2-60"
+        },
+        {
+          "choice": "",
+          "miss": "",
+          "dayId": "d2",
+          "sortOrder": 70,
+          "period": "下午",
+          "place": "返回 343 Russell Street",
+          "activity": "半日团结束，回到 CBD",
+          "highlight": "时间较早，下午还能补一点市区内容",
+          "tip": "半日团结束后直接前往 Fitzroy；保持约 90 分钟街区时间",
+          "resources": [
+            {
+              "id": "russell-343-map",
+              "title": "343 Russell Street",
+              "type": "map",
+              "url": "https://www.google.com/maps/search/?api=1&query=343+Russell+Street+Melbourne",
+              "imageUrl": "",
+              "imageAlt": "",
+              "sourceNote": "Google Maps"
+            }
+          ],
+          "id": "d2-70"
+        },
+        {
+          "choice": "",
+          "miss": "",
+          "dayId": "d2",
+          "sortOrder": 80,
+          "period": "下午后段",
+          "place": "Fitzroy: Brunswick Street → Gertrude Street",
+          "activity": "半日团返城后前往 Fitzroy，完成街区漫步、独立小店和咖啡",
+          "highlight": "街头艺术、老建筑与本地生活版墨尔本",
+          "tip": "固定站点，控制约 90 分钟；18:00 左右离开并回酒店整理大洋路行李",
+          "resources": [
+            {
+              "id": "fitzroy-map",
+              "title": "Fitzroy Brunswick Street / Gertrude Street",
+              "type": "map",
+              "url": "https://www.google.com/maps/search/?api=1&query=Fitzroy+Brunswick+Street+Gertrude+Street+Melbourne",
+              "imageUrl": "",
+              "imageAlt": "Fitzroy Brunswick Street 与 Gertrude Street 地图",
+              "sourceNote": "Google Maps"
+            },
+            {
+              "id": "russell-343-map",
+              "title": "343 Russell Street",
+              "type": "map",
+              "url": "https://www.google.com/maps/search/?api=1&query=343+Russell+Street+Melbourne",
+              "imageUrl": "",
+              "imageAlt": "",
+              "sourceNote": "Google Maps"
+            }
+          ],
+          "id": "d2-80"
+        },
+        {
+          "choice": "",
+          "miss": "",
+          "dayId": "d2",
+          "sortOrder": 90,
+          "period": "晚上",
+          "place": "酒店 / CBD",
+          "activity": "简单晚餐 + 整理大洋路行李",
+          "highlight": "为第二天在机场取车做准备",
+          "tip": "大件行李寄存，只带登机箱和随身包上大洋路；早点睡",
+          "resources": [
+            {
+              "id": "oaks-market-map",
+              "title": "Oaks Melbourne on Market Hotel",
+              "type": "map",
+              "url": "https://www.google.com/maps/search/?api=1&query=Oaks+Melbourne+on+Market+Hotel",
+              "imageUrl": "",
+              "imageAlt": "",
+              "sourceNote": "Google Maps"
+            },
+            {
+              "id": "southbank-map",
+              "title": "Southbank",
+              "type": "map",
+              "url": "https://www.google.com/maps/search/?api=1&query=Southbank+Melbourne",
+              "imageUrl": "",
+              "imageAlt": "",
+              "sourceNote": "Google Maps"
+            }
+          ],
+          "id": "d2-90"
+        },
+        {
+          "choice": "",
+          "miss": "",
+          "dayId": "d2",
+          "sortOrder": 900,
+          "period": "饮食",
+          "place": "饮食安排",
+          "activity": "早餐：酒店附近 café / 集合前简单吃；午餐：Lakeside / Emerald Lake Park café 或团中简餐；晚餐：CBD / Southbank（Yarra River 边的 The Meat & Wine Co 牛排可以考虑）",
+          "highlight": "每日餐食参考",
+          "tip": "重点是准时集合，晚上整理大洋路的行李",
+          "resources": [
+            {
+              "id": "emerald-lake-park-map",
+              "title": "Emerald Lake Park / Lakeside",
+              "type": "map",
+              "url": "https://www.google.com/maps/search/?api=1&query=Emerald+Lake+Park+Lakeside+Victoria",
+              "imageUrl": "",
+              "imageAlt": "",
+              "sourceNote": "Google Maps"
+            },
+            {
+              "id": "southbank-map",
+              "title": "Southbank",
+              "type": "map",
+              "url": "https://www.google.com/maps/search/?api=1&query=Southbank+Melbourne",
+              "imageUrl": "",
+              "imageAlt": "",
+              "sourceNote": "Google Maps"
+            }
+          ],
+          "id": "d2-900"
+        }
+      ],
+      "base": "墨尔本",
+      "lodgingStatus": "",
+      "notes": [],
+      "drive": null
+    },
+    {
+      "id": "d3",
+      "label": "D3",
+      "date": "2026-07-31",
+      "weekday": "周五",
+      "city": "墨尔本机场 → Apollo Bay",
+      "lat": -38.7599,
+      "lon": 143.6692,
+      "title": "大洋路第一天：海岸一层层加码",
+      "focus": "机场取车，沿海岸开到 Apollo Bay：冲浪海滩、灯塔、纪念拱门、S 形海岸，再到路边桉树上找野生考拉。",
+      "lodging": "Seaview Motel & Apartments",
+      "climateNote": "维州南海岸冬季多风，体感比温度更冷。",
+      "clothingNote": "防风外套、长裤、防滑鞋；车上备水和零食。",
+      "coverImageUrl": "/au2026/d3-great-ocean-road-lorne.jpg",
+      "coverImageAlt": "大洋路早段海岸公路与灯塔",
+      "transport": "自驾 · 墨尔本机场取车",
+      "leaveBy": "08:40 左右到墨尔本机场寄存大箱、取车",
+      "lodgingResource": {
+        "id": "seaview-motel-map",
+        "title": "Seaview Motel & Apartments",
+        "type": "map",
+        "url": "https://www.google.com/maps?q=Seaview+Motel+Apollo+Bay",
+        "imageUrl": "",
+        "imageAlt": "",
+        "sourceNote": "Google Maps"
+      },
+      "primaryResource": {
+        "id": "mel-airport-map",
+        "title": "墨尔本机场",
+        "type": "map",
+        "url": "https://www.google.com/maps/search/?api=1&query=Melbourne+Airport",
+        "imageUrl": "",
+        "imageAlt": "",
+        "sourceNote": "Google Maps"
+      },
+      "ticketResource": {
+        "id": "no-fixed-ticket",
+        "title": "当天无固定票券",
+        "type": "note",
+        "url": "",
+        "imageUrl": "",
+        "imageAlt": "",
+        "sourceNote": "每日明确票券状态"
+      },
+      "blocks": [
+        {
+          "choice": "",
+          "miss": "",
+          "dayId": "d3",
+          "period": "08:40 左右",
+          "place": "墨尔本机场",
+          "activity": "寄存四个大箱，只带两晚的小箱；取车、拍车、设导航",
+          "highlight": "",
+          "tip": "",
+          "resources": [
+            {
+              "id": "mel-airport-map",
+              "title": "墨尔本机场",
+              "type": "map",
+              "url": "https://www.google.com/maps/search/?api=1&query=Melbourne+Airport",
+              "imageUrl": "",
+              "imageAlt": "",
+              "sourceNote": "Google Maps"
+            },
+            {
+              "id": "torquay-map",
+              "title": "Torquay",
+              "type": "map",
+              "url": "https://www.google.com/maps/search/?api=1&query=Torquay+Victoria",
+              "imageUrl": "",
+              "imageAlt": "",
+              "sourceNote": "Google Maps"
+            }
+          ],
+          "sortOrder": 10,
+          "id": "d3-10"
+        },
+        {
+          "choice": "",
+          "miss": "",
+          "dayId": "d3",
+          "period": "10:45",
+          "place": "Coles Torquay",
+          "activity": "一次买齐 BBQ 食材、水和早餐",
+          "highlight": "",
+          "tip": "",
+          "resources": [
+            {
+              "id": "torquay-map",
+              "title": "Torquay",
+              "type": "map",
+              "url": "https://www.google.com/maps/search/?api=1&query=Torquay+Victoria",
+              "imageUrl": "",
+              "imageAlt": "",
+              "sourceNote": "Google Maps"
+            }
+          ],
+          "sortOrder": 20,
+          "id": "d3-20"
+        },
+        {
+          "choice": "",
+          "miss": "",
+          "dayId": "d3",
+          "period": "11:20",
+          "place": "Bells Beach",
+          "activity": "看冲浪海岸，20–30 分钟",
+          "highlight": "",
+          "tip": "",
+          "resources": [
+            {
+              "id": "bells-map",
+              "title": "Bells Beach",
+              "type": "map",
+              "url": "https://www.google.com/maps/search/?api=1&query=Bells+Beach+Victoria",
+              "imageUrl": "",
+              "imageAlt": "",
+              "sourceNote": "Google Maps"
+            }
+          ],
+          "sortOrder": 30,
+          "id": "d3-30"
+        },
+        {
+          "choice": "",
+          "miss": "",
+          "dayId": "d3",
+          "period": "12:00",
+          "place": "Split Point 灯塔",
+          "activity": "灯塔和 Eagle Rock Lookout",
+          "highlight": "",
+          "tip": "",
+          "resources": [
+            {
+              "id": "split-point-map",
+              "title": "Split Point Lighthouse",
+              "type": "map",
+              "url": "https://www.google.com/maps/search/?api=1&query=Split+Point+Lighthouse",
+              "imageUrl": "",
+              "imageAlt": "",
+              "sourceNote": "Google Maps"
+            }
+          ],
+          "sortOrder": 40,
+          "id": "d3-40"
+        },
+        {
+          "choice": "",
+          "miss": "",
+          "dayId": "d3",
+          "period": "12:40",
+          "place": "大洋路纪念拱门",
+          "activity": "停车合影，10 分钟左右",
+          "highlight": "",
+          "tip": "",
+          "resources": [],
+          "sortOrder": 50,
+          "id": "d3-50"
+        },
+        {
+          "choice": "",
+          "miss": "",
+          "dayId": "d3",
+          "period": "13:00 左右",
+          "place": "Lorne",
+          "activity": "海边散步、喝咖啡、歇一下",
+          "highlight": "",
+          "tip": "",
+          "resources": [
+            {
+              "id": "lorne-map",
+              "title": "Lorne",
+              "type": "map",
+              "url": "https://www.google.com/maps/search/?api=1&query=Lorne+Victoria",
+              "imageUrl": "",
+              "imageAlt": "",
+              "sourceNote": "Google Maps"
+            }
+          ],
+          "sortOrder": 60,
+          "id": "d3-60"
+        },
+        {
+          "choice": "",
+          "miss": "",
+          "dayId": "d3",
+          "period": "14:15",
+          "place": "Teddy's Lookout",
+          "activity": "看 S 形海岸线",
+          "highlight": "",
+          "tip": "",
+          "resources": [
+            {
+              "id": "teddys-map",
+              "title": "Teddy's Lookout",
+              "type": "map",
+              "url": "https://www.google.com/maps/search/?api=1&query=Teddy%27s+Lookout+Lorne",
+              "imageUrl": "",
+              "imageAlt": "",
+              "sourceNote": "Google Maps"
+            }
+          ],
+          "sortOrder": 70,
+          "id": "d3-70"
+        },
+        {
+          "choice": "",
+          "miss": "",
+          "dayId": "d3",
+          "period": "15:30",
+          "place": "Kennett River",
+          "activity": "Grey River Road 抬头找野生考拉",
+          "highlight": "",
+          "tip": "保持距离，不喂",
+          "resources": [
+            {
+              "id": "kennett-map",
+              "title": "Kennett River",
+              "type": "map",
+              "url": "https://www.google.com/maps/search/?api=1&query=Kennett+River+Victoria",
+              "imageUrl": "",
+              "imageAlt": "",
+              "sourceNote": "Google Maps"
+            }
+          ],
+          "sortOrder": 80,
+          "id": "d3-80"
+        },
+        {
+          "choice": "",
+          "miss": "",
+          "dayId": "d3",
+          "period": "16:15",
+          "place": "Cape Patton",
+          "activity": "高处看海岸",
+          "highlight": "",
+          "tip": "天色晚就跳过",
+          "resources": [
+            {
+              "id": "cape-patton-map",
+              "title": "Cape Patton Lookout",
+              "type": "map",
+              "url": "https://www.google.com/maps/search/?api=1&query=Cape+Patton+Lookout",
+              "imageUrl": "",
+              "imageAlt": "",
+              "sourceNote": "Google Maps"
+            },
+            {
+              "id": "apollo-map",
+              "title": "Apollo Bay",
+              "type": "map",
+              "url": "https://www.google.com/maps/search/?api=1&query=Apollo+Bay+Victoria",
+              "imageUrl": "",
+              "imageAlt": "",
+              "sourceNote": "Google Maps"
+            }
+          ],
+          "sortOrder": 90,
+          "id": "d3-90"
+        },
+        {
+          "choice": "",
+          "miss": "",
+          "dayId": "d3",
+          "period": "17:00 左右",
+          "place": "Apollo Bay",
+          "activity": "入住，住处 BBQ",
+          "highlight": "",
+          "tip": "",
+          "resources": [
+            {
+              "id": "apollo-map",
+              "title": "Apollo Bay",
+              "type": "map",
+              "url": "https://www.google.com/maps/search/?api=1&query=Apollo+Bay+Victoria",
+              "imageUrl": "",
+              "imageAlt": "",
+              "sourceNote": "Google Maps"
+            },
+            {
+              "id": "fishermens-coop-map",
+              "title": "Apollo Bay Fishermen’s Co-op",
+              "type": "restaurant",
+              "url": "https://www.google.com/maps/search/?api=1&query=Apollo+Bay+Fishermens+Co-op",
+              "imageUrl": "",
+              "imageAlt": "",
+              "sourceNote": "Google Maps"
+            }
+          ],
+          "sortOrder": 100,
+          "id": "d3-100"
+        },
+        {
+          "choice": "",
+          "miss": "",
+          "dayId": "d3",
+          "sortOrder": 900,
+          "period": "饮食",
+          "place": "饮食安排",
+          "activity": "早餐：Coles Torquay 买的早餐；午餐：Lorne 海边；晚餐：住处 BBQ",
+          "highlight": "每日餐食参考",
+          "tip": "",
+          "resources": [
+            {
+              "id": "lorne-map",
+              "title": "Lorne",
+              "type": "map",
+              "url": "https://www.google.com/maps/search/?api=1&query=Lorne+Victoria",
+              "imageUrl": "",
+              "imageAlt": "",
+              "sourceNote": "Google Maps"
+            },
+            {
+              "id": "snow-monkey-ramen-map",
+              "title": "Snow Monkey Ramen Lorne",
+              "type": "restaurant",
+              "url": "https://www.google.com/maps/search/?api=1&query=Snow+Monkey+Ramen+Lorne",
+              "imageUrl": "",
+              "imageAlt": "",
+              "sourceNote": "Google Maps"
+            }
+          ],
+          "id": "d3-900"
+        }
+      ],
+      "base": "Apollo Bay",
+      "lodgingStatus": "",
+      "notes": [],
+      "drive": null
+    },
+    {
+      "id": "d4",
+      "label": "D4",
+      "date": "2026-08-01",
+      "weekday": "周六",
+      "city": "Apollo Bay → Port Campbell",
+      "lat": -38.6191,
+      "lon": 142.9956,
+      "title": "雨林、红杉林，再到十二门徒日落",
+      "focus": "上午拐进内陆走雨林和红杉林，下午回到海岸看十二门徒和 Loch Ard Gorge，傍晚再回来看日落。",
+      "lodging": "Southern Ocean Villas",
+      "climateNote": "海岸风大，步道和台阶雨后湿滑。",
+      "clothingNote": "防风外套、防水鞋；拍照时不要太靠近海浪。",
+      "coverImageUrl": "/au2026/d4-twelve-apostles-gorge.jpg",
+      "coverImageAlt": "十二使徒岩与峡谷海岸",
+      "transport": "自驾 · 内陆 → 海岸",
+      "leaveBy": "08:30 左右离开 Apollo Bay",
+      "lodgingResource": {
+        "id": "southern-ocean-villas-map",
+        "title": "Southern Ocean Villas",
+        "type": "map",
+        "url": "https://www.google.com/maps?q=Southern+Ocean+Villas+Port+Campbell",
+        "imageUrl": "",
+        "imageAlt": "",
+        "sourceNote": "Google Maps"
+      },
+      "primaryResource": {
+        "id": "maits-rest-map",
+        "title": "Maits Rest Rainforest Walk",
+        "type": "map",
+        "url": "https://www.google.com/maps/search/?api=1&query=Maits+Rest+Rainforest+Walk",
+        "imageUrl": "",
+        "imageAlt": "",
+        "sourceNote": "Google Maps"
+      },
+      "ticketResource": {
+        "id": "no-fixed-ticket",
+        "title": "当天无固定票券",
+        "type": "note",
+        "url": "",
+        "imageUrl": "",
+        "imageAlt": "",
+        "sourceNote": "每日明确票券状态"
+      },
+      "blocks": [
+        {
+          "choice": "",
+          "miss": "",
+          "dayId": "d4",
+          "period": "08:30 左右",
+          "place": "Apollo Bay",
+          "activity": "退房出发",
+          "highlight": "",
+          "tip": "",
+          "resources": [],
+          "sortOrder": 10,
+          "id": "d4-10"
+        },
+        {
+          "choice": "",
+          "miss": "",
+          "dayId": "d4",
+          "period": "上午",
+          "place": "Maits Rest 雨林步道",
+          "activity": "环线 30–45 分钟",
+          "highlight": "",
+          "tip": "",
+          "resources": [
+            {
+              "id": "maits-rest-map",
+              "title": "Maits Rest Rainforest Walk",
+              "type": "map",
+              "url": "https://www.google.com/maps/search/?api=1&query=Maits+Rest+Rainforest+Walk",
+              "imageUrl": "",
+              "imageAlt": "",
+              "sourceNote": "Google Maps"
+            }
+          ],
+          "sortOrder": 20,
+          "id": "d4-20"
+        },
+        {
+          "choice": "",
+          "miss": "",
+          "dayId": "d4",
+          "period": "上午",
+          "place": "The Redwoods 红杉林",
+          "activity": "高大的红杉林",
+          "highlight": "",
+          "tip": "林道会增加车程，来不及先删它",
+          "resources": [],
+          "sortOrder": 30,
+          "id": "d4-30"
+        },
+        {
+          "choice": "",
+          "miss": "",
+          "dayId": "d4",
+          "period": "中午前后",
+          "place": "Castle Cove",
+          "activity": "5–10 分钟短停",
+          "highlight": "",
+          "tip": "",
+          "resources": [],
+          "sortOrder": 40,
+          "id": "d4-40"
+        },
+        {
+          "choice": "",
+          "miss": "",
+          "dayId": "d4",
+          "period": "下午",
+          "place": "Gibson Steps → 十二门徒 → Loch Ard Gorge → Razorback",
+          "activity": "一路看悬崖和海蚀地貌",
+          "highlight": "",
+          "tip": "十二门徒至少留 45 分钟",
+          "resources": [
+            {
+              "id": "gibson-steps-map",
+              "title": "Gibson Steps",
+              "type": "map",
+              "url": "https://www.google.com/maps/search/?api=1&query=Gibson+Steps",
+              "imageUrl": "",
+              "imageAlt": "",
+              "sourceNote": "Google Maps"
+            },
+            {
+              "id": "loch-ard-map",
+              "title": "Loch Ard Gorge",
+              "type": "map",
+              "url": "https://www.google.com/maps/search/?api=1&query=Loch+Ard+Gorge",
+              "imageUrl": "",
+              "imageAlt": "",
+              "sourceNote": "Google Maps"
+            },
+            {
+              "id": "razorback-map",
+              "title": "The Razorback",
+              "type": "map",
+              "url": "https://www.google.com/maps/search/?api=1&query=The+Razorback+Port+Campbell",
+              "imageUrl": "",
+              "imageAlt": "",
+              "sourceNote": "Google Maps"
+            }
+          ],
+          "sortOrder": 50,
+          "id": "d4-50"
+        },
+        {
+          "choice": "",
+          "miss": "",
+          "dayId": "d4",
+          "period": "下午较晚",
+          "place": "Timboon",
+          "activity": "Berry Good Thai 吃较晚的午饭，再去 Timboon Fine Ice Cream",
+          "highlight": "",
+          "tip": "",
+          "resources": [],
+          "sortOrder": 60,
+          "id": "d4-60"
+        },
+        {
+          "choice": "",
+          "miss": "",
+          "dayId": "d4",
+          "period": "傍晚",
+          "place": "十二门徒",
+          "activity": "看日落",
+          "highlight": "",
+          "tip": "",
+          "resources": [],
+          "sortOrder": 70,
+          "id": "d4-70"
+        },
+        {
+          "choice": "",
+          "miss": "",
+          "dayId": "d4",
+          "period": "晚上",
+          "place": "Port Campbell",
+          "activity": "入住，自己做饭",
+          "highlight": "",
+          "tip": "",
+          "resources": [
+            {
+              "id": "port-campbell-map",
+              "title": "Port Campbell",
+              "type": "map",
+              "url": "https://www.google.com/maps/search/?api=1&query=Port+Campbell+Victoria",
+              "imageUrl": "",
+              "imageAlt": "",
+              "sourceNote": "Google Maps"
+            }
+          ],
+          "sortOrder": 80,
+          "id": "d4-80"
+        },
+        {
+          "choice": "",
+          "miss": "",
+          "dayId": "d4",
+          "sortOrder": 900,
+          "period": "饮食",
+          "place": "饮食安排",
+          "activity": "早餐：Apollo Bay；午餐：Timboon 的 Berry Good Thai + Timboon Fine Ice Cream；晚餐：Port Campbell 住处自己做",
+          "highlight": "每日餐食参考",
+          "tip": "",
+          "resources": [
+            {
+              "id": "apollo-map",
+              "title": "Apollo Bay",
+              "type": "map",
+              "url": "https://www.google.com/maps/search/?api=1&query=Apollo+Bay+Victoria",
+              "imageUrl": "",
+              "imageAlt": "",
+              "sourceNote": "Google Maps"
+            },
+            {
+              "id": "port-campbell-map",
+              "title": "Port Campbell",
+              "type": "map",
+              "url": "https://www.google.com/maps/search/?api=1&query=Port+Campbell+Victoria",
+              "imageUrl": "",
+              "imageAlt": "",
+              "sourceNote": "Google Maps"
+            }
+          ],
+          "id": "d4-900"
+        }
+      ],
+      "base": "Port Campbell",
+      "lodgingStatus": "",
+      "notes": [],
+      "drive": null
+    },
+    {
+      "id": "d5",
+      "label": "D5",
+      "date": "2026-08-02",
+      "weekday": "周日",
+      "city": "Port Campbell → 墨尔本机场",
+      "lat": -37.669,
+      "lon": 144.841,
+      "title": "十二门徒日出，走内陆回墨尔本",
+      "focus": "清晨再看一次十二门徒，沿海看海蚀拱门和海蚀洞，下午喂袋鼠，经 Colac 走内陆回机场。",
+      "lodging": "Holiday Inn Melbourne Airport",
+      "climateNote": "早晨海边冷，回程时间长。",
+      "clothingNote": "早上防风保暖，下午回机场前预留加油和还车时间。",
+      "coverImageUrl": "/au2026/d5-port-campbell-morning.jpg",
+      "coverImageAlt": "Port Campbell 清晨海岸",
+      "transport": "自驾 · 经 Colac 回墨尔本机场还车",
+      "leaveBy": "清晨出发去十二门徒看日出",
+      "lodgingResource": {
+        "id": "holiday-inn-airport-map",
+        "title": "Holiday Inn Melbourne Airport",
+        "type": "map",
+        "url": "https://www.google.com/maps/search/?api=1&query=Holiday+Inn+Melbourne+Airport",
+        "imageUrl": "",
+        "imageAlt": "",
+        "sourceNote": "Google Maps"
+      },
+      "primaryResource": {
+        "id": "twelve-apostles-map",
+        "title": "Twelve Apostles",
+        "type": "map",
+        "url": "https://www.google.com/maps/search/?api=1&query=Twelve+Apostles+Victoria",
+        "imageUrl": "",
+        "imageAlt": "",
+        "sourceNote": "Google Maps"
+      },
+      "ticketResource": {
+        "id": "no-fixed-ticket",
+        "title": "当天无固定票券",
+        "type": "note",
+        "url": "",
+        "imageUrl": "",
+        "imageAlt": "",
+        "sourceNote": "每日明确票券状态"
+      },
+      "blocks": [
+        {
+          "choice": "",
+          "miss": "",
+          "dayId": "d5",
+          "period": "清晨",
+          "place": "十二门徒",
+          "activity": "看日出，和前一天下午的光完全不同",
+          "highlight": "",
+          "tip": "",
+          "resources": [],
+          "sortOrder": 10,
+          "id": "d5-10"
+        },
+        {
+          "choice": "",
+          "miss": "",
+          "dayId": "d5",
+          "period": "上午",
+          "place": "Loch Ard Gorge → London Arch → The Grotto",
+          "activity": "海蚀拱门和海蚀洞",
+          "highlight": "",
+          "tip": "The Grotto 台阶雨后湿滑，留 20–30 分钟",
+          "resources": [
+            {
+              "id": "twelve-apostles-map",
+              "title": "Twelve Apostles",
+              "type": "map",
+              "url": "https://www.google.com/maps/search/?api=1&query=Twelve+Apostles+Victoria",
+              "imageUrl": "",
+              "imageAlt": "",
+              "sourceNote": "Google Maps"
+            },
+            {
+              "id": "loch-ard-map",
+              "title": "Loch Ard Gorge",
+              "type": "map",
+              "url": "https://www.google.com/maps/search/?api=1&query=Loch+Ard+Gorge",
+              "imageUrl": "",
+              "imageAlt": "",
+              "sourceNote": "Google Maps"
+            },
+            {
+              "id": "london-arch-map",
+              "title": "London Arch",
+              "type": "map",
+              "url": "https://www.google.com/maps/search/?api=1&query=London+Arch+Victoria",
+              "imageUrl": "",
+              "imageAlt": "",
+              "sourceNote": "Google Maps"
+            }
+          ],
+          "sortOrder": 20,
+          "id": "d5-20"
+        },
+        {
+          "choice": "",
+          "miss": "",
+          "dayId": "d5",
+          "period": "中午",
+          "place": "Port Campbell",
+          "activity": "12 Rocks 午饭",
+          "highlight": "",
+          "tip": "",
+          "resources": [
+            {
+              "id": "port-campbell-map",
+              "title": "Port Campbell",
+              "type": "map",
+              "url": "https://www.google.com/maps/search/?api=1&query=Port+Campbell+Victoria",
+              "imageUrl": "",
+              "imageAlt": "",
+              "sourceNote": "Google Maps"
+            }
+          ],
+          "sortOrder": 30,
+          "id": "d5-30"
+        },
+        {
+          "choice": "",
+          "miss": "",
+          "dayId": "d5",
+          "period": "下午",
+          "place": "Great Ocean Road Wildlife Park",
+          "activity": "喂袋鼠，留 1–1.5 小时",
+          "highlight": "",
+          "tip": "",
+          "resources": [],
+          "sortOrder": 40,
+          "id": "d5-40"
+        },
+        {
+          "choice": "",
+          "miss": "",
+          "dayId": "d5",
+          "period": "下午后段",
+          "place": "Colac",
+          "activity": "加油、休息，走内陆回墨尔本",
+          "highlight": "",
+          "tip": "不沿海原路折返",
+          "resources": [
+            {
+              "id": "colac-map",
+              "title": "Colac",
+              "type": "map",
+              "url": "https://www.google.com/maps/search/?api=1&query=Colac+Victoria",
+              "imageUrl": "",
+              "imageAlt": "",
+              "sourceNote": "Google Maps"
+            }
+          ],
+          "sortOrder": 50,
+          "id": "d5-50"
+        },
+        {
+          "choice": "",
+          "miss": "",
+          "dayId": "d5",
+          "period": "傍晚",
+          "place": "墨尔本机场",
+          "activity": "取回大箱、还车，住机场酒店，第二天早班机",
+          "highlight": "",
+          "tip": "",
+          "resources": [
+            {
+              "id": "mel-airport-map",
+              "title": "墨尔本机场",
+              "type": "map",
+              "url": "https://www.google.com/maps/search/?api=1&query=Melbourne+Airport",
+              "imageUrl": "",
+              "imageAlt": "",
+              "sourceNote": "Google Maps"
+            }
+          ],
+          "sortOrder": 60,
+          "id": "d5-60"
+        },
+        {
+          "choice": "",
+          "miss": "",
+          "dayId": "d5",
+          "sortOrder": 900,
+          "period": "饮食",
+          "place": "饮食安排",
+          "activity": "早餐：Port Campbell；午餐：Port Campbell 的 12 Rocks；晚餐：机场酒店简单吃",
+          "highlight": "每日餐食参考",
+          "tip": "",
+          "resources": [
+            {
+              "id": "port-campbell-map",
+              "title": "Port Campbell",
+              "type": "map",
+              "url": "https://www.google.com/maps/search/?api=1&query=Port+Campbell+Victoria",
+              "imageUrl": "",
+              "imageAlt": "",
+              "sourceNote": "Google Maps"
+            }
+          ],
+          "id": "d5-900"
+        }
+      ],
+      "base": "墨尔本机场",
+      "lodgingStatus": "",
+      "notes": [],
+      "drive": null
+    },
+    {
+      "id": "d6",
+      "label": "D6",
+      "date": "2026-08-03",
+      "weekday": "周一",
+      "city": "墨尔本 → 凯恩斯",
+      "lat": -16.9186,
+      "lon": 145.7781,
+      "title": "飞进热带，Esplanade Lagoon",
+      "focus": "从冬季飞进热带，傍晚漫步凯恩斯海滨。",
+      "lodging": "Southern Cross Atrium Apartments",
+      "climateNote": "凯恩斯约 17-26°C，旱季，阳光充足。",
+      "clothingNote": "短袖、防晒衣、墨镜、帽子；机舱和室内空调可能冷。",
+      "coverImageUrl": "/au2026/cairns-reef-lagoon.jpg",
+      "coverImageAlt": "凯恩斯热带海岸",
+      "transport": "航班 / 机场转场",
+      "leaveBy": "04:00 前从机场酒店步行或接驳至航站楼",
+      "lodgingResource": {
+        "id": "southern-cross-map",
+        "title": "Southern Cross Atrium Apartments",
+        "type": "map",
+        "url": "https://www.google.com/maps/search/?api=1&query=Southern+Cross+Atrium+Apartments+Cairns",
+        "imageUrl": "",
+        "imageAlt": "",
+        "sourceNote": "Google Maps"
+      },
+      "primaryResource": {
+        "id": "mel-airport-map",
+        "title": "墨尔本机场",
+        "type": "map",
+        "url": "https://www.google.com/maps/search/?api=1&query=Melbourne+Airport",
+        "imageUrl": "",
+        "imageAlt": "",
+        "sourceNote": "Google Maps"
+      },
+      "ticketResource": {
+        "id": "virgin-australia-official",
+        "title": "Virgin Australia VA1291",
+        "type": "official",
+        "url": "https://www.virginaustralia.com/",
+        "imageUrl": "",
+        "imageAlt": "",
+        "sourceNote": "航司官网"
+      },
+      "blocks": [
+        {
+          "choice": "",
+          "miss": "",
+          "dayId": "d6",
+          "sortOrder": 10,
+          "period": "上午",
+          "place": "墨尔本机场",
+          "activity": "飞往凯恩斯",
+          "highlight": "气候切换非常明显",
+          "tip": "国内航班建议预留行李额",
+          "resources": [
+            {
+              "id": "mel-airport-map",
+              "title": "墨尔本机场",
+              "type": "map",
+              "url": "https://www.google.com/maps/search/?api=1&query=Melbourne+Airport",
+              "imageUrl": "",
+              "imageAlt": "",
+              "sourceNote": "Google Maps"
+            }
+          ],
+          "id": "d6-10"
+        },
+        {
+          "choice": "",
+          "miss": "",
+          "dayId": "d6",
+          "sortOrder": 20,
+          "period": "中午",
+          "place": "凯恩斯",
+          "activity": "打车 / Uber 到酒店",
+          "highlight": "不租车，降低疲劳",
+          "tip": "酒店可先寄存行李",
+          "resources": [],
+          "id": "d6-20"
+        },
+        {
+          "choice": "",
+          "miss": "",
+          "dayId": "d6",
+          "sortOrder": 30,
+          "period": "下午",
+          "place": "Esplanade Lagoon",
+          "activity": "免费泻湖泳池、海滨散步",
+          "highlight": "度假感拉满",
+          "tip": "泳衣可提前放随身包",
+          "resources": [
+            {
+              "id": "cairns-lagoon-map",
+              "title": "Esplanade Lagoon",
+              "type": "map",
+              "url": "https://www.google.com/maps/search/?api=1&query=Cairns+Esplanade+Lagoon",
+              "imageUrl": "",
+              "imageAlt": "",
+              "sourceNote": "Google Maps"
+            }
+          ],
+          "id": "d6-30"
+        },
+        {
+          "choice": "",
+          "miss": "",
+          "dayId": "d6",
+          "sortOrder": 40,
+          "period": "晚上",
+          "place": "Cairns Night Markets",
+          "activity": "夜市、简餐、纪念品",
+          "highlight": "热闹轻松",
+          "tip": "今日不安排正式大餐",
+          "resources": [
+            {
+              "id": "cairns-night-market-map",
+              "title": "Cairns Night Markets",
+              "type": "map",
+              "url": "https://www.google.com/maps/search/?api=1&query=Cairns+Night+Markets",
+              "imageUrl": "",
+              "imageAlt": "",
+              "sourceNote": "Google Maps"
+            }
+          ],
+          "id": "d6-40"
+        },
+        {
+          "choice": "",
+          "miss": "",
+          "dayId": "d6",
+          "sortOrder": 900,
+          "period": "饮食",
+          "place": "饮食安排",
+          "activity": "早餐：飞机/机场；午餐：简餐 / overlay coffee（花生拿铁🔥）；晚餐：Night Market",
+          "highlight": "每日餐食参考",
+          "tip": "花生咖啡可试",
+          "resources": [],
+          "id": "d6-900"
+        }
+      ],
+      "base": "凯恩斯",
+      "lodgingStatus": "",
+      "notes": [],
+      "drive": null
+    },
+    {
+      "id": "d7",
+      "label": "D7",
+      "date": "2026-08-04",
+      "weekday": "周二",
+      "city": "凯恩斯",
+      "lat": -16.9186,
+      "lon": 145.7781,
+      "title": "Reef Magic 外礁一日游",
+      "focus": "全天留给大堡礁外礁平台与海上体验。",
+      "lodging": "Southern Cross Atrium Apartments",
+      "climateNote": "海上日晒强，船舱空调可能很冷。",
+      "clothingNote": "防晒衣比防晒霜更重要，带薄外套。晕船药会让人犯困，想浮潜就问清药效再吃。",
+      "coverImageUrl": "/au2026/d7-great-barrier-reef-pontoon.jpg",
+      "coverImageAlt": "大堡礁外礁平台",
+      "transport": "步行 / 打车至码头 + Reef Magic 游船",
+      "leaveBy": "按船票集合时间，提前 45 分钟到 Reef Fleet Terminal",
+      "lodgingResource": {
+        "id": "southern-cross-map",
+        "title": "Southern Cross Atrium Apartments",
+        "type": "map",
+        "url": "https://www.google.com/maps/search/?api=1&query=Southern+Cross+Atrium+Apartments+Cairns",
+        "imageUrl": "",
+        "imageAlt": "",
+        "sourceNote": "Google Maps"
+      },
+      "primaryResource": {
+        "id": "reef-fleet-terminal-map",
+        "title": "Reef Fleet Terminal",
+        "type": "map",
+        "url": "https://www.google.com/maps/search/?api=1&query=Reef+Fleet+Terminal+Cairns",
+        "imageUrl": "",
+        "imageAlt": "",
+        "sourceNote": "Google Maps"
+      },
+      "ticketResource": {
+        "id": "reef-magic-official",
+        "title": "Reef Magic",
+        "type": "official",
+        "url": "https://www.reefmagic.com.au/",
+        "imageUrl": "",
+        "imageAlt": "",
+        "sourceNote": "官网"
+      },
+      "blocks": [
+        {
+          "choice": "",
+          "miss": "",
+          "dayId": "d7",
+          "sortOrder": 10,
+          "period": "早上",
+          "place": "凯恩斯码头",
+          "activity": "Reef Magic check-in，登船出海",
+          "highlight": "前往外礁平台",
+          "tip": "晕船药会让人犯困，吃了可能在船上睡过去、错过浮潜：想浮潜就问清药效再吃；不要卡点到码头；带好泳衣、防晒衣、毛巾、薄外套",
+          "resources": [
+            {
+              "id": "reef-fleet-terminal-map",
+              "title": "Reef Fleet Terminal",
+              "type": "map",
+              "url": "https://www.google.com/maps/search/?api=1&query=Reef+Fleet+Terminal+Cairns",
+              "imageUrl": "",
+              "imageAlt": "",
+              "sourceNote": "Google Maps"
+            },
+            {
+              "id": "reef-magic-official",
+              "title": "Reef Magic",
+              "type": "official",
+              "url": "https://www.reefmagic.com.au/",
+              "imageUrl": "",
+              "imageAlt": "",
+              "sourceNote": "官网"
+            }
+          ],
+          "id": "d7-10"
+        },
+        {
+          "choice": "",
+          "miss": "",
+          "dayId": "d7",
+          "sortOrder": 20,
+          "period": "全天",
+          "place": "Outer Reef Pontoon",
+          "activity": "浮潜、半潜艇、玻璃底船、海底观景室、可选深潜 / 海底漫步",
+          "highlight": "珊瑚、热带鱼、大堡礁平台体验",
+          "tip": "防晒衣比防晒霜更重要；船舱空调可能很冷；不下水的人也有体验",
+          "resources": [
+            {
+              "id": "reef-magic-official",
+              "title": "Reef Magic",
+              "type": "official",
+              "url": "https://www.reefmagic.com.au/",
+              "imageUrl": "",
+              "imageAlt": "",
+              "sourceNote": "官网"
+            }
+          ],
+          "id": "d7-20"
+        },
+        {
+          "choice": "",
+          "miss": "",
+          "dayId": "d7",
+          "sortOrder": 30,
+          "period": "中午",
+          "place": "船上 / 平台",
+          "activity": "外礁平台午餐",
+          "highlight": "轻松补给",
+          "tip": "不要吃太撑，避免晕船",
+          "resources": [
+            {
+              "id": "reef-magic-official",
+              "title": "Reef Magic",
+              "type": "official",
+              "url": "https://www.reefmagic.com.au/",
+              "imageUrl": "",
+              "imageAlt": "",
+              "sourceNote": "官网"
+            }
+          ],
+          "id": "d7-30"
+        },
+        {
+          "choice": "",
+          "miss": "",
+          "dayId": "d7",
+          "sortOrder": 40,
+          "period": "下午",
+          "place": "返回凯恩斯",
+          "activity": "下船休息",
+          "highlight": "通常会比较疲惫",
+          "tip": "晚上不要订太正式的餐厅",
+          "resources": [
+            {
+              "id": "reef-fleet-terminal-map",
+              "title": "Reef Fleet Terminal",
+              "type": "map",
+              "url": "https://www.google.com/maps/search/?api=1&query=Reef+Fleet+Terminal+Cairns",
+              "imageUrl": "",
+              "imageAlt": "",
+              "sourceNote": "Google Maps"
+            }
+          ],
+          "id": "d7-40"
+        },
+        {
+          "choice": "",
+          "miss": "",
+          "dayId": "d7",
+          "sortOrder": 50,
+          "period": "晚上",
+          "place": "码头附近",
+          "activity": "Prawn Star / Salt House / Dundee’s 可选",
+          "highlight": "海边晚餐",
+          "tip": "轻松即可，不要再安排夜间项目",
+          "resources": [
+            {
+              "id": "prawn-star-map",
+              "title": "Prawn Star",
+              "type": "restaurant",
+              "url": "https://www.google.com/maps/search/?api=1&query=Prawn+Star+Cairns",
+              "imageUrl": "",
+              "imageAlt": "",
+              "sourceNote": "Google Maps"
+            },
+            {
+              "id": "salt-house-map",
+              "title": "Salt House",
+              "type": "restaurant",
+              "url": "https://www.google.com/maps/search/?api=1&query=Salt+House+Cairns",
+              "imageUrl": "",
+              "imageAlt": "",
+              "sourceNote": "Google Maps"
+            },
+            {
+              "id": "dundees-map",
+              "title": "Dundee’s Cairns",
+              "type": "restaurant",
+              "url": "https://www.google.com/maps/search/?api=1&query=Dundee%27s+Cairns",
+              "imageUrl": "",
+              "imageAlt": "",
+              "sourceNote": "Google Maps"
+            }
+          ],
+          "id": "d7-50"
+        },
+        {
+          "choice": "",
+          "miss": "",
+          "dayId": "d7",
+          "sortOrder": 60,
+          "period": "提醒",
+          "place": "今日提醒",
+          "activity": "Reef Magic 是凯恩斯段核心项目，重点是完成一次稳定的大堡礁外礁体验。",
+          "highlight": "海况、风浪、晕船和体力比晴雨更影响体验",
+          "tip": "不必追求拍很多水下画面，先保证舒适和安全。",
+          "resources": [
+            {
+              "id": "reef-magic-official",
+              "title": "Reef Magic",
+              "type": "official",
+              "url": "https://www.reefmagic.com.au/",
+              "imageUrl": "",
+              "imageAlt": "",
+              "sourceNote": "官网"
+            }
+          ],
+          "id": "d7-60"
+        },
+        {
+          "choice": "",
+          "miss": "",
+          "dayId": "d7",
+          "sortOrder": 900,
+          "period": "饮食",
+          "place": "饮食安排",
+          "activity": "早餐：酒店轻食；午餐：Reef Magic 外礁平台午餐；晚餐：Prawn Star / Salt House",
+          "highlight": "每日餐食参考",
+          "tip": "出海后不要订太正式的餐厅，视体力轻松吃",
+          "resources": [
+            {
+              "id": "reef-magic-official",
+              "title": "Reef Magic",
+              "type": "official",
+              "url": "https://www.reefmagic.com.au/",
+              "imageUrl": "",
+              "imageAlt": "",
+              "sourceNote": "官网"
+            },
+            {
+              "id": "prawn-star-map",
+              "title": "Prawn Star",
+              "type": "restaurant",
+              "url": "https://www.google.com/maps/search/?api=1&query=Prawn+Star+Cairns",
+              "imageUrl": "",
+              "imageAlt": "",
+              "sourceNote": "Google Maps"
+            },
+            {
+              "id": "salt-house-map",
+              "title": "Salt House",
+              "type": "restaurant",
+              "url": "https://www.google.com/maps/search/?api=1&query=Salt+House+Cairns",
+              "imageUrl": "",
+              "imageAlt": "",
+              "sourceNote": "Google Maps"
+            }
+          ],
+          "id": "d7-900"
+        }
+      ],
+      "base": "凯恩斯",
+      "lodgingStatus": "",
+      "notes": [],
+      "drive": null
+    },
+    {
+      "id": "d8",
+      "label": "D8",
+      "date": "2026-08-05",
+      "weekday": "周三",
+      "city": "丹翠雨林",
+      "lat": -16.1705,
+      "lon": 145.4185,
+      "title": "丹翠雨林 + Cape Tribulation 小团",
+      "focus": "沿丹翠河深入雨林，在 Cape Tribulation 看雨林入海。",
+      "lodging": "Southern Cross Atrium Apartments",
+      "climateNote": "热带雨林湿润，车内空调可能冷。",
+      "clothingNote": "短袖、防晒、防蚊、帽子、薄外套；不建议下海游泳。",
+      "coverImageUrl": "/au2026/daintree-rainforest.jpg",
+      "coverImageAlt": "丹翠雨林",
+      "transport": "Billy Tea 小团接驳车",
+      "leaveBy": "06:45 酒店门口接车，提前几分钟下楼",
+      "lodgingResource": {
+        "id": "southern-cross-map",
+        "title": "Southern Cross Atrium Apartments",
+        "type": "map",
+        "url": "https://www.google.com/maps/search/?api=1&query=Southern+Cross+Atrium+Apartments+Cairns",
+        "imageUrl": "",
+        "imageAlt": "",
+        "sourceNote": "Google Maps"
+      },
+      "primaryResource": {
+        "id": "southern-cross-map",
+        "title": "Southern Cross Atrium Apartments",
+        "type": "map",
+        "url": "https://www.google.com/maps/search/?api=1&query=Southern+Cross+Atrium+Apartments+Cairns",
+        "imageUrl": "",
+        "imageAlt": "",
+        "sourceNote": "Google Maps"
+      },
+      "ticketResource": {
+        "id": "billy-tea-official",
+        "title": "Billy Tea Safaris",
+        "type": "official",
+        "url": "https://www.billytea.com.au/",
+        "imageUrl": "",
+        "imageAlt": "",
+        "sourceNote": "官网"
+      },
+      "blocks": [
+        {
+          "choice": "",
+          "miss": "",
+          "dayId": "d8",
+          "sortOrder": 10,
+          "period": "清晨",
+          "place": "凯恩斯酒店 → 丹翠方向",
+          "activity": "6:45 酒店门口接车，跟团车北上",
+          "highlight": "不用自驾，沿途可休息看风景",
+          "tip": "早上提前吃一点，带水、防晒、帽子和薄外套",
+          "resources": [],
+          "id": "d8-10"
+        },
+        {
+          "choice": "",
+          "miss": "",
+          "dayId": "d8",
+          "sortOrder": 20,
+          "period": "上午",
+          "place": "Daintree River / Rainforest",
+          "activity": "鳄鱼游船、雨林步道",
+          "highlight": "野生鳄鱼、鸟类、红树林、热带雨林生态",
+          "tip": "野生动物不保证，但 Daintree River 是经典鳄鱼河道",
+          "resources": [
+            {
+              "id": "daintree-river-map",
+              "title": "Daintree River",
+              "type": "map",
+              "url": "https://www.google.com/maps/search/?api=1&query=Daintree+River",
+              "imageUrl": "",
+              "imageAlt": "",
+              "sourceNote": "Google Maps"
+            }
+          ],
+          "id": "d8-20"
+        },
+        {
+          "choice": "",
+          "miss": "",
+          "dayId": "d8",
+          "sortOrder": 30,
+          "period": "中午",
+          "place": "Daintree Rainforest",
+          "activity": "团含午餐",
+          "highlight": "不用自己找餐厅",
+          "tip": "如有忌口提前告知",
+          "resources": [],
+          "id": "d8-30"
+        },
+        {
+          "choice": "",
+          "miss": "",
+          "dayId": "d8",
+          "sortOrder": 40,
+          "period": "下午",
+          "place": "Cape Tribulation",
+          "activity": "雨林入海、海滩短停留",
+          "highlight": "这天最特别的画面",
+          "tip": "不建议下海游泳；注意鳄鱼、水母和警示牌",
+          "resources": [
+            {
+              "id": "cape-trib-map",
+              "title": "Cape Tribulation",
+              "type": "map",
+              "url": "https://www.google.com/maps/search/?api=1&query=Cape+Tribulation",
+              "imageUrl": "",
+              "imageAlt": "",
+              "sourceNote": "Google Maps"
+            }
+          ],
+          "id": "d8-40"
+        },
+        {
+          "choice": "",
+          "miss": "",
+          "dayId": "d8",
+          "sortOrder": 50,
+          "period": "下午后段",
+          "place": "Daintree Ferry / Ice Cream",
+          "activity": "渡河、热带水果冰淇淋",
+          "highlight": "Daintree Ice-Cream Company 的热带水果冰淇淋，别处吃不到",
+          "tip": "冰淇淋已包含在 Billy Tea 行程内",
+          "resources": [
+            {
+              "id": "daintree-icecream-map",
+              "title": "Daintree Ice Cream Company",
+              "type": "restaurant",
+              "url": "https://www.google.com/maps/search/?api=1&query=Daintree+Ice+Cream+Company",
+              "imageUrl": "",
+              "imageAlt": "",
+              "sourceNote": "Google Maps"
+            }
+          ],
+          "id": "d8-50"
+        },
+        {
+          "choice": "",
+          "miss": "",
+          "dayId": "d8",
+          "sortOrder": 60,
+          "period": "傍晚",
+          "place": "返回凯恩斯",
+          "activity": "18:30 后回到市区",
+          "highlight": "回程可休息",
+          "tip": "晚餐简单，不再加夜间项目",
+          "resources": [],
+          "id": "d8-60"
+        },
+        {
+          "choice": "",
+          "miss": "",
+          "dayId": "d8",
+          "sortOrder": 900,
+          "period": "饮食",
+          "place": "饮食安排",
+          "activity": "早餐：酒店早餐；午餐：团餐；晚餐：凯恩斯随便",
+          "highlight": "每日餐食参考",
+          "tip": "Daintree Ice Cream 必吃；回程较晚，晚餐简单",
+          "resources": [
+            {
+              "id": "daintree-icecream-map",
+              "title": "Daintree Ice Cream Company",
+              "type": "restaurant",
+              "url": "https://www.google.com/maps/search/?api=1&query=Daintree+Ice+Cream+Company",
+              "imageUrl": "",
+              "imageAlt": "",
+              "sourceNote": "Google Maps"
+            }
+          ],
+          "id": "d8-900"
+        }
+      ],
+      "base": "丹翠雨林",
+      "lodgingStatus": "",
+      "notes": [],
+      "drive": null
+    },
+    {
+      "id": "d9",
+      "label": "D9",
+      "date": "2026-08-06",
+      "weekday": "周四",
+      "city": "阿瑟顿高原",
+      "lat": -17.2706,
+      "lon": 145.5831,
+      "title": "火山湖、巨树、小镇与瀑布",
+      "focus": "从机场取车走 Kuranda 山路上高原，在咖啡庄园吃早午饭，再串起火山湖、窗帘无花果树、Yungaburra 老街和 Millaa Millaa 瀑布。",
+      "lodging": "Southern Cross Atrium Apartments",
+      "climateNote": "高原比凯恩斯海边更清凉。",
+      "clothingNote": "短袖加薄外套，瀑布和雨林步道注意防滑。",
+      "coverImageUrl": "/au2026/d9-atherton-tablelands-waterfall.jpg",
+      "coverImageAlt": "阿瑟顿高原瀑布",
+      "transport": "自驾 · 凯恩斯机场取还",
+      "leaveBy": "08:00 凯恩斯机场取车出发",
+      "lodgingResource": {
+        "id": "southern-cross-map",
+        "title": "Southern Cross Atrium Apartments",
+        "type": "map",
+        "url": "https://www.google.com/maps/search/?api=1&query=Southern+Cross+Atrium+Apartments+Cairns",
+        "imageUrl": "",
+        "imageAlt": "",
+        "sourceNote": "Google Maps"
+      },
+      "primaryResource": {
+        "id": "lake-eacham-map",
+        "title": "Lake Eacham",
+        "type": "map",
+        "url": "https://www.google.com/maps/search/?api=1&query=Lake+Eacham",
+        "imageUrl": "",
+        "imageAlt": "",
+        "sourceNote": "Google Maps"
+      },
+      "ticketResource": {
+        "id": "no-fixed-ticket",
+        "title": "当天无固定票券",
+        "type": "note",
+        "url": "",
+        "imageUrl": "",
+        "imageAlt": "",
+        "sourceNote": "每日明确票券状态"
+      },
+      "blocks": [
+        {
+          "choice": "",
+          "miss": "",
+          "dayId": "d9",
+          "period": "08:00",
+          "place": "凯恩斯机场",
+          "activity": "取车，上 Kuranda 山路",
+          "highlight": "",
+          "tip": "",
+          "resources": [],
+          "sortOrder": 10,
+          "id": "d9-10"
+        },
+        {
+          "choice": "",
+          "miss": "",
+          "dayId": "d9",
+          "period": "08:40",
+          "place": "Kuranda",
+          "activity": "小镇主街短走",
+          "highlight": "",
+          "tip": "",
+          "resources": [],
+          "sortOrder": 20,
+          "id": "d9-20"
+        },
+        {
+          "choice": "",
+          "miss": "",
+          "dayId": "d9",
+          "period": "09:45",
+          "place": "Mareeba",
+          "activity": "短暂休息",
+          "highlight": "",
+          "tip": "",
+          "resources": [],
+          "sortOrder": 30,
+          "id": "d9-30"
+        },
+        {
+          "choice": "",
+          "miss": "",
+          "dayId": "d9",
+          "period": "10:20–11:30",
+          "place": "Skybury Cafe & Roastery",
+          "activity": "本地咖啡和 brunch",
+          "highlight": "",
+          "tip": "",
+          "resources": [],
+          "sortOrder": 40,
+          "id": "d9-40"
+        },
+        {
+          "choice": "",
+          "miss": "",
+          "dayId": "d9",
+          "period": "12:20",
+          "place": "Lake Eacham",
+          "activity": "火山湖，湖边短停",
+          "highlight": "",
+          "tip": "",
+          "resources": [
+            {
+              "id": "lake-eacham-map",
+              "title": "Lake Eacham",
+              "type": "map",
+              "url": "https://www.google.com/maps/search/?api=1&query=Lake+Eacham",
+              "imageUrl": "",
+              "imageAlt": "",
+              "sourceNote": "Google Maps"
+            }
+          ],
+          "sortOrder": 50,
+          "id": "d9-50"
+        },
+        {
+          "choice": "",
+          "miss": "",
+          "dayId": "d9",
+          "period": "13:10",
+          "place": "Yungaburra",
+          "activity": "高原老街",
+          "highlight": "",
+          "tip": "",
+          "resources": [
+            {
+              "id": "yungaburra-map",
+              "title": "Yungaburra",
+              "type": "map",
+              "url": "https://www.google.com/maps/search/?api=1&query=Yungaburra",
+              "imageUrl": "",
+              "imageAlt": "",
+              "sourceNote": "Google Maps"
+            },
+            {
+              "id": "gallo-map",
+              "title": "Gallo Dairyland",
+              "type": "restaurant",
+              "url": "https://www.google.com/maps/search/?api=1&query=Gallo+Dairyland",
+              "imageUrl": "",
+              "imageAlt": "",
+              "sourceNote": "Google Maps"
+            }
+          ],
+          "sortOrder": 60,
+          "id": "d9-60"
+        },
+        {
+          "choice": "",
+          "miss": "",
+          "dayId": "d9",
+          "period": "13:40",
+          "place": "Curtain Fig Tree 窗帘无花果树",
+          "activity": "短木栈道",
+          "highlight": "",
+          "tip": "",
+          "resources": [
+            {
+              "id": "curtain-fig-map",
+              "title": "Curtain Fig Tree",
+              "type": "map",
+              "url": "https://www.google.com/maps/search/?api=1&query=Curtain+Fig+Tree",
+              "imageUrl": "",
+              "imageAlt": "",
+              "sourceNote": "Google Maps"
+            }
+          ],
+          "sortOrder": 70,
+          "id": "d9-70"
+        },
+        {
+          "choice": "",
+          "miss": "",
+          "dayId": "d9",
+          "period": "14:50",
+          "place": "Millaa Millaa Falls",
+          "activity": "当天的主瀑布",
+          "highlight": "",
+          "tip": "",
+          "resources": [
+            {
+              "id": "millaa-map",
+              "title": "Millaa Millaa Falls",
+              "type": "map",
+              "url": "https://www.google.com/maps/search/?api=1&query=Millaa+Millaa+Falls",
+              "imageUrl": "",
+              "imageAlt": "",
+              "sourceNote": "Google Maps"
+            },
+            {
+              "id": "ellinjaa-map",
+              "title": "Ellinjaa Falls",
+              "type": "map",
+              "url": "https://www.google.com/maps/search/?api=1&query=Ellinjaa+Falls",
+              "imageUrl": "",
+              "imageAlt": "",
+              "sourceNote": "Google Maps"
+            }
+          ],
+          "sortOrder": 80,
+          "id": "d9-80"
+        },
+        {
+          "choice": "",
+          "miss": "",
+          "dayId": "d9",
+          "period": "15:35 以后",
+          "place": "下山",
+          "activity": "走铺装主路回凯恩斯，加油还车",
+          "highlight": "",
+          "tip": "",
+          "resources": [],
+          "sortOrder": 90,
+          "id": "d9-90"
+        },
+        {
+          "choice": "",
+          "miss": "",
+          "dayId": "d9",
+          "sortOrder": 900,
+          "period": "饮食",
+          "place": "饮食安排",
+          "activity": "早餐：出发前简单吃；午餐：Skybury Cafe & Roastery 的 brunch；晚餐：回凯恩斯随便吃",
+          "highlight": "每日餐食参考",
+          "tip": "",
+          "resources": [],
+          "id": "d9-900"
+        }
+      ],
+      "base": "阿瑟顿高原",
+      "lodgingStatus": "",
+      "notes": [],
+      "drive": null
+    },
+    {
+      "id": "d10",
+      "label": "D10",
+      "date": "2026-08-07",
+      "weekday": "周五",
+      "city": "凯恩斯 + Palm Cove",
+      "lat": -16.9186,
+      "lon": 145.7781,
+      "title": "Rusty's Market + Palm Cove",
+      "focus": "连着外礁、雨林、高原三天后放慢一天：早上逛市场，下午开去 Palm Cove 海边。",
+      "lodging": "Southern Cross Atrium Apartments",
+      "climateNote": "凯恩斯约 17-26°C，户外热，室内空调冷。",
+      "clothingNote": "轻便夏装，随身带薄外套；今天不要再临时加长线。",
+      "coverImageUrl": "/au2026/d10-cairns-rustys-market.jpg",
+      "coverImageAlt": "凯恩斯市场与海滨",
+      "transport": "自驾 · 凯恩斯机场取车，第二天开去机场还",
+      "leaveBy": "上午去机场取车",
+      "lodgingResource": {
+        "id": "southern-cross-map",
+        "title": "Southern Cross Atrium Apartments",
+        "type": "map",
+        "url": "https://www.google.com/maps/search/?api=1&query=Southern+Cross+Atrium+Apartments+Cairns",
+        "imageUrl": "",
+        "imageAlt": "",
+        "sourceNote": "Google Maps"
+      },
+      "primaryResource": {
+        "id": "rustys-map",
+        "title": "Rusty's Market",
+        "type": "map",
+        "url": "https://www.google.com/maps/search/?api=1&query=Rusty%27s+Market+Cairns",
+        "imageUrl": "",
+        "imageAlt": "",
+        "sourceNote": "Google Maps"
+      },
+      "ticketResource": {
+        "id": "no-fixed-ticket",
+        "title": "当天无固定票券",
+        "type": "note",
+        "url": "",
+        "imageUrl": "",
+        "imageAlt": "",
+        "sourceNote": "每日明确票券状态"
+      },
+      "blocks": [
+        {
+          "choice": "",
+          "miss": "",
+          "dayId": "d10",
+          "period": "上午",
+          "place": "凯恩斯机场",
+          "activity": "取车（Sixt）",
+          "highlight": "",
+          "tip": "",
+          "resources": [],
+          "sortOrder": 10,
+          "id": "d10-10"
+        },
+        {
+          "choice": "",
+          "miss": "",
+          "dayId": "d10",
+          "period": "上午",
+          "place": "Rusty's Market",
+          "activity": "热带水果和咖啡当早饭",
+          "highlight": "",
+          "tip": "",
+          "resources": [
+            {
+              "id": "rustys-map",
+              "title": "Rusty's Market",
+              "type": "map",
+              "url": "https://www.google.com/maps/search/?api=1&query=Rusty%27s+Market+Cairns",
+              "imageUrl": "",
+              "imageAlt": "",
+              "sourceNote": "Google Maps"
+            }
+          ],
+          "sortOrder": 20,
+          "id": "d10-20"
+        },
+        {
+          "choice": "",
+          "miss": "",
+          "dayId": "d10",
+          "period": "中午",
+          "place": "Garage Palm Cove",
+          "activity": "海边午饭",
+          "highlight": "",
+          "tip": "",
+          "resources": [
+            {
+              "id": "palm-cove-map",
+              "title": "Palm Cove",
+              "type": "map",
+              "url": "https://www.google.com/maps/search/?api=1&query=Palm+Cove+Queensland",
+              "imageUrl": "",
+              "imageAlt": "Palm Cove 地图",
+              "sourceNote": "Google Maps"
+            }
+          ],
+          "sortOrder": 30,
+          "id": "d10-30"
+        },
+        {
+          "choice": "",
+          "miss": "",
+          "dayId": "d10",
+          "period": "下午到傍晚",
+          "place": "Palm Cove",
+          "activity": "沿 Williams Esplanade、海滩和 Jetty 散步",
+          "highlight": "",
+          "tip": "",
+          "resources": [
+            {
+              "id": "palm-cove-map",
+              "title": "Palm Cove",
+              "type": "map",
+              "url": "https://www.google.com/maps/search/?api=1&query=Palm+Cove+Queensland",
+              "imageUrl": "",
+              "imageAlt": "Palm Cove 地图",
+              "sourceNote": "Google Maps"
+            }
+          ],
+          "sortOrder": 40,
+          "id": "d10-40"
+        },
+        {
+          "choice": "",
+          "miss": "",
+          "dayId": "d10",
+          "period": "晚上",
+          "place": "凯恩斯市区",
+          "activity": "回住处",
+          "highlight": "",
+          "tip": "",
+          "resources": [],
+          "sortOrder": 50,
+          "id": "d10-50"
+        },
+        {
+          "choice": "",
+          "miss": "",
+          "dayId": "d10",
+          "sortOrder": 900,
+          "period": "饮食",
+          "place": "饮食安排",
+          "activity": "早餐：Rusty's Market 的水果和咖啡；午餐：Garage Palm Cove；晚餐：回市区随便吃",
+          "highlight": "每日餐食参考",
+          "tip": "",
+          "resources": [
+            {
+              "id": "rustys-map",
+              "title": "Rusty's Market",
+              "type": "map",
+              "url": "https://www.google.com/maps/search/?api=1&query=Rusty%27s+Market+Cairns",
+              "imageUrl": "",
+              "imageAlt": "",
+              "sourceNote": "Google Maps"
+            }
+          ],
+          "id": "d10-900"
+        }
+      ],
+      "base": "凯恩斯",
+      "lodgingStatus": "",
+      "notes": [],
+      "drive": null
+    },
+    {
+      "id": "d11",
+      "label": "D11",
+      "date": "2026-08-08",
+      "weekday": "周六",
+      "city": "凯恩斯 → 悉尼",
+      "lat": -33.8688,
+      "lon": 151.2093,
+      "title": "转场悉尼，Barangaroo + The Rocks + 海港夜景",
+      "focus": "飞抵悉尼休息后，经 Barangaroo 走向海港夜景。",
+      "lodging": "Oaks Sydney Goldsbrough Suites",
+      "climateNote": "悉尼约 9-18°C，早晚凉，海边防风。",
+      "clothingNote": "薄羽绒、风衣或卫衣；从凯恩斯上飞机随身带外套。",
+      "coverImageUrl": "/au2026/d11-sydney-arrival-rocks.jpg",
+      "coverImageAlt": "悉尼 The Rocks 夜景",
+      "transport": "开车去机场还车 + 航班 + 步行",
+      "leaveBy": "按 JQ953 起飞时间，提前 2 小时到凯恩斯机场 T2",
+      "lodgingResource": {
+        "id": "oaks-sydney-map",
+        "title": "Oaks Sydney Goldsbrough Suites",
+        "type": "map",
+        "url": "https://www.google.com/maps/search/?api=1&query=Oaks+Sydney+Goldsbrough+Suites",
+        "imageUrl": "",
+        "imageAlt": "",
+        "sourceNote": "Google Maps"
+      },
+      "primaryResource": {
+        "id": "cairns-airport-map",
+        "title": "凯恩斯机场",
+        "type": "map",
+        "url": "https://www.google.com/maps/search/?api=1&query=Cairns+Airport",
+        "imageUrl": "",
+        "imageAlt": "",
+        "sourceNote": "Google Maps"
+      },
+      "ticketResource": {
+        "id": "jetstar-official",
+        "title": "Jetstar JQ953",
+        "type": "official",
+        "url": "https://www.jetstar.com/",
+        "imageUrl": "",
+        "imageAlt": "",
+        "sourceNote": "航司官网"
+      },
+      "blocks": [
+        {
+          "choice": "",
+          "miss": "",
+          "dayId": "d11",
+          "period": "清晨",
+          "place": "凯恩斯酒店 → 凯恩斯机场 T2",
+          "activity": "开前一天租的车去机场，还车后值机",
+          "highlight": "",
+          "tip": "前一晚打包好；Jetstar 行李按 20kg 控制",
+          "resources": [
+            {
+              "id": "cairns-airport-map",
+              "title": "凯恩斯机场",
+              "type": "map",
+              "url": "https://www.google.com/maps/search/?api=1&query=Cairns+Airport",
+              "imageUrl": "",
+              "imageAlt": "",
+              "sourceNote": "Google Maps"
+            }
+          ],
+          "sortOrder": 10,
+          "id": "d11-10"
+        },
+        {
+          "choice": "",
+          "miss": "",
+          "dayId": "d11",
+          "sortOrder": 20,
+          "period": "上午",
+          "place": "凯恩斯 → 悉尼",
+          "activity": "JQ953 飞往悉尼",
+          "highlight": "从热带切换回冬季海港城市",
+          "tip": "随身带薄外套，悉尼比凯恩斯凉",
+          "resources": [],
+          "id": "d11-20"
+        },
+        {
+          "choice": "",
+          "miss": "",
+          "dayId": "d11",
+          "sortOrder": 30,
+          "period": "上午 / 中午",
+          "place": "悉尼 T2 → 酒店",
+          "activity": "抵达后打车 / Uber 前往 Oaks Sydney Goldsbrough Suites",
+          "highlight": "4人 + 行李，打车最省心",
+          "tip": "如不能入住，先寄存行李",
+          "resources": [
+            {
+              "id": "oaks-sydney-map",
+              "title": "Oaks Sydney Goldsbrough Suites",
+              "type": "map",
+              "url": "https://www.google.com/maps/search/?api=1&query=Oaks+Sydney+Goldsbrough+Suites",
+              "imageUrl": "",
+              "imageAlt": "",
+              "sourceNote": "Google Maps"
+            }
+          ],
+          "id": "d11-30"
+        },
+        {
+          "choice": "",
+          "miss": "",
+          "dayId": "d11",
+          "sortOrder": 40,
+          "period": "下午",
+          "place": "Darling Harbour / 酒店周边",
+          "activity": "轻松适应，简单午餐或休息",
+          "highlight": "不硬玩，恢复清晨航班疲劳",
+          "tip": "可在酒店附近熟悉环境",
+          "resources": [
+            {
+              "id": "darling-harbour-map",
+              "title": "Darling Harbour",
+              "type": "map",
+              "url": "https://www.google.com/maps/search/?api=1&query=Darling+Harbour+Sydney",
+              "imageUrl": "",
+              "imageAlt": "",
+              "sourceNote": "Google Maps"
+            }
+          ],
+          "id": "d11-40"
+        },
+        {
+          "choice": "",
+          "miss": "",
+          "dayId": "d11",
+          "sortOrder": 50,
+          "period": "下午后段",
+          "place": "Barangaroo Reserve / Wulugul Walk",
+          "activity": "从 Darling Harbour 沿海滨前往 Barangaroo Reserve，再衔接 The Rocks",
+          "highlight": "原生植物、砂岩海岸与悉尼港步行线",
+          "tip": "固定站点，控制约 45–60 分钟；转场日保持轻量，不增加收费项目",
+          "resources": [
+            {
+              "id": "barangaroo-reserve-map",
+              "title": "Barangaroo Reserve",
+              "type": "map",
+              "url": "https://www.google.com/maps/search/?api=1&query=Barangaroo+Reserve+Sydney",
+              "imageUrl": "",
+              "imageAlt": "Barangaroo Reserve 地图",
+              "sourceNote": "Google Maps"
+            },
+            {
+              "id": "darling-harbour-map",
+              "title": "Darling Harbour",
+              "type": "map",
+              "url": "https://www.google.com/maps/search/?api=1&query=Darling+Harbour+Sydney",
+              "imageUrl": "",
+              "imageAlt": "",
+              "sourceNote": "Google Maps"
+            },
+            {
+              "id": "the-rocks-map",
+              "title": "The Rocks",
+              "type": "map",
+              "url": "https://www.google.com/maps/search/?api=1&query=The+Rocks+Sydney",
+              "imageUrl": "",
+              "imageAlt": "",
+              "sourceNote": "Google Maps"
+            }
+          ],
+          "id": "d11-50"
+        },
+        {
+          "choice": "",
+          "miss": "",
+          "dayId": "d11",
+          "sortOrder": 60,
+          "period": "傍晚",
+          "place": "The Rocks",
+          "activity": "岩石区散步、晚餐",
+          "highlight": "砂岩建筑、老城氛围",
+          "tip": "悉尼第一晚很适合这里",
+          "resources": [
+            {
+              "id": "the-rocks-map",
+              "title": "The Rocks",
+              "type": "map",
+              "url": "https://www.google.com/maps/search/?api=1&query=The+Rocks+Sydney",
+              "imageUrl": "",
+              "imageAlt": "",
+              "sourceNote": "Google Maps"
+            }
+          ],
+          "id": "d11-60"
+        },
+        {
+          "choice": "",
+          "miss": "",
+          "dayId": "d11",
+          "sortOrder": 70,
+          "period": "晚上",
+          "place": "Circular Quay",
+          "activity": "歌剧院、海港大桥夜景",
+          "highlight": "悉尼开场画面",
+          "tip": "轻松看夜景即可，不要安排太复杂",
+          "resources": [
+            {
+              "id": "circular-quay-map",
+              "title": "Circular Quay",
+              "type": "map",
+              "url": "https://www.google.com/maps/search/?api=1&query=Circular+Quay+Sydney",
+              "imageUrl": "",
+              "imageAlt": "",
+              "sourceNote": "Google Maps"
+            }
+          ],
+          "id": "d11-70"
+        },
+        {
+          "choice": "",
+          "miss": "",
+          "dayId": "d11",
+          "sortOrder": 900,
+          "period": "饮食",
+          "place": "饮食安排",
+          "activity": "早餐：café / A.P Bakery（可选）；午餐：飞机/机场 / mezze feast；晚餐：The Rocks pub",
+          "highlight": "每日餐食参考",
+          "tip": "转场日，晚餐轻松",
+          "resources": [
+            {
+              "id": "the-rocks-map",
+              "title": "The Rocks",
+              "type": "map",
+              "url": "https://www.google.com/maps/search/?api=1&query=The+Rocks+Sydney",
+              "imageUrl": "",
+              "imageAlt": "",
+              "sourceNote": "Google Maps"
+            }
+          ],
+          "id": "d11-900"
+        }
+      ],
+      "base": "悉尼",
+      "lodgingStatus": "",
+      "notes": [],
+      "drive": null
+    },
+    {
+      "id": "d12",
+      "label": "D12",
+      "date": "2026-08-09",
+      "weekday": "周日",
+      "city": "悉尼市区",
+      "lat": -33.8688,
+      "lon": 151.2093,
+      "title": "悉尼经典地标与歌剧院中文导览",
+      "focus": "从歌剧院导览一路步行到花园、经典机位与 QVB。",
+      "lodging": "Oaks Sydney Goldsbrough Suites",
+      "climateNote": "悉尼冬季晴天概率较好，早晚凉。",
+      "clothingNote": "薄羽绒或风衣，海港边风大时注意保暖。",
+      "coverImageUrl": "/au2026/d12-sydney-opera-garden.jpg",
+      "coverImageAlt": "悉尼歌剧院与植物园",
+      "transport": "步行 + 市内交通",
+      "leaveBy": "8 点前到 Mrs Macquarie's Chair",
+      "lodgingResource": {
+        "id": "oaks-sydney-map",
+        "title": "Oaks Sydney Goldsbrough Suites",
+        "type": "map",
+        "url": "https://www.google.com/maps/search/?api=1&query=Oaks+Sydney+Goldsbrough+Suites",
+        "imageUrl": "",
+        "imageAlt": "",
+        "sourceNote": "Google Maps"
+      },
+      "primaryResource": {
+        "id": "opera-house-map",
+        "title": "Sydney Opera House",
+        "type": "map",
+        "url": "https://www.google.com/maps/search/?api=1&query=Sydney+Opera+House",
+        "imageUrl": "",
+        "imageAlt": "",
+        "sourceNote": "Google Maps"
+      },
+      "ticketResource": {
+        "id": "opera-house-official",
+        "title": "Sydney Opera House Tour",
+        "type": "official",
+        "url": "https://www.sydneyoperahouse.com/tours-and-experiences",
+        "imageUrl": "",
+        "imageAlt": "",
+        "sourceNote": "官网"
+      },
+      "blocks": [
+        {
+          "choice": "",
+          "miss": "",
+          "dayId": "d12",
+          "period": "08:00",
+          "place": "Mrs Macquarie's Chair",
+          "activity": "歌剧院和海港大桥同框",
+          "highlight": "",
+          "tip": "晴天很好看，风大注意保暖",
+          "resources": [
+            {
+              "id": "mrs-macquarie-map",
+              "title": "Mrs Macquarie's Chair",
+              "type": "map",
+              "url": "https://www.google.com/maps/search/?api=1&query=Mrs+Macquarie%27s+Chair",
+              "imageUrl": "",
+              "imageAlt": "",
+              "sourceNote": "Google Maps"
+            }
+          ],
+          "sortOrder": 10,
+          "id": "d12-10"
+        },
+        {
+          "choice": "",
+          "miss": "",
+          "dayId": "d12",
+          "sortOrder": 20,
+          "period": "08:30–09:10",
+          "place": "Opera House 外观",
+          "activity": "歌剧院外观、台阶、Man O’War Steps 初拍",
+          "highlight": "悉尼核心地标",
+          "tip": "导览前先拍外观，避免后面人多；重点拍帆形结构、台阶、侧面海港机位",
+          "resources": [
+            {
+              "id": "opera-house-map",
+              "title": "Sydney Opera House",
+              "type": "map",
+              "url": "https://www.google.com/maps/search/?api=1&query=Sydney+Opera+House",
+              "imageUrl": "",
+              "imageAlt": "",
+              "sourceNote": "Google Maps"
+            }
+          ],
+          "id": "d12-20"
+        },
+        {
+          "choice": "",
+          "miss": "",
+          "dayId": "d12",
+          "sortOrder": 30,
+          "period": "09:30–10:30",
+          "place": "Sydney Opera House",
+          "activity": "中文内部导览",
+          "highlight": "建筑故事、内部空间、剧院结构",
+          "tip": "提前到集合点；导览需步行和上下台阶；允许拍摄的空间再拍，不要影响团队",
+          "resources": [
+            {
+              "id": "opera-house-map",
+              "title": "Sydney Opera House",
+              "type": "map",
+              "url": "https://www.google.com/maps/search/?api=1&query=Sydney+Opera+House",
+              "imageUrl": "",
+              "imageAlt": "",
+              "sourceNote": "Google Maps"
+            },
+            {
+              "id": "opera-house-official",
+              "title": "Sydney Opera House Tour",
+              "type": "official",
+              "url": "https://www.sydneyoperahouse.com/tours-and-experiences",
+              "imageUrl": "",
+              "imageAlt": "",
+              "sourceNote": "官网"
+            }
+          ],
+          "id": "d12-30"
+        },
+        {
+          "choice": "",
+          "miss": "",
+          "dayId": "d12",
+          "sortOrder": 40,
+          "period": "10:30–11:00",
+          "place": "Opera House 周边",
+          "activity": "补拍 / 咖啡 / 短休息",
+          "highlight": "导览后消化一下",
+          "tip": "不急着赶路；可补 Man O’War Steps / 歌剧院侧面",
+          "resources": [
+            {
+              "id": "opera-house-map",
+              "title": "Sydney Opera House",
+              "type": "map",
+              "url": "https://www.google.com/maps/search/?api=1&query=Sydney+Opera+House",
+              "imageUrl": "",
+              "imageAlt": "",
+              "sourceNote": "Google Maps"
+            }
+          ],
+          "id": "d12-40"
+        },
+        {
+          "choice": "",
+          "miss": "",
+          "dayId": "d12",
+          "sortOrder": 50,
+          "period": "11:00–12:30",
+          "place": "Royal Botanic Garden",
+          "activity": "植物园海港步道",
+          "highlight": "海港景观非常好",
+          "tip": "这段不是赶景点，是慢慢走向 Mrs Macquarie’s Chair；可拍草坪远景框住歌剧院 + 海港桥",
+          "resources": [
+            {
+              "id": "botanic-garden-map",
+              "title": "Royal Botanic Garden Sydney",
+              "type": "map",
+              "url": "https://www.google.com/maps/search/?api=1&query=Royal+Botanic+Garden+Sydney",
+              "imageUrl": "",
+              "imageAlt": "",
+              "sourceNote": "Google Maps"
+            }
+          ],
+          "id": "d12-50"
+        },
+        {
+          "choice": "",
+          "miss": "",
+          "dayId": "d12",
+          "sortOrder": 60,
+          "period": "12:30–13:30",
+          "place": "Circular Quay / CBD",
+          "activity": "简单午餐 / 咖啡",
+          "highlight": "补体力",
+          "tip": "不建议这天中午专门跑太远吃饭",
+          "resources": [
+            {
+              "id": "circular-quay-map",
+              "title": "Circular Quay",
+              "type": "map",
+              "url": "https://www.google.com/maps/search/?api=1&query=Circular+Quay+Sydney",
+              "imageUrl": "",
+              "imageAlt": "",
+              "sourceNote": "Google Maps"
+            }
+          ],
+          "id": "d12-60"
+        },
+        {
+          "choice": "",
+          "miss": "",
+          "dayId": "d12",
+          "sortOrder": 70,
+          "period": "15:00–16:45",
+          "place": "QVB / Westfield / CBD",
+          "activity": "购物、室内休息",
+          "highlight": "建筑漂亮，适合逛",
+          "tip": "商店关门较早，别拖太晚；QVB 穹顶适合仰拍对称构图",
+          "resources": [
+            {
+              "id": "qvb-map",
+              "title": "QVB",
+              "type": "map",
+              "url": "https://www.google.com/maps/search/?api=1&query=Queen+Victoria+Building+Sydney",
+              "imageUrl": "",
+              "imageAlt": "",
+              "sourceNote": "Google Maps"
+            }
+          ],
+          "id": "d12-70"
+        },
+        {
+          "choice": "",
+          "miss": "",
+          "dayId": "d12",
+          "period": "17:00 前",
+          "place": "Circular Quay",
+          "activity": "看日落一直到蓝调",
+          "highlight": "",
+          "tip": "",
+          "resources": [
+            {
+              "id": "circular-quay-map",
+              "title": "Circular Quay",
+              "type": "map",
+              "url": "https://www.google.com/maps/search/?api=1&query=Circular+Quay+Sydney",
+              "imageUrl": "",
+              "imageAlt": "",
+              "sourceNote": "Google Maps"
+            },
+            {
+              "id": "opera-house-map",
+              "title": "Sydney Opera House",
+              "type": "map",
+              "url": "https://www.google.com/maps/search/?api=1&query=Sydney+Opera+House",
+              "imageUrl": "",
+              "imageAlt": "",
+              "sourceNote": "Google Maps"
+            }
+          ],
+          "sortOrder": 80,
+          "id": "d12-80"
+        },
+        {
+          "choice": "",
+          "miss": "",
+          "dayId": "d12",
+          "sortOrder": 90,
+          "period": "晚上",
+          "place": "CBD / Darling Harbour",
+          "activity": "CBD 晚餐",
+          "highlight": "城市核心日收尾",
+          "tip": "达令港夜景可以顺路看",
+          "resources": [],
+          "id": "d12-90"
+        },
+        {
+          "choice": "",
+          "miss": "",
+          "dayId": "d12",
+          "sortOrder": 900,
+          "period": "饮食",
+          "place": "饮食安排",
+          "activity": "早餐：bills / Toby’s Estate；午餐：Circular Quay / CBD 简餐；晚餐：CBD / 达令港",
+          "highlight": "每日餐食参考",
+          "tip": "午餐不用跑太远，留时间给下午的植物园和 QVB",
+          "resources": [
+            {
+              "id": "bills-sydney-map",
+              "title": "bills Sydney",
+              "type": "restaurant",
+              "url": "https://www.google.com/maps/search/?api=1&query=bills+Sydney",
+              "imageUrl": "",
+              "imageAlt": "",
+              "sourceNote": "Google Maps"
+            },
+            {
+              "id": "tobys-estate-map",
+              "title": "Toby’s Estate Sydney",
+              "type": "restaurant",
+              "url": "https://www.google.com/maps/search/?api=1&query=Toby%27s+Estate+Sydney",
+              "imageUrl": "",
+              "imageAlt": "",
+              "sourceNote": "Google Maps"
+            },
+            {
+              "id": "circular-quay-map",
+              "title": "Circular Quay",
+              "type": "map",
+              "url": "https://www.google.com/maps/search/?api=1&query=Circular+Quay+Sydney",
+              "imageUrl": "",
+              "imageAlt": "",
+              "sourceNote": "Google Maps"
+            }
+          ],
+          "id": "d12-900"
+        }
+      ],
+      "base": "悉尼市区",
+      "lodgingStatus": "",
+      "notes": [],
+      "drive": null
+    },
+    {
+      "id": "d13",
+      "label": "D13",
+      "date": "2026-08-10",
+      "weekday": "周一",
+      "city": "悉尼",
+      "lat": -34.6713,
+      "lon": 150.8565,
+      "title": "Taronga 动物园 + 城里购物 + Porteño",
+      "focus": "上午坐渡轮去 Taronga 看澳洲动物和悉尼港，下午回城购物，晚上吃阿根廷烤肉。",
+      "lodging": "Oaks Sydney Goldsbrough Suites",
+      "climateNote": "悉尼冬季早晚凉，渡轮甲板和动物园高处有风。",
+      "clothingNote": "穿舒适的步行鞋，薄外套随身。",
+      "coverImageUrl": "/au2026/d14-taronga-bondi.jpg",
+      "coverImageAlt": "Taronga Zoo、悉尼港与 Bondi 海岸",
+      "transport": "F2 渡轮 + 步行 / 打车",
+      "leaveBy": "上午去 Circular Quay 坐 F2 渡轮",
+      "lodgingResource": {
+        "id": "oaks-sydney-map",
+        "title": "Oaks Sydney Goldsbrough Suites",
+        "type": "map",
+        "url": "https://www.google.com/maps/search/?api=1&query=Oaks+Sydney+Goldsbrough+Suites",
+        "imageUrl": "",
+        "imageAlt": "",
+        "sourceNote": "Google Maps"
+      },
+      "primaryResource": {
+        "id": "taronga-zoo-map",
+        "title": "Taronga Zoo Sydney",
+        "type": "map",
+        "url": "https://www.google.com/maps/search/?api=1&query=Taronga+Zoo+Sydney",
+        "imageUrl": "",
+        "imageAlt": "",
+        "sourceNote": "Google Maps"
+      },
+      "ticketResource": {
+        "id": "taronga-zoo-official",
+        "title": "Taronga Zoo Sydney",
+        "type": "official",
+        "url": "https://www.taronga.org.au/sydney-zoo",
+        "imageUrl": "",
+        "imageAlt": "",
+        "sourceNote": "Taronga Zoo 官网"
+      },
+      "blocks": [
+        {
+          "choice": "",
+          "miss": "",
+          "dayId": "d13",
+          "sortOrder": 10,
+          "period": "上午",
+          "place": "酒店 → Circular Quay",
+          "activity": "前往公共 F2 Taronga Zoo Ferry 码头",
+          "highlight": "悉尼港开启动物与海岸日",
+          "tip": "提前查看当天 Trip Planner，建议在开园前后抵达",
+          "resources": [
+            {
+              "id": "oaks-sydney-map",
+              "title": "Oaks Sydney Goldsbrough Suites",
+              "type": "map",
+              "url": "https://www.google.com/maps/search/?api=1&query=Oaks+Sydney+Goldsbrough+Suites",
+              "imageUrl": "",
+              "imageAlt": "",
+              "sourceNote": "Google Maps"
+            },
+            {
+              "id": "circular-quay-map",
+              "title": "Circular Quay",
+              "type": "map",
+              "url": "https://www.google.com/maps/search/?api=1&query=Circular+Quay+Sydney",
+              "imageUrl": "",
+              "imageAlt": "",
+              "sourceNote": "Google Maps"
+            },
+            {
+              "id": "taronga-ferry-official",
+              "title": "F2 Taronga Zoo Ferry",
+              "type": "official",
+              "url": "https://transportnsw.info/routes/details/sydney-ferries/f2/090f2",
+              "imageUrl": "",
+              "imageAlt": "",
+              "sourceNote": "Transport for NSW"
+            }
+          ],
+          "id": "d13-10"
+        },
+        {
+          "choice": "",
+          "miss": "",
+          "dayId": "d13",
+          "sortOrder": 20,
+          "period": "上午",
+          "place": "Circular Quay → Taronga Zoo Wharf",
+          "activity": "搭乘公共 F2 Ferry 前往 Taronga Zoo",
+          "highlight": "Opera House + Harbour Bridge + Skyline",
+          "tip": "Opal / contactless 即可；建议坐上层甲板",
+          "resources": [
+            {
+              "id": "circular-quay-map",
+              "title": "Circular Quay",
+              "type": "map",
+              "url": "https://www.google.com/maps/search/?api=1&query=Circular+Quay+Sydney",
+              "imageUrl": "",
+              "imageAlt": "",
+              "sourceNote": "Google Maps"
+            },
+            {
+              "id": "taronga-ferry-official",
+              "title": "F2 Taronga Zoo Ferry",
+              "type": "official",
+              "url": "https://transportnsw.info/routes/details/sydney-ferries/f2/090f2",
+              "imageUrl": "",
+              "imageAlt": "",
+              "sourceNote": "Transport for NSW"
+            },
+            {
+              "id": "taronga-zoo-map",
+              "title": "Taronga Zoo Sydney",
+              "type": "map",
+              "url": "https://www.google.com/maps/search/?api=1&query=Taronga+Zoo+Sydney",
+              "imageUrl": "",
+              "imageAlt": "",
+              "sourceNote": "Google Maps"
+            }
+          ],
+          "id": "d13-20"
+        },
+        {
+          "choice": "",
+          "miss": "",
+          "dayId": "d13",
+          "sortOrder": 30,
+          "period": "上午到中午",
+          "place": "Taronga Zoo",
+          "activity": "优先游览 Australian Wildlife 区域与悉尼港景观",
+          "highlight": "澳洲本土动物 + Harbour view",
+          "tip": "不追求全园；当天动物展示和 keeper talk 以官网及现场为准",
+          "resources": [
+            {
+              "id": "taronga-zoo-map",
+              "title": "Taronga Zoo Sydney",
+              "type": "map",
+              "url": "https://www.google.com/maps/search/?api=1&query=Taronga+Zoo+Sydney",
+              "imageUrl": "",
+              "imageAlt": "",
+              "sourceNote": "Google Maps"
+            },
+            {
+              "id": "taronga-zoo-official",
+              "title": "Taronga Zoo Sydney",
+              "type": "official",
+              "url": "https://www.taronga.org.au/sydney-zoo",
+              "imageUrl": "",
+              "imageAlt": "",
+              "sourceNote": "Taronga Zoo 官网"
+            }
+          ],
+          "id": "d13-30"
+        },
+        {
+          "choice": "",
+          "miss": "",
+          "dayId": "d13",
+          "period": "下午",
+          "place": "QVB / Westfield / CBD",
+          "activity": "回城购物",
+          "highlight": "",
+          "tip": "",
+          "resources": [],
+          "sortOrder": 40,
+          "id": "d13-40"
+        },
+        {
+          "choice": "",
+          "miss": "",
+          "dayId": "d13",
+          "period": "晚上",
+          "place": "Porteño",
+          "activity": "阿根廷烤肉晚餐",
+          "highlight": "",
+          "tip": "",
+          "resources": [],
+          "sortOrder": 50,
+          "id": "d13-50"
+        },
+        {
+          "choice": "",
+          "miss": "",
+          "dayId": "d13",
+          "sortOrder": 900,
+          "period": "饮食",
+          "place": "饮食安排",
+          "activity": "早餐：早茶；午餐：Taronga 动物园里简单吃；晚餐：Porteño 阿根廷烤肉",
+          "highlight": "每日餐食参考",
+          "tip": "",
+          "resources": [
+            {
+              "id": "taronga-zoo-map",
+              "title": "Taronga Zoo Sydney",
+              "type": "map",
+              "url": "https://www.google.com/maps/search/?api=1&query=Taronga+Zoo+Sydney",
+              "imageUrl": "",
+              "imageAlt": "",
+              "sourceNote": "Google Maps"
+            }
+          ],
+          "id": "d13-900"
+        }
+      ],
+      "base": "悉尼",
+      "lodgingStatus": "",
+      "notes": [],
+      "drive": null
+    },
+    {
+      "id": "d14",
+      "label": "D14",
+      "date": "2026-08-11",
+      "weekday": "周二",
+      "city": "悉尼 → 南海岸 → 悉尼",
+      "lat": -33.8688,
+      "lon": 151.2093,
+      "title": "南海岸：海崖、喷水洞、草坡和袋鼠谷",
+      "focus": "市区取车，经 Bald Hill 和海崖桥到 Wollongong，再看 Kiama 喷水洞和 Gerringong 草坡，最后进袋鼠谷，傍晚回城还车。",
+      "lodging": "Oaks Sydney Goldsbrough Suites",
+      "climateNote": "南海岸晴天最出片；沿海有风，袋鼠谷山区傍晚更凉。",
+      "clothingNote": "海边防风，穿舒适步行鞋；出发前检查 Royal National Park 道路警报。",
+      "coverImageUrl": "/au2026/d13-south-coast-kiama-gerringong.jpg",
+      "coverImageAlt": "Kiama 与 Gerringong 南海岸公路",
+      "transport": "自驾 · Sixt Sydney City 取还",
+      "leaveBy": "08:15 左右在 Sydney City 取车",
+      "lodgingResource": {
+        "id": "oaks-sydney-map",
+        "title": "Oaks Sydney Goldsbrough Suites",
+        "type": "map",
+        "url": "https://www.google.com/maps/search/?api=1&query=Oaks+Sydney+Goldsbrough+Suites",
+        "imageUrl": "",
+        "imageAlt": "",
+        "sourceNote": "Google Maps"
+      },
+      "primaryResource": {
+        "id": "sea-cliff-map",
+        "title": "Sea Cliff Bridge",
+        "type": "map",
+        "url": "https://www.google.com/maps/search/?api=1&query=Sea+Cliff+Bridge",
+        "imageUrl": "",
+        "imageAlt": "",
+        "sourceNote": "Google Maps"
+      },
+      "ticketResource": {
+        "id": "no-fixed-ticket",
+        "title": "当天无固定票券",
+        "type": "note",
+        "url": "",
+        "imageUrl": "",
+        "imageAlt": "",
+        "sourceNote": "每日明确票券状态"
+      },
+      "blocks": [
+        {
+          "choice": "",
+          "miss": "",
+          "dayId": "d14",
+          "period": "08:15 左右",
+          "place": "Sydney City",
+          "activity": "取车、检查、设导航",
+          "highlight": "",
+          "tip": "导航设“避开收费路”",
+          "resources": [],
+          "sortOrder": 10,
+          "id": "d14-10"
+        },
+        {
+          "choice": "",
+          "miss": "",
+          "dayId": "d14",
+          "period": "09:50",
+          "place": "Bald Hill 观景台",
+          "activity": "俯瞰海岸和 Sea Cliff Bridge",
+          "highlight": "",
+          "tip": "",
+          "resources": [
+            {
+              "id": "royal-national-park-map",
+              "title": "Royal National Park",
+              "type": "map",
+              "url": "https://www.google.com/maps/search/?api=1&query=Royal+National+Park+NSW",
+              "imageUrl": "",
+              "imageAlt": "",
+              "sourceNote": "Google Maps"
+            },
+            {
+              "id": "bald-hill-map",
+              "title": "Bald Hill Lookout",
+              "type": "map",
+              "url": "https://www.google.com/maps/search/?api=1&query=Bald+Hill+Lookout+Stanwell+Tops",
+              "imageUrl": "",
+              "imageAlt": "",
+              "sourceNote": "Google Maps"
+            },
+            {
+              "id": "sea-cliff-map",
+              "title": "Sea Cliff Bridge",
+              "type": "map",
+              "url": "https://www.google.com/maps/search/?api=1&query=Sea+Cliff+Bridge",
+              "imageUrl": "",
+              "imageAlt": "",
+              "sourceNote": "Google Maps"
+            }
+          ],
+          "sortOrder": 20,
+          "id": "d14-20"
+        },
+        {
+          "choice": "",
+          "miss": "",
+          "dayId": "d14",
+          "period": "10:30",
+          "place": "Rube Hargrave Park",
+          "activity": "合法停车，步行走到桥中段",
+          "highlight": "",
+          "tip": "",
+          "resources": [],
+          "sortOrder": 30,
+          "id": "d14-30"
+        },
+        {
+          "choice": "",
+          "miss": "",
+          "dayId": "d14",
+          "period": "11:40 以后",
+          "place": "Wollongong 港湾",
+          "activity": "午饭和休息，留 1 小时以上",
+          "highlight": "",
+          "tip": "",
+          "resources": [
+            {
+              "id": "wollongong-map",
+              "title": "Wollongong",
+              "type": "map",
+              "url": "https://www.google.com/maps/search/?api=1&query=Wollongong+NSW",
+              "imageUrl": "",
+              "imageAlt": "",
+              "sourceNote": "Google Maps"
+            }
+          ],
+          "sortOrder": 40,
+          "id": "d14-40"
+        },
+        {
+          "choice": "",
+          "miss": "",
+          "dayId": "d14",
+          "period": "13:55",
+          "place": "Kiama 喷水洞和灯塔",
+          "activity": "阳光好的时候浪里带着彩虹",
+          "highlight": "",
+          "tip": "",
+          "resources": [
+            {
+              "id": "kiama-map",
+              "title": "Kiama Blowhole",
+              "type": "map",
+              "url": "https://www.google.com/maps/search/?api=1&query=Kiama+Blowhole",
+              "imageUrl": "",
+              "imageAlt": "",
+              "sourceNote": "Google Maps"
+            },
+            {
+              "id": "kiama-hungry-monkey-map",
+              "title": "Hungry Monkey Kiama",
+              "type": "restaurant",
+              "url": "https://www.google.com/maps/search/?api=1&query=Hungry+Monkey+Kiama",
+              "imageUrl": "",
+              "imageAlt": "",
+              "sourceNote": "Google Maps"
+            },
+            {
+              "id": "gerringong-map",
+              "title": "Gerringong / Werri Beach",
+              "type": "map",
+              "url": "https://www.google.com/maps/search/?api=1&query=Gerringong+Werri+Beach+NSW",
+              "imageUrl": "",
+              "imageAlt": "",
+              "sourceNote": "Google Maps"
+            }
+          ],
+          "sortOrder": 50,
+          "id": "d14-50"
+        },
+        {
+          "choice": "",
+          "miss": "",
+          "dayId": "d14",
+          "period": "14:55",
+          "place": "Gerringong 观景台",
+          "activity": "海边草坡",
+          "highlight": "",
+          "tip": "",
+          "resources": [
+            {
+              "id": "kiama-map",
+              "title": "Kiama Blowhole",
+              "type": "map",
+              "url": "https://www.google.com/maps/search/?api=1&query=Kiama+Blowhole",
+              "imageUrl": "",
+              "imageAlt": "",
+              "sourceNote": "Google Maps"
+            },
+            {
+              "id": "gerringong-map",
+              "title": "Gerringong / Werri Beach",
+              "type": "map",
+              "url": "https://www.google.com/maps/search/?api=1&query=Gerringong+Werri+Beach+NSW",
+              "imageUrl": "",
+              "imageAlt": "",
+              "sourceNote": "Google Maps"
+            },
+            {
+              "id": "kangaroo-valley-map",
+              "title": "Kangaroo Valley",
+              "type": "map",
+              "url": "https://www.google.com/maps/search/?api=1&query=Kangaroo+Valley+NSW",
+              "imageUrl": "",
+              "imageAlt": "",
+              "sourceNote": "Google Maps"
+            }
+          ],
+          "sortOrder": 60,
+          "id": "d14-60"
+        },
+        {
+          "choice": "",
+          "miss": "",
+          "dayId": "d14",
+          "period": "16:10",
+          "place": "Hampden Bridge",
+          "activity": "进入 Kangaroo Valley",
+          "highlight": "",
+          "tip": "",
+          "resources": [
+            {
+              "id": "kangaroo-valley-map",
+              "title": "Kangaroo Valley",
+              "type": "map",
+              "url": "https://www.google.com/maps/search/?api=1&query=Kangaroo+Valley+NSW",
+              "imageUrl": "",
+              "imageAlt": "",
+              "sourceNote": "Google Maps"
+            },
+            {
+              "id": "hampden-bridge-map",
+              "title": "Hampden Bridge, Kangaroo Valley",
+              "type": "map",
+              "url": "https://www.google.com/maps/search/?api=1&query=Hampden+Bridge+Kangaroo+Valley+NSW",
+              "imageUrl": "",
+              "imageAlt": "",
+              "sourceNote": "Google Maps"
+            }
+          ],
+          "sortOrder": 70,
+          "id": "d14-70"
+        },
+        {
+          "choice": "",
+          "miss": "",
+          "dayId": "d14",
+          "period": "16:30",
+          "place": "Kangaroo Valley",
+          "activity": "主街短走",
+          "highlight": "",
+          "tip": "",
+          "resources": [
+            {
+              "id": "kangaroo-valley-map",
+              "title": "Kangaroo Valley",
+              "type": "map",
+              "url": "https://www.google.com/maps/search/?api=1&query=Kangaroo+Valley+NSW",
+              "imageUrl": "",
+              "imageAlt": "",
+              "sourceNote": "Google Maps"
+            },
+            {
+              "id": "hampden-bridge-map",
+              "title": "Hampden Bridge, Kangaroo Valley",
+              "type": "map",
+              "url": "https://www.google.com/maps/search/?api=1&query=Hampden+Bridge+Kangaroo+Valley+NSW",
+              "imageUrl": "",
+              "imageAlt": "",
+              "sourceNote": "Google Maps"
+            },
+            {
+              "id": "gerringong-map",
+              "title": "Gerringong / Werri Beach",
+              "type": "map",
+              "url": "https://www.google.com/maps/search/?api=1&query=Gerringong+Werri+Beach+NSW",
+              "imageUrl": "",
+              "imageAlt": "",
+              "sourceNote": "Google Maps"
+            }
+          ],
+          "sortOrder": 80,
+          "id": "d14-80"
+        },
+        {
+          "choice": "",
+          "miss": "",
+          "dayId": "d14",
+          "period": "17:00 以后",
+          "place": "回城",
+          "activity": "经 Moss Vale 和 Hume Motorway 回悉尼还车",
+          "highlight": "",
+          "tip": "",
+          "resources": [],
+          "sortOrder": 90,
+          "id": "d14-90"
+        },
+        {
+          "choice": "",
+          "miss": "",
+          "dayId": "d14",
+          "period": "晚上",
+          "place": "Aberdeen Dining",
+          "activity": "澳龙晚餐",
+          "highlight": "",
+          "tip": "",
+          "resources": [],
+          "sortOrder": 100,
+          "id": "d14-100"
+        },
+        {
+          "choice": "",
+          "miss": "",
+          "dayId": "d14",
+          "sortOrder": 900,
+          "period": "饮食",
+          "place": "饮食安排",
+          "activity": "早餐：取车前简单吃；午餐：Wollongong 港湾；晚餐：Aberdeen Dining 澳龙",
+          "highlight": "每日餐食参考",
+          "tip": "",
+          "resources": [],
+          "id": "d14-900"
+        }
+      ],
+      "base": "悉尼",
+      "lodgingStatus": "",
+      "notes": [],
+      "drive": null
+    },
+    {
+      "id": "d15",
+      "label": "D15",
+      "date": "2026-08-12",
+      "weekday": "周三",
+      "city": "悉尼",
+      "lat": -33.8688,
+      "lon": 151.2093,
+      "title": "最后采购，整理退税",
+      "focus": "最后一天不排景点：补买东西，整理 tax invoice 和返程行李，为第二天在机场退税做准备。",
+      "lodging": "Oaks Sydney Goldsbrough Suites",
+      "climateNote": "悉尼冬季早晚凉，城里走路也要带外套。",
+      "clothingNote": "薄外套随身，给整理行李和退税材料留足时间。",
+      "coverImageUrl": "/au2026/sydney-harbor-evening.jpg",
+      "coverImageAlt": "悉尼港傍晚",
+      "transport": "步行 / 市内交通",
+      "leaveBy": "上午按体力和天气出门",
+      "lodgingResource": {
+        "id": "oaks-sydney-map",
+        "title": "Oaks Sydney Goldsbrough Suites",
+        "type": "map",
+        "url": "https://www.google.com/maps/search/?api=1&query=Oaks+Sydney+Goldsbrough+Suites",
+        "imageUrl": "",
+        "imageAlt": "",
+        "sourceNote": "Google Maps"
+      },
+      "primaryResource": {
+        "id": "qvb-map",
+        "title": "QVB",
+        "type": "map",
+        "url": "https://www.google.com/maps/search/?api=1&query=Queen+Victoria+Building+Sydney",
+        "imageUrl": "",
+        "imageAlt": "",
+        "sourceNote": "Google Maps"
+      },
+      "ticketResource": {
+        "id": "no-fixed-ticket",
+        "title": "当天无固定票券",
+        "type": "note",
+        "url": "",
+        "imageUrl": "",
+        "imageAlt": "",
+        "sourceNote": "每日明确票券状态"
+      },
+      "blocks": [
+        {
+          "choice": "",
+          "miss": "",
+          "dayId": "d15",
+          "sortOrder": 10,
+          "period": "上午",
+          "place": "酒店 / 悉尼市区",
+          "activity": "慢早餐，按天气和体力在城里走走",
+          "highlight": "",
+          "tip": "",
+          "resources": [
+            {
+              "id": "oaks-sydney-map",
+              "title": "Oaks Sydney Goldsbrough Suites",
+              "type": "map",
+              "url": "https://www.google.com/maps/search/?api=1&query=Oaks+Sydney+Goldsbrough+Suites",
+              "imageUrl": "",
+              "imageAlt": "",
+              "sourceNote": "Google Maps"
+            },
+            {
+              "id": "qvb-map",
+              "title": "QVB",
+              "type": "map",
+              "url": "https://www.google.com/maps/search/?api=1&query=Queen+Victoria+Building+Sydney",
+              "imageUrl": "",
+              "imageAlt": "",
+              "sourceNote": "Google Maps"
+            }
+          ],
+          "id": "d15-10"
+        },
+        {
+          "choice": "",
+          "miss": "",
+          "dayId": "d15",
+          "sortOrder": 20,
+          "period": "下午",
+          "place": "QVB / Chemist Warehouse / CBD",
+          "activity": "最后采购",
+          "highlight": "药妆、保健品、伴手礼",
+          "tip": "只补漏买；保留 tax invoice，看清 TRS 退税条件",
+          "resources": [
+            {
+              "id": "qvb-map",
+              "title": "QVB",
+              "type": "map",
+              "url": "https://www.google.com/maps/search/?api=1&query=Queen+Victoria+Building+Sydney",
+              "imageUrl": "",
+              "imageAlt": "",
+              "sourceNote": "Google Maps"
+            },
+            {
+              "id": "chemist-warehouse-map",
+              "title": "Chemist Warehouse Sydney CBD",
+              "type": "map",
+              "url": "https://www.google.com/maps/search/?api=1&query=Chemist+Warehouse+Sydney+CBD",
+              "imageUrl": "",
+              "imageAlt": "",
+              "sourceNote": "Google Maps"
+            }
+          ],
+          "id": "d15-20"
+        },
+        {
+          "choice": "",
+          "miss": "",
+          "dayId": "d15",
+          "sortOrder": 30,
+          "period": "傍晚",
+          "place": "酒店",
+          "activity": "整理 TRS 物品和返程行李",
+          "highlight": "为第二天在机场退税做准备",
+          "tip": "发票、商品、护照和支付卡集中整理",
+          "resources": [
+            {
+              "id": "oaks-sydney-map",
+              "title": "Oaks Sydney Goldsbrough Suites",
+              "type": "map",
+              "url": "https://www.google.com/maps/search/?api=1&query=Oaks+Sydney+Goldsbrough+Suites",
+              "imageUrl": "",
+              "imageAlt": "",
+              "sourceNote": "Google Maps"
+            },
+            {
+              "id": "trs-official",
+              "title": "TRS 退税",
+              "type": "official",
+              "url": "https://www.abf.gov.au/entering-and-leaving-australia/tourist-refund-scheme",
+              "imageUrl": "",
+              "imageAlt": "",
+              "sourceNote": "澳洲边防官网"
+            }
+          ],
+          "id": "d15-30"
+        },
+        {
+          "choice": "",
+          "miss": "",
+          "dayId": "d15",
+          "period": "晚上",
+          "place": "CBD",
+          "activity": "简单晚餐，早点休息",
+          "highlight": "",
+          "tip": "",
+          "resources": [],
+          "sortOrder": 40,
+          "id": "d15-40"
+        },
+        {
+          "choice": "",
+          "miss": "",
+          "dayId": "d15",
+          "sortOrder": 900,
+          "period": "饮食",
+          "place": "饮食安排",
+          "activity": "早餐：café / Single O / Toby’s Estate；午餐：CBD 简餐；晚餐：CBD 简单吃",
+          "highlight": "每日餐食参考",
+          "tip": "",
+          "resources": [
+            {
+              "id": "single-o-map",
+              "title": "Single O Sydney",
+              "type": "restaurant",
+              "url": "https://www.google.com/maps/search/?api=1&query=Single+O+Sydney",
+              "imageUrl": "",
+              "imageAlt": "",
+              "sourceNote": "Google Maps"
+            },
+            {
+              "id": "tobys-estate-map",
+              "title": "Toby’s Estate Sydney",
+              "type": "restaurant",
+              "url": "https://www.google.com/maps/search/?api=1&query=Toby%27s+Estate+Sydney",
+              "imageUrl": "",
+              "imageAlt": "",
+              "sourceNote": "Google Maps"
+            }
+          ],
+          "id": "d15-900"
+        }
+      ],
+      "base": "悉尼",
+      "lodgingStatus": "",
+      "notes": [],
+      "drive": null
+    },
+    {
+      "id": "d16",
+      "label": "D16",
+      "date": "2026-08-13",
+      "weekday": "周四",
+      "city": "悉尼 → 回国",
+      "lat": -33.9399,
+      "lon": 151.1753,
+      "title": "返程与 TRS 退税",
+      "focus": "完成 TRS 与机场手续，启程回家。",
+      "lodging": "-",
+      "climateNote": "机场和机舱温差明显。",
+      "clothingNote": "提前整理退税物品和购物小票，随身带薄外套。",
+      "coverImageUrl": "/au2026/d16-return-flight.jpg",
+      "coverImageAlt": "澳洲旅行返程",
+      "transport": "航班 / 机场转场",
+      "leaveBy": "按国际航班时间倒推，提前 3 小时到悉尼机场",
+      "lodgingResource": {
+        "id": "sydney-airport-map",
+        "title": "悉尼机场",
+        "type": "map",
+        "url": "https://www.google.com/maps/search/?api=1&query=Sydney+Airport",
+        "imageUrl": "",
+        "imageAlt": "",
+        "sourceNote": "Google Maps"
+      },
+      "primaryResource": {
+        "id": "sydney-airport-map",
+        "title": "悉尼机场",
+        "type": "map",
+        "url": "https://www.google.com/maps/search/?api=1&query=Sydney+Airport",
+        "imageUrl": "",
+        "imageAlt": "",
+        "sourceNote": "Google Maps"
+      },
+      "ticketResource": {
+        "id": "trs-official",
+        "title": "TRS 退税",
+        "type": "note",
+        "url": "https://www.abf.gov.au/entering-and-leaving-australia/tourist-refund-scheme",
+        "imageUrl": "",
+        "imageAlt": "",
+        "sourceNote": "澳洲边防官网"
+      },
+      "blocks": [
+        {
+          "choice": "",
+          "miss": "",
+          "dayId": "d16",
+          "sortOrder": 10,
+          "period": "上午",
+          "place": "悉尼机场",
+          "activity": "办理 TRS 退税，登机返程。",
+          "highlight": "满载而归",
+          "tip": "提前下载 TRS App 填好信息，可走快速通道。",
+          "resources": [
+            {
+              "id": "sydney-airport-map",
+              "title": "悉尼机场",
+              "type": "map",
+              "url": "https://www.google.com/maps/search/?api=1&query=Sydney+Airport",
+              "imageUrl": "",
+              "imageAlt": "",
+              "sourceNote": "Google Maps"
+            },
+            {
+              "id": "trs-official",
+              "title": "TRS 退税",
+              "type": "official",
+              "url": "https://www.abf.gov.au/entering-and-leaving-australia/tourist-refund-scheme",
+              "imageUrl": "",
+              "imageAlt": "",
+              "sourceNote": "澳洲边防官网"
+            }
+          ],
+          "id": "d16-10"
+        },
+        {
+          "choice": "",
+          "miss": "",
+          "dayId": "d16",
+          "sortOrder": 900,
+          "period": "饮食",
+          "place": "饮食安排",
+          "activity": "早餐：机场早餐；午餐：飞机；晚餐：无",
+          "highlight": "无",
+          "tip": "结束",
+          "resources": [],
+          "id": "d16-900"
+        }
+      ],
+      "base": "回国",
+      "lodgingStatus": "无需住宿",
+      "notes": [],
+      "drive": null
+    }
+  ],
+  "lodgings": [],
+  "todos": [],
+  "advice": [],
+  "dining": []
+}

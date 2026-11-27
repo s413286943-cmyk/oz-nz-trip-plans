@@ -1,0 +1,10 @@
+node_modules/
+.next/
+out/
+*.log
+.DS_Store
+.env*
+e2e/artifacts/
+*.zip
+.preview
+CLAUDE.local.md

@@ -1,0 +1,72 @@
+/* Trip page styles; global element rules removed so the 澳新 pages keep their own base styles. */
+/* Live route mode */
+.route-hero.is-compact {
+  min-height: 220px;
+  grid-template-columns: minmax(0, 1fr) minmax(280px, 380px);
+  grid-template-rows: 1fr;
+}
+
+.route-hero.is-compact .itinerary-hero-copy {
+  align-self: center;
+  max-width: none;
+  padding: 26px 32px;
+}
+
+.route-hero.is-compact .itinerary-hero-copy h1 {
+  font-size: 2.35rem;
+}
+
+.route-hero.is-compact .hero-meta,
+.route-hero.is-compact .hero-route-strip {
+  display: none;
+}
+
+.route-hero.is-compact .hero-weather {
+  align-self: center;
+  width: auto;
+  max-width: 360px;
+  margin: 24px;
+}
+
+.stage-section,
+.route-day-card {
+  content-visibility: auto;
+}
+
+.stage-section {
+  contain-intrinsic-block-size: auto 980px;
+}
+
+.route-day-card {
+  contain-intrinsic-block-size: auto 820px;
+}
+
+.route-day-card.is-current {
+  border-color: rgba(216, 148, 53, 0.66);
+  box-shadow: 0 0 0 3px rgba(216, 148, 53, 0.12), var(--receipt-shadow);
+}
+
+.route-day-card.is-current::before {
+  background: var(--sun);
+}
+
+@media (max-width: 720px) {
+  .stage-section,
+  .route-day-card {
+    content-visibility: visible;
+    contain-intrinsic-block-size: none;
+  }
+
+  .route-hero.is-compact {
+    min-height: 220px;
+    grid-template-columns: 1fr;
+  }
+
+  .route-hero.is-compact .itinerary-hero-copy h1 {
+    font-size: 2.15rem;
+  }
+
+  .route-hero.is-compact .hero-weather {
+    display: none;
+  }
+}
